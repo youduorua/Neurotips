@@ -1,0 +1,12 @@
+prefix=D:/bld/zeromq_1731584523290/_h_env/Library
+exec_prefix=D:/bld/zeromq_1731584523290/_h_env/Library
+libdir=D:/bld/zeromq_1731584523290/_h_env/Library/lib
+includedir=D:/bld/zeromq_1731584523290/_h_env/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

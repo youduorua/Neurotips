@@ -1,0 +1,224 @@
+{
+ "build": "py311h5bfbc98_5",
+ "build_number": 5,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "mumps-seq >=5.7.3,<5.7.4.0a0",
+  "numpy >=1.19,<3",
+  "python >=3.11,<3.12.0a0",
+  "python_abi 3.11.* *_cp311",
+  "scipy >=1.8",
+  "ucrt >=10.0.20348.0",
+  "vc >=14.2,<15",
+  "vc14_runtime >=14.29.30139"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Lib/site-packages/mumps/__init__.py",
+  "Lib/site-packages/mumps/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/mumps/__pycache__/_version.cpython-311.pyc",
+  "Lib/site-packages/mumps/__pycache__/fortran_helpers.cpython-311.pyc",
+  "Lib/site-packages/mumps/__pycache__/mumps.cpython-311.pyc",
+  "Lib/site-packages/mumps/_mumps.cp311-win_amd64.lib",
+  "Lib/site-packages/mumps/_mumps.cp311-win_amd64.pyd",
+  "Lib/site-packages/mumps/_version.py",
+  "Lib/site-packages/mumps/fortran_helpers.py",
+  "Lib/site-packages/mumps/mumps.py",
+  "Lib/site-packages/mumps/tests/__init__.py",
+  "Lib/site-packages/mumps/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/mumps/tests/__pycache__/_test_utils.cpython-311.pyc",
+  "Lib/site-packages/mumps/tests/__pycache__/test_mumps.cpython-311.pyc",
+  "Lib/site-packages/mumps/tests/_test_utils.py",
+  "Lib/site-packages/mumps/tests/test_mumps.py",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/INSTALLER",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/LICENSE",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/METADATA",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/RECORD",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/REQUESTED",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/WHEEL",
+  "Lib/site-packages/python_mumps-0.0.2.dist-info/direct_url.json"
+ ],
+ "fn": "python-mumps-0.0.2-py311h5bfbc98_5.conda",
+ "license": "BSD-2-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "8da35d31186fcf3fbb91928784d42e88",
+ "name": "python-mumps",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Lib/site-packages/mumps/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "eb893395857a362a8f4c58c5e56b7a477d8232c81fe1f5070b837dcfb18b1c07",
+    "sha256_in_prefix": "eb893395857a362a8f4c58c5e56b7a477d8232c81fe1f5070b837dcfb18b1c07",
+    "size_in_bytes": 748
+   },
+   {
+    "_path": "Lib/site-packages/mumps/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "226b89a761ec1902b8721af58e09bc658cb3b1199e3c09169af7ef6af75a5ee7",
+    "sha256_in_prefix": "226b89a761ec1902b8721af58e09bc658cb3b1199e3c09169af7ef6af75a5ee7",
+    "size_in_bytes": 1301
+   },
+   {
+    "_path": "Lib/site-packages/mumps/__pycache__/_version.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "9726c0f4f0d896364898657cc188c1f44f572aa3d83564bf94b8476d5b368080",
+    "sha256_in_prefix": "9726c0f4f0d896364898657cc188c1f44f572aa3d83564bf94b8476d5b368080",
+    "size_in_bytes": 787
+   },
+   {
+    "_path": "Lib/site-packages/mumps/__pycache__/fortran_helpers.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "e83a64273ea80da78212175837402dc9b449d4964263ed773b7a9418664e5871",
+    "sha256_in_prefix": "e83a64273ea80da78212175837402dc9b449d4964263ed773b7a9418664e5871",
+    "size_in_bytes": 5125
+   },
+   {
+    "_path": "Lib/site-packages/mumps/__pycache__/mumps.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "cbfd0f4d2b3e90cd7fd47e66159e429073962ce5518751e65f9b2b42903d2fda",
+    "sha256_in_prefix": "cbfd0f4d2b3e90cd7fd47e66159e429073962ce5518751e65f9b2b42903d2fda",
+    "size_in_bytes": 29562
+   },
+   {
+    "_path": "Lib/site-packages/mumps/_mumps.cp311-win_amd64.lib",
+    "path_type": "hardlink",
+    "sha256": "31dd24ab7bfcd79900cd19c140fe530fd8db3d5949b3473d6eb2beac0bd2c9a2",
+    "sha256_in_prefix": "31dd24ab7bfcd79900cd19c140fe530fd8db3d5949b3473d6eb2beac0bd2c9a2",
+    "size_in_bytes": 1996
+   },
+   {
+    "_path": "Lib/site-packages/mumps/_mumps.cp311-win_amd64.pyd",
+    "path_type": "hardlink",
+    "sha256": "0f3e0afc1243602438cbdbdcc8603a8cbe6ee19e9e0569a399acd91de76149bf",
+    "sha256_in_prefix": "0f3e0afc1243602438cbdbdcc8603a8cbe6ee19e9e0569a399acd91de76149bf",
+    "size_in_bytes": 169984
+   },
+   {
+    "_path": "Lib/site-packages/mumps/_version.py",
+    "path_type": "hardlink",
+    "sha256": "be252a2f37e76fea3883e160f0ffd394f72a83fda964ac84358d014dcb4ba388",
+    "sha256_in_prefix": "be252a2f37e76fea3883e160f0ffd394f72a83fda964ac84358d014dcb4ba388",
+    "size_in_bytes": 525
+   },
+   {
+    "_path": "Lib/site-packages/mumps/fortran_helpers.py",
+    "path_type": "hardlink",
+    "sha256": "acf80df91ed73b13aeac07c10c9ef53771d07190d26453b2622636676eb33574",
+    "sha256_in_prefix": "acf80df91ed73b13aeac07c10c9ef53771d07190d26453b2622636676eb33574",
+    "size_in_bytes": 4829
+   },
+   {
+    "_path": "Lib/site-packages/mumps/mumps.py",
+    "path_type": "hardlink",
+    "sha256": "55665b0f3242036f0472fbd0fc2d33d235597c6622e827af303ba0468991eab0",
+    "sha256_in_prefix": "55665b0f3242036f0472fbd0fc2d33d235597c6622e827af303ba0468991eab0",
+    "size_in_bytes": 23742
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "d464769de575c67982034ab0355d9847bee08373562efcbb421a3aa65b366b03",
+    "sha256_in_prefix": "d464769de575c67982034ab0355d9847bee08373562efcbb421a3aa65b366b03",
+    "size_in_bytes": 150
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/__pycache__/_test_utils.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "8d3485f9bf21d184eb15983f9ffbce584f4c47178bab1a04bfa5f69ffbc44b88",
+    "sha256_in_prefix": "8d3485f9bf21d184eb15983f9ffbce584f4c47178bab1a04bfa5f69ffbc44b88",
+    "size_in_bytes": 3453
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/__pycache__/test_mumps.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "7ce3408d08682a06322d2c855796213257d513c4e2f97ec827180ab01205710b",
+    "sha256_in_prefix": "7ce3408d08682a06322d2c855796213257d513c4e2f97ec827180ab01205710b",
+    "size_in_bytes": 11405
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/_test_utils.py",
+    "path_type": "hardlink",
+    "sha256": "f2dedc2a61d0e01ce46ee8ac492a5b90a4228ee4cbc67484b758defc991259b0",
+    "sha256_in_prefix": "f2dedc2a61d0e01ce46ee8ac492a5b90a4228ee4cbc67484b758defc991259b0",
+    "size_in_bytes": 2302
+   },
+   {
+    "_path": "Lib/site-packages/mumps/tests/test_mumps.py",
+    "path_type": "hardlink",
+    "sha256": "9f470fc6c0f0345132d3b857172b5a5c30dfc1eddd6ccebdd6fb4a2ee82a1110",
+    "sha256_in_prefix": "9f470fc6c0f0345132d3b857172b5a5c30dfc1eddd6ccebdd6fb4a2ee82a1110",
+    "size_in_bytes": 7464
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/INSTALLER",
+    "path_type": "hardlink",
+    "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "size_in_bytes": 5
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/LICENSE",
+    "path_type": "hardlink",
+    "sha256": "90076d2f3458da4c1bd3cff6aec6229c23547dcd73b945cb5770b6ad2d52bf56",
+    "sha256_in_prefix": "90076d2f3458da4c1bd3cff6aec6229c23547dcd73b945cb5770b6ad2d52bf56",
+    "size_in_bytes": 1325
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/METADATA",
+    "path_type": "hardlink",
+    "sha256": "3dd1c3739677398b26d392bed6cc1695c8448460d9ead07d56f3d66823365b28",
+    "sha256_in_prefix": "3dd1c3739677398b26d392bed6cc1695c8448460d9ead07d56f3d66823365b28",
+    "size_in_bytes": 4291
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/RECORD",
+    "path_type": "hardlink",
+    "sha256": "1f6395541221deced389ae47829c592afdb95605332c874118bba1eee81cd68c",
+    "sha256_in_prefix": "1f6395541221deced389ae47829c592afdb95605332c874118bba1eee81cd68c",
+    "size_in_bytes": 1683
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/REQUESTED",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/WHEEL",
+    "path_type": "hardlink",
+    "sha256": "25d2d35a173bde827e96a4c16068225689edaffbe1cf0cdba403a29ffd9bc532",
+    "sha256_in_prefix": "25d2d35a173bde827e96a4c16068225689edaffbe1cf0cdba403a29ffd9bc532",
+    "size_in_bytes": 85
+   },
+   {
+    "_path": "Lib/site-packages/python_mumps-0.0.2.dist-info/direct_url.json",
+    "path_type": "hardlink",
+    "sha256": "fe7279f80f9ddd7be5641959799b94927df5a363214725061ca79e4c7ee0a8b4",
+    "sha256_in_prefix": "fe7279f80f9ddd7be5641959799b94927df5a363214725061ca79e4c7ee0a8b4",
+    "size_in_bytes": 73
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "python-mumps=0.0.2",
+ "sha256": "50fe25c4d12c734daf4943852d81a820a1e096ebbabff3d8fccd8ee21a27e37b",
+ "size": 89454,
+ "subdir": "win-64",
+ "timestamp": 1726344322000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/python-mumps-0.0.2-py311h5bfbc98_5.conda",
+ "version": "0.0.2"
+}

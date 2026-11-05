@@ -1,0 +1,43 @@
+{
+  "name": "dcm2niix",
+  "version": "1.0.20250506",
+  "build": "h7f575de_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "dcm2niix-1.0.20250506-h7f575de_0.conda",
+  "md5": "51f38670832d1337b79bbf293fe9dc21",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/dcm2niix-1.0.20250506-h7f575de_0.conda",
+  "sha256": "1a0d7c4b953abcf61bf5db92df5744ff16b7273d410ab91b5bb318fb5721ab2d",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1748519374000,
+  "size": 322571,
+  "requested_spec": "dcm2niix",
+  "package_tarball_full_path": "F:\\miniconda\\pkgs\\dcm2niix-1.0.20250506-h7f575de_0.conda",
+  "extracted_package_dir": "F:\\miniconda\\pkgs\\dcm2niix-1.0.20250506-h7f575de_0",
+  "files": [
+    "Library/bin/dcm2niix.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/dcm2niix.exe",
+        "path_type": "hardlink",
+        "sha256": "a76cafbfd407a1b407b37e4b1666036b9727c91865f03b2f965989a1bb97da02",
+        "size_in_bytes": 685056,
+        "sha256_in_prefix": "a76cafbfd407a1b407b37e4b1666036b9727c91865f03b2f965989a1bb97da02"
+      }
+    ]
+  },
+  "link": {
+    "source": "F:\\miniconda\\pkgs\\dcm2niix-1.0.20250506-h7f575de_0",
+    "type": 1
+  }
+}

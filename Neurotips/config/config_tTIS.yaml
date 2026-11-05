@@ -1,0 +1,134 @@
+data_path: E:/MRI/赖新彩
+output_root: output
+institution: Default
+subMark: '0017'
+subject_name: 赖新彩
+exampleIdx: 1
+initialElecNum: 4
+eeg_posi: EEG_10_10
+cur: 2.0
+cur_min: 0.5
+cur_max: 1.5
+cur_sum: 2.0
+precision: 0.05
+case: 2
+case1:
+  num: 1
+  name:
+  - stn
+  coordMNI:
+  - - -12.0
+    - -14.0
+    - -7.0
+  shape:
+  - sphere
+  radius:
+  - 5.0
+  intensity: -1.0
+case3:
+  num: 1
+  name:
+  - Pallidum_L
+  aal3_names:
+  - Pallidum_L
+  shape:
+  - AAL3
+  radius:
+  - 1.5
+  intensity: -1.0
+avoid:
+  num: 0
+  name: []
+  coordMNI: []
+  shape: []
+  radius: []
+  coef: []
+probe_regions: []
+Method: ExhaustiveSearch
+forward_sim_enabled: false
+thres: 0.16
+alpha: 2.0
+other_alpha: 2.0
+w1: 0.0
+w2: 1.0
+GA_para:
+  pop_size: 800
+  max_iter: 40
+  cross_prob: 0.1
+  cross_type: uniform
+  mut_prob: 0.3
+  elit_ratio: 0.02
+  parents_portion: 0.1
+  time_threshold: 600
+  patience: 30
+PSO_para:
+  pop_size: 800
+  max_iter: 100
+  c1: 2.0
+  c2: 2.0
+  w_max: 0.9
+  w_min: 0.4
+  eliteEachGen: 10
+  eliteGlobalMax: 200
+  finalReturnNum: 20
+  sample_pool_size: 20000
+  seed: null
+  time_threshold: 600
+  patience: 30
+type: tet
+nt: 0
+compute:
+  use_gpu: true
+  use_taichi: true
+  mode: gpu
+visualization:
+  show_3d: false
+output_path: output\Default\0017
+simMark: Hippocampus_L+Hippocampus_R
+display:
+  show_3d: false
+  electrodes: 4
+  nt: false
+target: Hippocampus_L+Hippocampus_R
+target_dir: output\Default\0017\results\Hippocampus_L+Hippocampus_R
+results_dir: output\Default\0017\results
+cache_dir: output\Default\0017\cache
+forward_sim:
+  electrodes:
+  - Fpz
+  - TP7
+  - C5
+  - Fp2
+  currents_mA:
+  - 15.8
+  - -15.8
+  - 14.2
+  - -14.2
+case2:
+  num: 2
+  name:
+  - Hippocampus_L
+  - Hippocampus_R
+  coordMNI:
+  - - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+  shape:
+  - AAL3
+  - AAL3
+  radius:
+  - 1.5
+  - 1.5
+  intensity: -1.0
+all_region_fields_enabled: false
+all_region_alpha: 2.0
+case4:
+  num: 1
+  mask_file: ''
+  intensity: -1.0
+  name:
+  - Mask_target
+export_voxel_field: true

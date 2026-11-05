@@ -1,0 +1,9 @@
+prefix=D:/bld/eigen_1690272084515/_h_env/Library
+exec_prefix=${prefix}
+
+Name: Eigen3
+Description: A C++ template library for linear algebra: vectors, matrices, and related algorithms
+Requires:
+Version: 3.4.0
+Libs:
+Cflags: -I${prefix}/include/eigen3

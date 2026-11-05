@@ -1,0 +1,10 @@
+prefix=D:/bld/libjpeg-turbo_1694474781841/_h_env/Library
+exec_prefix=D:/bld/libjpeg-turbo_1694474781841/_h_env/Library
+libdir=D:/bld/libjpeg-turbo_1694474781841/_h_env/Library/lib
+includedir=D:/bld/libjpeg-turbo_1694474781841/_h_env/Library/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

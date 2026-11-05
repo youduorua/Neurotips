@@ -1,0 +1,256 @@
+{
+ "build": "hbaa6519_9",
+ "build_number": 9,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [
+  "libopenblas * *openmp*"
+ ],
+ "depends": [
+  "vc >=14.2,<15",
+  "vc14_runtime >=14.29.30139",
+  "ucrt >=10.0.20348.0",
+  "llvm-openmp >=19.1.7",
+  "liblapack >=3.9.0,<4.0a0",
+  "libblas >=3.9.0,<4.0a0"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/bin/cmumps.dll",
+  "Library/bin/dmumps.dll",
+  "Library/bin/smumps.dll",
+  "Library/bin/zmumps.dll",
+  "Library/include/cmumps_c.h",
+  "Library/include/cmumps_root.h",
+  "Library/include/cmumps_struc.h",
+  "Library/include/dmumps_c.h",
+  "Library/include/dmumps_root.h",
+  "Library/include/dmumps_struc.h",
+  "Library/include/mumps_c_types.h",
+  "Library/include/mumps_compat.h",
+  "Library/include/mumps_int_def.h",
+  "Library/include/mumps_seq/mpi.h",
+  "Library/include/mumps_seq/mpif.h",
+  "Library/include/smumps_c.h",
+  "Library/include/smumps_root.h",
+  "Library/include/smumps_struc.h",
+  "Library/include/zmumps_c.h",
+  "Library/include/zmumps_root.h",
+  "Library/include/zmumps_struc.h",
+  "Library/lib/cmumps.lib",
+  "Library/lib/dmumps.lib",
+  "Library/lib/mumps_common.lib",
+  "Library/lib/pord.lib",
+  "Library/lib/smumps.lib",
+  "Library/lib/zmumps.lib"
+ ],
+ "fn": "mumps-seq-5.7.3-hbaa6519_9.conda",
+ "license": "CECILL-C",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "3a30d32db33cc226f7a2c78d485b0503",
+ "name": "mumps-seq",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/bin/cmumps.dll",
+    "path_type": "hardlink",
+    "sha256": "12b7ca4107d5177d3fdd00d4094178bc4ef5007e668fe10a9675d6d06f083e31",
+    "sha256_in_prefix": "12b7ca4107d5177d3fdd00d4094178bc4ef5007e668fe10a9675d6d06f083e31",
+    "size_in_bytes": 8137216
+   },
+   {
+    "_path": "Library/bin/dmumps.dll",
+    "path_type": "hardlink",
+    "sha256": "5a7714871bdbb86a0cc31d2c72271401faa33cf487b9ce4dbd6ba21778f36d90",
+    "sha256_in_prefix": "5a7714871bdbb86a0cc31d2c72271401faa33cf487b9ce4dbd6ba21778f36d90",
+    "size_in_bytes": 8106496
+   },
+   {
+    "_path": "Library/bin/smumps.dll",
+    "path_type": "hardlink",
+    "sha256": "42dc695012b04412fe4e36185a663be0ed5ac0854f62a147a9dbb2d0a570b30f",
+    "sha256_in_prefix": "42dc695012b04412fe4e36185a663be0ed5ac0854f62a147a9dbb2d0a570b30f",
+    "size_in_bytes": 8104960
+   },
+   {
+    "_path": "Library/bin/zmumps.dll",
+    "path_type": "hardlink",
+    "sha256": "e74426ce58890cb240b7105df52e432f1cc1d5b8fd36d741aa18f15492174bb3",
+    "sha256_in_prefix": "e74426ce58890cb240b7105df52e432f1cc1d5b8fd36d741aa18f15492174bb3",
+    "size_in_bytes": 8151552
+   },
+   {
+    "_path": "Library/include/cmumps_c.h",
+    "path_type": "hardlink",
+    "sha256": "481c3cdaf5dfc6b5bd119d66671edb90442da23708a56455b0f6bb5c8c5218b2",
+    "sha256_in_prefix": "481c3cdaf5dfc6b5bd119d66671edb90442da23708a56455b0f6bb5c8c5218b2",
+    "size_in_bytes": 4133
+   },
+   {
+    "_path": "Library/include/cmumps_root.h",
+    "path_type": "hardlink",
+    "sha256": "8a2ea698b0c2f4a383b807b9a17eed908ca5ee8367d8b51687650090644109d2",
+    "sha256_in_prefix": "8a2ea698b0c2f4a383b807b9a17eed908ca5ee8367d8b51687650090644109d2",
+    "size_in_bytes": 2240
+   },
+   {
+    "_path": "Library/include/cmumps_struc.h",
+    "path_type": "hardlink",
+    "sha256": "51d21ef0209bd4f324b1393860ada1bca1d3605a697dce2092c542d9373a278d",
+    "sha256_in_prefix": "51d21ef0209bd4f324b1393860ada1bca1d3605a697dce2092c542d9373a278d",
+    "size_in_bytes": 12037
+   },
+   {
+    "_path": "Library/include/dmumps_c.h",
+    "path_type": "hardlink",
+    "sha256": "f0ba72d5ff6197f6233549c732ecb23d43c994f24d79821e7ebe2bdfd264d534",
+    "sha256_in_prefix": "f0ba72d5ff6197f6233549c732ecb23d43c994f24d79821e7ebe2bdfd264d534",
+    "size_in_bytes": 4133
+   },
+   {
+    "_path": "Library/include/dmumps_root.h",
+    "path_type": "hardlink",
+    "sha256": "5dfd9ecaf5a9935f3887c1aee2aa0a74696815afbb167cb2a33ddd39170cfdf0",
+    "sha256_in_prefix": "5dfd9ecaf5a9935f3887c1aee2aa0a74696815afbb167cb2a33ddd39170cfdf0",
+    "size_in_bytes": 2318
+   },
+   {
+    "_path": "Library/include/dmumps_struc.h",
+    "path_type": "hardlink",
+    "sha256": "c8c64d9b2a67794a6a8cebab27d9fd74407ad7339567241e8e07f0dd55db39d6",
+    "sha256_in_prefix": "c8c64d9b2a67794a6a8cebab27d9fd74407ad7339567241e8e07f0dd55db39d6",
+    "size_in_bytes": 12262
+   },
+   {
+    "_path": "Library/include/mumps_c_types.h",
+    "path_type": "hardlink",
+    "sha256": "646fa027dd5b7c0033e779400fefc3345195c12743181da2c348a096eaaca11c",
+    "sha256_in_prefix": "646fa027dd5b7c0033e779400fefc3345195c12743181da2c348a096eaaca11c",
+    "size_in_bytes": 1847
+   },
+   {
+    "_path": "Library/include/mumps_compat.h",
+    "path_type": "hardlink",
+    "sha256": "870efe0c46ca1a0f5bd7c0f0c0655af291fb06e15da141d34715c700adbd4e66",
+    "sha256_in_prefix": "870efe0c46ca1a0f5bd7c0f0c0655af291fb06e15da141d34715c700adbd4e66",
+    "size_in_bytes": 1153
+   },
+   {
+    "_path": "Library/include/mumps_int_def.h",
+    "path_type": "hardlink",
+    "sha256": "222fc507470e454bbeb73a0ea739a8a34ad8d3a76548054078f38da857670ea2",
+    "sha256_in_prefix": "222fc507470e454bbeb73a0ea739a8a34ad8d3a76548054078f38da857670ea2",
+    "size_in_bytes": 774
+   },
+   {
+    "_path": "Library/include/mumps_seq/mpi.h",
+    "path_type": "hardlink",
+    "sha256": "e61e1015a539c074eae551cc73d8142b4982b49fbcc21ee839d16fc0d0505fc9",
+    "sha256_in_prefix": "e61e1015a539c074eae551cc73d8142b4982b49fbcc21ee839d16fc0d0505fc9",
+    "size_in_bytes": 2184
+   },
+   {
+    "_path": "Library/include/mumps_seq/mpif.h",
+    "path_type": "hardlink",
+    "sha256": "766533f0072b7afbb02fb736c0b5a1d0cdee39b22aa121cc28a33dbbc3d38e1b",
+    "sha256_in_prefix": "766533f0072b7afbb02fb736c0b5a1d0cdee39b22aa121cc28a33dbbc3d38e1b",
+    "size_in_bytes": 3397
+   },
+   {
+    "_path": "Library/include/smumps_c.h",
+    "path_type": "hardlink",
+    "sha256": "2a49488e9906ecc5f9c30f6271ba48a6173c16c847d21de42929c0360ee3637a",
+    "sha256_in_prefix": "2a49488e9906ecc5f9c30f6271ba48a6173c16c847d21de42929c0360ee3637a",
+    "size_in_bytes": 4133
+   },
+   {
+    "_path": "Library/include/smumps_root.h",
+    "path_type": "hardlink",
+    "sha256": "5b0075187f0e6622c50f10d7db07c73d6eedb2ddbf7e8e777988d32aae12dafc",
+    "sha256_in_prefix": "5b0075187f0e6622c50f10d7db07c73d6eedb2ddbf7e8e777988d32aae12dafc",
+    "size_in_bytes": 2222
+   },
+   {
+    "_path": "Library/include/smumps_struc.h",
+    "path_type": "hardlink",
+    "sha256": "63dc6a912ddbe0f2e6effa45b964cc5f1ea88e0e7ea1de636e2551a5c11b1215",
+    "sha256_in_prefix": "63dc6a912ddbe0f2e6effa45b964cc5f1ea88e0e7ea1de636e2551a5c11b1215",
+    "size_in_bytes": 11998
+   },
+   {
+    "_path": "Library/include/zmumps_c.h",
+    "path_type": "hardlink",
+    "sha256": "b453fc2623cdabb989be23af8ca3b28907008ec2693b73daa5867a425484387d",
+    "sha256_in_prefix": "b453fc2623cdabb989be23af8ca3b28907008ec2693b73daa5867a425484387d",
+    "size_in_bytes": 4133
+   },
+   {
+    "_path": "Library/include/zmumps_root.h",
+    "path_type": "hardlink",
+    "sha256": "1ab61a585cc95163b3e67fe0a20c6f1e2221d4cad5ace22c397577bb0572bdc4",
+    "sha256_in_prefix": "1ab61a585cc95163b3e67fe0a20c6f1e2221d4cad5ace22c397577bb0572bdc4",
+    "size_in_bytes": 2312
+   },
+   {
+    "_path": "Library/include/zmumps_struc.h",
+    "path_type": "hardlink",
+    "sha256": "ed5940de8db0dfbe0ea618dd581b24ca5b94585384a2b0a0c3908b5eb1f5bb94",
+    "sha256_in_prefix": "ed5940de8db0dfbe0ea618dd581b24ca5b94585384a2b0a0c3908b5eb1f5bb94",
+    "size_in_bytes": 12249
+   },
+   {
+    "_path": "Library/lib/cmumps.lib",
+    "path_type": "hardlink",
+    "sha256": "379d56135f94583770c206880e6e9bcdae136220c96b811a7aa05aa1269d74f5",
+    "sha256_in_prefix": "379d56135f94583770c206880e6e9bcdae136220c96b811a7aa05aa1269d74f5",
+    "size_in_bytes": 271244
+   },
+   {
+    "_path": "Library/lib/dmumps.lib",
+    "path_type": "hardlink",
+    "sha256": "a61e96d4bab4437b0b3a65245e55593e0c267256b4b59088c9d4fc8ab95a4137",
+    "sha256_in_prefix": "a61e96d4bab4437b0b3a65245e55593e0c267256b4b59088c9d4fc8ab95a4137",
+    "size_in_bytes": 271244
+   },
+   {
+    "_path": "Library/lib/mumps_common.lib",
+    "path_type": "hardlink",
+    "sha256": "0f2639bc674a81788244b0ac9ec78c39bad9a023a86c586dad9a2863d3642191",
+    "sha256_in_prefix": "0f2639bc674a81788244b0ac9ec78c39bad9a023a86c586dad9a2863d3642191",
+    "size_in_bytes": 1951344
+   },
+   {
+    "_path": "Library/lib/pord.lib",
+    "path_type": "hardlink",
+    "sha256": "44622b72c2f056407c1bec1d788211cc8750c64094e216adb9d9e126b2f6e358",
+    "sha256_in_prefix": "44622b72c2f056407c1bec1d788211cc8750c64094e216adb9d9e126b2f6e358",
+    "size_in_bytes": 261688
+   },
+   {
+    "_path": "Library/lib/smumps.lib",
+    "path_type": "hardlink",
+    "sha256": "f6cbe45206f2bea1a79bd6adad76b7df00a7ad802414a1d6538ef8f2f0a54a1b",
+    "sha256_in_prefix": "f6cbe45206f2bea1a79bd6adad76b7df00a7ad802414a1d6538ef8f2f0a54a1b",
+    "size_in_bytes": 271244
+   },
+   {
+    "_path": "Library/lib/zmumps.lib",
+    "path_type": "hardlink",
+    "sha256": "3a62c3d554ebd9b782342bc44edb495cc9c5646b4aa4bc140bda5061524051a8",
+    "sha256_in_prefix": "3a62c3d554ebd9b782342bc44edb495cc9c5646b4aa4bc140bda5061524051a8",
+    "size_in_bytes": 271244
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "953c384a1b37b93bf7a2ee39b1c5763887f4d63ed220b65362103d6e6b4440a4",
+ "size": 7876234,
+ "subdir": "win-64",
+ "timestamp": 1742217665000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/mumps-seq-5.7.3-hbaa6519_9.conda",
+ "version": "5.7.3"
+}

@@ -1,0 +1,1264 @@
+{
+ "build": "h47441b3_1",
+ "build_number": 1,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "tbb 2021.13.0 h62715c5_1",
+  "ucrt >=10.0.20348.0",
+  "vc >=14.2,<15",
+  "vc14_runtime >=14.29.30139"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/include/oneapi/tbb.h",
+  "Library/include/oneapi/tbb/blocked_range.h",
+  "Library/include/oneapi/tbb/blocked_range2d.h",
+  "Library/include/oneapi/tbb/blocked_range3d.h",
+  "Library/include/oneapi/tbb/blocked_rangeNd.h",
+  "Library/include/oneapi/tbb/cache_aligned_allocator.h",
+  "Library/include/oneapi/tbb/collaborative_call_once.h",
+  "Library/include/oneapi/tbb/combinable.h",
+  "Library/include/oneapi/tbb/concurrent_hash_map.h",
+  "Library/include/oneapi/tbb/concurrent_lru_cache.h",
+  "Library/include/oneapi/tbb/concurrent_map.h",
+  "Library/include/oneapi/tbb/concurrent_priority_queue.h",
+  "Library/include/oneapi/tbb/concurrent_queue.h",
+  "Library/include/oneapi/tbb/concurrent_set.h",
+  "Library/include/oneapi/tbb/concurrent_unordered_map.h",
+  "Library/include/oneapi/tbb/concurrent_unordered_set.h",
+  "Library/include/oneapi/tbb/concurrent_vector.h",
+  "Library/include/oneapi/tbb/detail/_aggregator.h",
+  "Library/include/oneapi/tbb/detail/_aligned_space.h",
+  "Library/include/oneapi/tbb/detail/_allocator_traits.h",
+  "Library/include/oneapi/tbb/detail/_assert.h",
+  "Library/include/oneapi/tbb/detail/_attach.h",
+  "Library/include/oneapi/tbb/detail/_concurrent_queue_base.h",
+  "Library/include/oneapi/tbb/detail/_concurrent_skip_list.h",
+  "Library/include/oneapi/tbb/detail/_concurrent_unordered_base.h",
+  "Library/include/oneapi/tbb/detail/_config.h",
+  "Library/include/oneapi/tbb/detail/_containers_helpers.h",
+  "Library/include/oneapi/tbb/detail/_exception.h",
+  "Library/include/oneapi/tbb/detail/_export.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_body_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_cache_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_indexer_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_item_buffer_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_join_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_node_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_node_set_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_nodes_deduction.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_tagged_buffer_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_trace_impl.h",
+  "Library/include/oneapi/tbb/detail/_flow_graph_types_impl.h",
+  "Library/include/oneapi/tbb/detail/_hash_compare.h",
+  "Library/include/oneapi/tbb/detail/_intrusive_list_node.h",
+  "Library/include/oneapi/tbb/detail/_machine.h",
+  "Library/include/oneapi/tbb/detail/_mutex_common.h",
+  "Library/include/oneapi/tbb/detail/_namespace_injection.h",
+  "Library/include/oneapi/tbb/detail/_node_handle.h",
+  "Library/include/oneapi/tbb/detail/_pipeline_filters.h",
+  "Library/include/oneapi/tbb/detail/_pipeline_filters_deduction.h",
+  "Library/include/oneapi/tbb/detail/_range_common.h",
+  "Library/include/oneapi/tbb/detail/_rtm_mutex.h",
+  "Library/include/oneapi/tbb/detail/_rtm_rw_mutex.h",
+  "Library/include/oneapi/tbb/detail/_scoped_lock.h",
+  "Library/include/oneapi/tbb/detail/_segment_table.h",
+  "Library/include/oneapi/tbb/detail/_small_object_pool.h",
+  "Library/include/oneapi/tbb/detail/_string_resource.h",
+  "Library/include/oneapi/tbb/detail/_task.h",
+  "Library/include/oneapi/tbb/detail/_task_handle.h",
+  "Library/include/oneapi/tbb/detail/_template_helpers.h",
+  "Library/include/oneapi/tbb/detail/_utils.h",
+  "Library/include/oneapi/tbb/detail/_waitable_atomic.h",
+  "Library/include/oneapi/tbb/enumerable_thread_specific.h",
+  "Library/include/oneapi/tbb/flow_graph.h",
+  "Library/include/oneapi/tbb/flow_graph_abstractions.h",
+  "Library/include/oneapi/tbb/global_control.h",
+  "Library/include/oneapi/tbb/info.h",
+  "Library/include/oneapi/tbb/memory_pool.h",
+  "Library/include/oneapi/tbb/mutex.h",
+  "Library/include/oneapi/tbb/null_mutex.h",
+  "Library/include/oneapi/tbb/null_rw_mutex.h",
+  "Library/include/oneapi/tbb/parallel_for.h",
+  "Library/include/oneapi/tbb/parallel_for_each.h",
+  "Library/include/oneapi/tbb/parallel_invoke.h",
+  "Library/include/oneapi/tbb/parallel_pipeline.h",
+  "Library/include/oneapi/tbb/parallel_reduce.h",
+  "Library/include/oneapi/tbb/parallel_scan.h",
+  "Library/include/oneapi/tbb/parallel_sort.h",
+  "Library/include/oneapi/tbb/partitioner.h",
+  "Library/include/oneapi/tbb/profiling.h",
+  "Library/include/oneapi/tbb/queuing_mutex.h",
+  "Library/include/oneapi/tbb/queuing_rw_mutex.h",
+  "Library/include/oneapi/tbb/rw_mutex.h",
+  "Library/include/oneapi/tbb/scalable_allocator.h",
+  "Library/include/oneapi/tbb/spin_mutex.h",
+  "Library/include/oneapi/tbb/spin_rw_mutex.h",
+  "Library/include/oneapi/tbb/task.h",
+  "Library/include/oneapi/tbb/task_arena.h",
+  "Library/include/oneapi/tbb/task_group.h",
+  "Library/include/oneapi/tbb/task_scheduler_observer.h",
+  "Library/include/oneapi/tbb/tbb_allocator.h",
+  "Library/include/oneapi/tbb/tbbmalloc_proxy.h",
+  "Library/include/oneapi/tbb/tick_count.h",
+  "Library/include/oneapi/tbb/version.h",
+  "Library/include/tbb/blocked_range.h",
+  "Library/include/tbb/blocked_range2d.h",
+  "Library/include/tbb/blocked_range3d.h",
+  "Library/include/tbb/blocked_rangeNd.h",
+  "Library/include/tbb/cache_aligned_allocator.h",
+  "Library/include/tbb/collaborative_call_once.h",
+  "Library/include/tbb/combinable.h",
+  "Library/include/tbb/concurrent_hash_map.h",
+  "Library/include/tbb/concurrent_lru_cache.h",
+  "Library/include/tbb/concurrent_map.h",
+  "Library/include/tbb/concurrent_priority_queue.h",
+  "Library/include/tbb/concurrent_queue.h",
+  "Library/include/tbb/concurrent_set.h",
+  "Library/include/tbb/concurrent_unordered_map.h",
+  "Library/include/tbb/concurrent_unordered_set.h",
+  "Library/include/tbb/concurrent_vector.h",
+  "Library/include/tbb/enumerable_thread_specific.h",
+  "Library/include/tbb/flow_graph.h",
+  "Library/include/tbb/flow_graph_abstractions.h",
+  "Library/include/tbb/global_control.h",
+  "Library/include/tbb/info.h",
+  "Library/include/tbb/memory_pool.h",
+  "Library/include/tbb/mutex.h",
+  "Library/include/tbb/null_mutex.h",
+  "Library/include/tbb/null_rw_mutex.h",
+  "Library/include/tbb/parallel_for.h",
+  "Library/include/tbb/parallel_for_each.h",
+  "Library/include/tbb/parallel_invoke.h",
+  "Library/include/tbb/parallel_pipeline.h",
+  "Library/include/tbb/parallel_reduce.h",
+  "Library/include/tbb/parallel_scan.h",
+  "Library/include/tbb/parallel_sort.h",
+  "Library/include/tbb/partitioner.h",
+  "Library/include/tbb/profiling.h",
+  "Library/include/tbb/queuing_mutex.h",
+  "Library/include/tbb/queuing_rw_mutex.h",
+  "Library/include/tbb/rw_mutex.h",
+  "Library/include/tbb/scalable_allocator.h",
+  "Library/include/tbb/spin_mutex.h",
+  "Library/include/tbb/spin_rw_mutex.h",
+  "Library/include/tbb/task.h",
+  "Library/include/tbb/task_arena.h",
+  "Library/include/tbb/task_group.h",
+  "Library/include/tbb/task_scheduler_observer.h",
+  "Library/include/tbb/tbb.h",
+  "Library/include/tbb/tbb_allocator.h",
+  "Library/include/tbb/tbbmalloc_proxy.h",
+  "Library/include/tbb/tick_count.h",
+  "Library/include/tbb/version.h",
+  "Library/lib/cmake/TBB/TBBConfig.cmake",
+  "Library/lib/cmake/TBB/TBBConfigVersion.cmake",
+  "Library/lib/cmake/TBB/TBBTargets-release.cmake",
+  "Library/lib/cmake/TBB/TBBTargets.cmake",
+  "Library/lib/pkgconfig/tbb.pc",
+  "Library/lib/tbb.lib",
+  "Library/lib/tbb12.lib",
+  "Library/lib/tbbbind_2_5.lib",
+  "Library/lib/tbbmalloc.lib",
+  "Library/lib/tbbmalloc_proxy.lib",
+  "Library/share/doc/TBB/README.md"
+ ],
+ "fn": "tbb-devel-2021.13.0-h47441b3_1.conda",
+ "license": "",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "e372dfa2ea4bf2143ee2072e8adc8ac7",
+ "name": "tbb-devel",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/include/oneapi/tbb.h",
+    "path_type": "hardlink",
+    "sha256": "3ce7f3484d0c3c7f5f2e3f29f278c30f96c61a501653eb4e3318e2b3731e7472",
+    "sha256_in_prefix": "3ce7f3484d0c3c7f5f2e3f29f278c30f96c61a501653eb4e3318e2b3731e7472",
+    "size_in_bytes": 2765
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/blocked_range.h",
+    "path_type": "hardlink",
+    "sha256": "4b8a91767af190178dfc9dd8fc5f30907f6ba2c7f26b24313e9deb310b99d6c1",
+    "sha256_in_prefix": "4b8a91767af190178dfc9dd8fc5f30907f6ba2c7f26b24313e9deb310b99d6c1",
+    "size_in_bytes": 6453
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/blocked_range2d.h",
+    "path_type": "hardlink",
+    "sha256": "ddc30f89683bff22b1e67b777888bb4c329c21fce4b0d07ebbbfb7b395a6a0b8",
+    "sha256_in_prefix": "ddc30f89683bff22b1e67b777888bb4c329c21fce4b0d07ebbbfb7b395a6a0b8",
+    "size_in_bytes": 3369
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/blocked_range3d.h",
+    "path_type": "hardlink",
+    "sha256": "124fe6efb8bca19fb7be82c92a12c5b656f0ecede2cfad104f0915c9507ec553",
+    "sha256_in_prefix": "124fe6efb8bca19fb7be82c92a12c5b656f0ecede2cfad104f0915c9507ec553",
+    "size_in_bytes": 4455
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/blocked_rangeNd.h",
+    "path_type": "hardlink",
+    "sha256": "305b6ede19a43986b4181fa27fa014f0f5738590d89e4ea9502ae3da667a3009",
+    "sha256_in_prefix": "305b6ede19a43986b4181fa27fa014f0f5738590d89e4ea9502ae3da667a3009",
+    "size_in_bytes": 5508
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/cache_aligned_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "40250f89ad281a3e67b00741f9af5331a232e0dd8ffc2fe2ec3c4260707a2c6e",
+    "sha256_in_prefix": "40250f89ad281a3e67b00741f9af5331a232e0dd8ffc2fe2ec3c4260707a2c6e",
+    "size_in_bytes": 6908
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/collaborative_call_once.h",
+    "path_type": "hardlink",
+    "sha256": "cc596d192a31a87fd6d9585e5be917448261cb0c0b142db2d56e5bd63d12109c",
+    "sha256_in_prefix": "cc596d192a31a87fd6d9585e5be917448261cb0c0b142db2d56e5bd63d12109c",
+    "size_in_bytes": 8944
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/combinable.h",
+    "path_type": "hardlink",
+    "sha256": "627b5a0387b54fe53443f7d0b244a2f0b1655f11e47ea0a0b087103193565fbe",
+    "sha256_in_prefix": "627b5a0387b54fe53443f7d0b244a2f0b1655f11e47ea0a0b087103193565fbe",
+    "size_in_bytes": 1969
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_hash_map.h",
+    "path_type": "hardlink",
+    "sha256": "07a9896c38a29b11370a352349d5e630e628e75439a7046817382b541e8b2d14",
+    "sha256_in_prefix": "07a9896c38a29b11370a352349d5e630e628e75439a7046817382b541e8b2d14",
+    "size_in_bytes": 71598
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_lru_cache.h",
+    "path_type": "hardlink",
+    "sha256": "dd9238caa1efbaef0b367d7f11253275c5d08901d19039421105bc4592f9c638",
+    "sha256_in_prefix": "dd9238caa1efbaef0b367d7f11253275c5d08901d19039421105bc4592f9c638",
+    "size_in_bytes": 14126
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_map.h",
+    "path_type": "hardlink",
+    "sha256": "d050c96a57d77c1adc23fbe7c59f3754044e212aa1644c57fd12e076e273d7a1",
+    "sha256_in_prefix": "d050c96a57d77c1adc23fbe7c59f3754044e212aa1644c57fd12e076e273d7a1",
+    "size_in_bytes": 13629
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_priority_queue.h",
+    "path_type": "hardlink",
+    "sha256": "38568cb2ba764f0ac0b8c949b7276ef64ff2305623f89224fe4c601a6299f5af",
+    "sha256_in_prefix": "38568cb2ba764f0ac0b8c949b7276ef64ff2305623f89224fe4c601a6299f5af",
+    "size_in_bytes": 19549
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_queue.h",
+    "path_type": "hardlink",
+    "sha256": "747319245d9e21b85ff3a0abd50f5772244ce3e107e26d0cdda94f747d56a34e",
+    "sha256_in_prefix": "747319245d9e21b85ff3a0abd50f5772244ce3e107e26d0cdda94f747d56a34e",
+    "size_in_bytes": 28892
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_set.h",
+    "path_type": "hardlink",
+    "sha256": "59aa07ba976892935089194dd62973994712960097362feb3a1dc06e56faae75",
+    "sha256_in_prefix": "59aa07ba976892935089194dd62973994712960097362feb3a1dc06e56faae75",
+    "size_in_bytes": 10454
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_unordered_map.h",
+    "path_type": "hardlink",
+    "sha256": "9051596c49911e62ab0929939506340a680a105b5a73c2817cf3be10e88b155a",
+    "sha256_in_prefix": "9051596c49911e62ab0929939506340a680a105b5a73c2817cf3be10e88b155a",
+    "size_in_bytes": 20362
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_unordered_set.h",
+    "path_type": "hardlink",
+    "sha256": "636193a68183e223318310d556acf885ce90e2d97d09dfef8d07d0212271021a",
+    "sha256_in_prefix": "636193a68183e223318310d556acf885ce90e2d97d09dfef8d07d0212271021a",
+    "size_in_bytes": 16467
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/concurrent_vector.h",
+    "path_type": "hardlink",
+    "sha256": "7f5368b4ea3acf82562ff00e01ac88b9deb893e9ef2f08aca00e1fb5a96007d0",
+    "sha256_in_prefix": "7f5368b4ea3acf82562ff00e01ac88b9deb893e9ef2f08aca00e1fb5a96007d0",
+    "size_in_bytes": 46789
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_aggregator.h",
+    "path_type": "hardlink",
+    "sha256": "9b2c0fb767d1bd8daf22f4bb481a0864b7b205c94bff92d436fbb5c83dc33e63",
+    "sha256_in_prefix": "9b2c0fb767d1bd8daf22f4bb481a0864b7b205c94bff92d436fbb5c83dc33e63",
+    "size_in_bytes": 7628
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_aligned_space.h",
+    "path_type": "hardlink",
+    "sha256": "d48b527ee2837f8b287ba30eb8ae42fb1d9ff638c831d620d0756ea048baffd5",
+    "sha256_in_prefix": "d48b527ee2837f8b287ba30eb8ae42fb1d9ff638c831d620d0756ea048baffd5",
+    "size_in_bytes": 1399
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_allocator_traits.h",
+    "path_type": "hardlink",
+    "sha256": "ba6e4b959d4da330aaac5298a3a1365b3c6c42a9651d37b981764cbb4dddc67e",
+    "sha256_in_prefix": "ba6e4b959d4da330aaac5298a3a1365b3c6c42a9651d37b981764cbb4dddc67e",
+    "size_in_bytes": 3807
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_assert.h",
+    "path_type": "hardlink",
+    "sha256": "cd8500118624f38bfdeec8cd10cc0145742f5827af3bd899d36db780fd44fd18",
+    "sha256_in_prefix": "cd8500118624f38bfdeec8cd10cc0145742f5827af3bd899d36db780fd44fd18",
+    "size_in_bytes": 2395
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_attach.h",
+    "path_type": "hardlink",
+    "sha256": "2fd5691f1d4b254436e9cb82a51f4e171ea50a6df630036b01ac3b9d1b8e5361",
+    "sha256_in_prefix": "2fd5691f1d4b254436e9cb82a51f4e171ea50a6df630036b01ac3b9d1b8e5361",
+    "size_in_bytes": 861
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_concurrent_queue_base.h",
+    "path_type": "hardlink",
+    "sha256": "1f23ac6a2e74a0e736717b01f2c3a749fca5ff7195d01af161ac32d35412c738",
+    "sha256_in_prefix": "1f23ac6a2e74a0e736717b01f2c3a749fca5ff7195d01af161ac32d35412c738",
+    "size_in_bytes": 26211
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_concurrent_skip_list.h",
+    "path_type": "hardlink",
+    "sha256": "5e1aa6282653bcdb5b60db402416227777e58c43d643ab5ee1eef62a74611ed3",
+    "sha256_in_prefix": "5e1aa6282653bcdb5b60db402416227777e58c43d643ab5ee1eef62a74611ed3",
+    "size_in_bytes": 47115
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_concurrent_unordered_base.h",
+    "path_type": "hardlink",
+    "sha256": "7e1e6a78b1d7fa7d73906451b3ccfb87fc9c51427696807f7183a69d94faab0f",
+    "sha256_in_prefix": "7e1e6a78b1d7fa7d73906451b3ccfb87fc9c51427696807f7183a69d94faab0f",
+    "size_in_bytes": 65146
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_config.h",
+    "path_type": "hardlink",
+    "sha256": "b0b13f3230672dfd7ffa02654cc910a1fff6ee7595889fe4369c5a6a7a7a2ec2",
+    "sha256_in_prefix": "b0b13f3230672dfd7ffa02654cc910a1fff6ee7595889fe4369c5a6a7a7a2ec2",
+    "size_in_bytes": 20284
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_containers_helpers.h",
+    "path_type": "hardlink",
+    "sha256": "0a8bf42648f5a08f5f1942dc484da9d73d67c6bd2c8ac797718679c919950d80",
+    "sha256_in_prefix": "0a8bf42648f5a08f5f1942dc484da9d73d67c6bd2c8ac797718679c919950d80",
+    "size_in_bytes": 2627
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_exception.h",
+    "path_type": "hardlink",
+    "sha256": "e2d4cf718282eea114bbc2d3063f8a1f9d425b96c25ab277f028fc4a78936c0b",
+    "sha256_in_prefix": "e2d4cf718282eea114bbc2d3063f8a1f9d425b96c25ab277f028fc4a78936c0b",
+    "size_in_bytes": 2424
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_export.h",
+    "path_type": "hardlink",
+    "sha256": "99782766d3f4c8599eb54153d5c3615f79d8b4018d90b2f8d3eb3f8711bef01d",
+    "sha256_in_prefix": "99782766d3f4c8599eb54153d5c3615f79d8b4018d90b2f8d3eb3f8711bef01d",
+    "size_in_bytes": 1199
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_body_impl.h",
+    "path_type": "hardlink",
+    "sha256": "c117a79b1d8cd850474b1f6a699872ab03fbc5c03f67ea36cd59ef665d6a8ffa",
+    "sha256_in_prefix": "c117a79b1d8cd850474b1f6a699872ab03fbc5c03f67ea36cd59ef665d6a8ffa",
+    "size_in_bytes": 13301
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_cache_impl.h",
+    "path_type": "hardlink",
+    "sha256": "5a2efb619bdb801cfbb9aca125b58176afc0c21bbe92177922431962e50c1a58",
+    "sha256_in_prefix": "5a2efb619bdb801cfbb9aca125b58176afc0c21bbe92177922431962e50c1a58",
+    "size_in_bytes": 13618
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_impl.h",
+    "path_type": "hardlink",
+    "sha256": "50c5feaaf4a20d2e324feb2d19d6399c221ea65b7e06586a45a2593abffad917",
+    "sha256_in_prefix": "50c5feaaf4a20d2e324feb2d19d6399c221ea65b7e06586a45a2593abffad917",
+    "size_in_bytes": 15404
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_indexer_impl.h",
+    "path_type": "hardlink",
+    "sha256": "c0cc74c00cc9c6f0a6feb5d79deb7a01888ccb68896950d43e99a7b93362d1e6",
+    "sha256_in_prefix": "c0cc74c00cc9c6f0a6feb5d79deb7a01888ccb68896950d43e99a7b93362d1e6",
+    "size_in_bytes": 16529
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_item_buffer_impl.h",
+    "path_type": "hardlink",
+    "sha256": "6f2f5ddaf96d0f8b9789b3b150cd586e1d2b61f06476eec9eb0407bbcf279f2c",
+    "sha256_in_prefix": "6f2f5ddaf96d0f8b9789b3b150cd586e1d2b61f06476eec9eb0407bbcf279f2c",
+    "size_in_bytes": 10378
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_join_impl.h",
+    "path_type": "hardlink",
+    "sha256": "45ce1db3aa3c3d0623b12e2787691208a4335b3b3f43e9c5a5b4c0d72f3d797d",
+    "sha256_in_prefix": "45ce1db3aa3c3d0623b12e2787691208a4335b3b3f43e9c5a5b4c0d72f3d797d",
+    "size_in_bytes": 83096
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_node_impl.h",
+    "path_type": "hardlink",
+    "sha256": "a72ef6a332f11a13468d039e81b63bd99b1d92e3dabdc36a5e0c7f93889b3ea3",
+    "sha256_in_prefix": "a72ef6a332f11a13468d039e81b63bd99b1d92e3dabdc36a5e0c7f93889b3ea3",
+    "size_in_bytes": 27981
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_node_set_impl.h",
+    "path_type": "hardlink",
+    "sha256": "8f96634dc1b54c96cb2669bb2b13e42e9d25b67db8a059148fc245149b7630a3",
+    "sha256_in_prefix": "8f96634dc1b54c96cb2669bb2b13e42e9d25b67db8a059148fc245149b7630a3",
+    "size_in_bytes": 10177
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_nodes_deduction.h",
+    "path_type": "hardlink",
+    "sha256": "18974c1a8ea4336a61fd9d070fada8b660e1aaf99812aaff9c7fffaaca2923fc",
+    "sha256_in_prefix": "18974c1a8ea4336a61fd9d070fada8b660e1aaf99812aaff9c7fffaaca2923fc",
+    "size_in_bytes": 9532
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_tagged_buffer_impl.h",
+    "path_type": "hardlink",
+    "sha256": "686059d153d8c4ba815a224e0189b6b6fc4bb892d5010a54a6113664b10c8771",
+    "sha256_in_prefix": "686059d153d8c4ba815a224e0189b6b6fc4bb892d5010a54a6113664b10c8771",
+    "size_in_bytes": 10448
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_trace_impl.h",
+    "path_type": "hardlink",
+    "sha256": "6db439418c60e50f00c93ca5a08d2034fc146b4f08886b7cea5b0a292a0ea3ba",
+    "sha256_in_prefix": "6db439418c60e50f00c93ca5a08d2034fc146b4f08886b7cea5b0a292a0ea3ba",
+    "size_in_bytes": 16001
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_flow_graph_types_impl.h",
+    "path_type": "hardlink",
+    "sha256": "f486ce33b3201e132d31a090665287ec0134bb419cc574666224affc4feaa066",
+    "sha256_in_prefix": "f486ce33b3201e132d31a090665287ec0134bb419cc574666224affc4feaa066",
+    "size_in_bytes": 15635
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_hash_compare.h",
+    "path_type": "hardlink",
+    "sha256": "57cc8e3aad40f44c5eedc242ae23de1d6e5bbcc60218032b2567fe5b3daa1d0c",
+    "sha256_in_prefix": "57cc8e3aad40f44c5eedc242ae23de1d6e5bbcc60218032b2567fe5b3daa1d0c",
+    "size_in_bytes": 4488
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_intrusive_list_node.h",
+    "path_type": "hardlink",
+    "sha256": "b1e782ceac732d018243b2be99c8d001ba7fd8a585dd248e3ee3da37b6457a9a",
+    "sha256_in_prefix": "b1e782ceac732d018243b2be99c8d001ba7fd8a585dd248e3ee3da37b6457a9a",
+    "size_in_bytes": 1462
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_machine.h",
+    "path_type": "hardlink",
+    "sha256": "86d9e2226d0d589ad4fa233e15b1cb041935880a8941a8067c78552e884a5fd3",
+    "sha256_in_prefix": "86d9e2226d0d589ad4fa233e15b1cb041935880a8941a8067c78552e884a5fd3",
+    "size_in_bytes": 12962
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_mutex_common.h",
+    "path_type": "hardlink",
+    "sha256": "138f42ee0ddbf30de56c1b1b962186e798739a5a7aa7d66150d29b52986fa905",
+    "sha256_in_prefix": "138f42ee0ddbf30de56c1b1b962186e798739a5a7aa7d66150d29b52986fa905",
+    "size_in_bytes": 2347
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_namespace_injection.h",
+    "path_type": "hardlink",
+    "sha256": "07bf91767594417a394c28f4885c736a13b05c1379b15efe3d905b57c66a6ff1",
+    "sha256_in_prefix": "07bf91767594417a394c28f4885c736a13b05c1379b15efe3d905b57c66a6ff1",
+    "size_in_bytes": 815
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_node_handle.h",
+    "path_type": "hardlink",
+    "sha256": "688c46ab941379d3b8cad1d5425391080948da3e233809ec590a85f9b0e6009d",
+    "sha256_in_prefix": "688c46ab941379d3b8cad1d5425391080948da3e233809ec590a85f9b0e6009d",
+    "size_in_bytes": 5173
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_pipeline_filters.h",
+    "path_type": "hardlink",
+    "sha256": "c600730eca131d18f7370c40603fb2a6bdc84b816e0b6a4312d0f48bc7b8029b",
+    "sha256_in_prefix": "c600730eca131d18f7370c40603fb2a6bdc84b816e0b6a4312d0f48bc7b8029b",
+    "size_in_bytes": 15964
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_pipeline_filters_deduction.h",
+    "path_type": "hardlink",
+    "sha256": "4ce9e358d0ef2ddef8391cc22a730ce8808425fe6018eb81e681de609b5dead2",
+    "sha256_in_prefix": "4ce9e358d0ef2ddef8391cc22a730ce8808425fe6018eb81e681de609b5dead2",
+    "size_in_bytes": 1550
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_range_common.h",
+    "path_type": "hardlink",
+    "sha256": "4d8c08d9335fb7e7a0622a111ba1557b73d36b8e970b9bfe0c499a1c3c2e602b",
+    "sha256_in_prefix": "4d8c08d9335fb7e7a0622a111ba1557b73d36b8e970b9bfe0c499a1c3c2e602b",
+    "size_in_bytes": 4643
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_rtm_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "500538394ef983ec839e13e2782ba6965e6b3276959c7ff66461a089839b5a71",
+    "sha256_in_prefix": "500538394ef983ec839e13e2782ba6965e6b3276959c7ff66461a089839b5a71",
+    "size_in_bytes": 4785
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_rtm_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "ac1b1060b106c728c7fbe245112c07ae1f8413c9331006a7af5583a07874bf38",
+    "sha256_in_prefix": "ac1b1060b106c728c7fbe245112c07ae1f8413c9331006a7af5583a07874bf38",
+    "size_in_bytes": 7210
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_scoped_lock.h",
+    "path_type": "hardlink",
+    "sha256": "ea009cae6e3b6faa09bd68df1ad8f529cd65bf5b1933b298f1fff88c51f31af6",
+    "sha256_in_prefix": "ea009cae6e3b6faa09bd68df1ad8f529cd65bf5b1933b298f1fff88c51f31af6",
+    "size_in_bytes": 4968
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_segment_table.h",
+    "path_type": "hardlink",
+    "sha256": "b36cf80b3132338cee89c38cf6a9fa79325b9d29c878fab77ba5a0b4ab25d907",
+    "sha256_in_prefix": "b36cf80b3132338cee89c38cf6a9fa79325b9d29c878fab77ba5a0b4ab25d907",
+    "size_in_bytes": 24973
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_small_object_pool.h",
+    "path_type": "hardlink",
+    "sha256": "f998a0863c4bb7b53b6af499e50983a89206996db5ca424f36af7d0bd1bc7d04",
+    "sha256_in_prefix": "f998a0863c4bb7b53b6af499e50983a89206996db5ca424f36af7d0bd1bc7d04",
+    "size_in_bytes": 3574
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_string_resource.h",
+    "path_type": "hardlink",
+    "sha256": "80371a1f9823b24104f12df0183f57abc53bc181a86540f6fc22bda25c17e2eb",
+    "sha256_in_prefix": "80371a1f9823b24104f12df0183f57abc53bc181a86540f6fc22bda25c17e2eb",
+    "size_in_bytes": 3872
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_task.h",
+    "path_type": "hardlink",
+    "sha256": "196233e53d852f96d07a145b3ac15efc229b10c59b52f8febcdf8bea04b6781c",
+    "sha256_in_prefix": "196233e53d852f96d07a145b3ac15efc229b10c59b52f8febcdf8bea04b6781c",
+    "size_in_bytes": 7175
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_task_handle.h",
+    "path_type": "hardlink",
+    "sha256": "9faadc548c5b07ac9a6dd40a07d8e7afc19c06cf1cdd49a15a3c211a2edae62b",
+    "sha256_in_prefix": "9faadc548c5b07ac9a6dd40a07d8e7afc19c06cf1cdd49a15a3c211a2edae62b",
+    "size_in_bytes": 3612
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_template_helpers.h",
+    "path_type": "hardlink",
+    "sha256": "8a979e3e134de1b7207830cebfece6e7009107b1dd0a6fb7eeaf18cffa76fd84",
+    "sha256_in_prefix": "8a979e3e134de1b7207830cebfece6e7009107b1dd0a6fb7eeaf18cffa76fd84",
+    "size_in_bytes": 13527
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_utils.h",
+    "path_type": "hardlink",
+    "sha256": "ec96edf328050562fe2311f57256e976ef596d628ee7e7fa832dedadb711a4ac",
+    "sha256_in_prefix": "ec96edf328050562fe2311f57256e976ef596d628ee7e7fa832dedadb711a4ac",
+    "size_in_bytes": 14142
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/detail/_waitable_atomic.h",
+    "path_type": "hardlink",
+    "sha256": "1bc43dbb2f1882fca464060520fa4c4b47372af376a40b82dc5b5987fee9aecb",
+    "sha256_in_prefix": "1bc43dbb2f1882fca464060520fa4c4b47372af376a40b82dc5b5987fee9aecb",
+    "size_in_bytes": 2951
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/enumerable_thread_specific.h",
+    "path_type": "hardlink",
+    "sha256": "56107d49537151eb7d7e08495fe6029f53a7d787501a7c9852e91b1a7eca34b2",
+    "sha256_in_prefix": "56107d49537151eb7d7e08495fe6029f53a7d787501a7c9852e91b1a7eca34b2",
+    "size_in_bytes": 42628
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/flow_graph.h",
+    "path_type": "hardlink",
+    "sha256": "0e5e47be5de87fb0b3eae0ac4aedbba6a1e696818079c194c95ac6d9eae38da1",
+    "sha256_in_prefix": "0e5e47be5de87fb0b3eae0ac4aedbba6a1e696818079c194c95ac6d9eae38da1",
+    "size_in_bytes": 129912
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/flow_graph_abstractions.h",
+    "path_type": "hardlink",
+    "sha256": "1147e18d5440cfa7c45693622cb63b5834d29ebc0aec0b85083f6b5d72686837",
+    "sha256_in_prefix": "1147e18d5440cfa7c45693622cb63b5834d29ebc0aec0b85083f6b5d72686837",
+    "size_in_bytes": 1446
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/global_control.h",
+    "path_type": "hardlink",
+    "sha256": "1a6ad7f8d4590c3e7fe8284cf6ca943a3215c8863a7845e7735ae5ca839eebdd",
+    "sha256_in_prefix": "1a6ad7f8d4590c3e7fe8284cf6ca943a3215c8863a7845e7735ae5ca839eebdd",
+    "size_in_bytes": 6413
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/info.h",
+    "path_type": "hardlink",
+    "sha256": "18947f3092425accb6122742e59543ae8a85ea1bb3de06c98e25dc2778cc70ed",
+    "sha256_in_prefix": "18947f3092425accb6122742e59543ae8a85ea1bb3de06c98e25dc2778cc70ed",
+    "size_in_bytes": 3665
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/memory_pool.h",
+    "path_type": "hardlink",
+    "sha256": "579d022778af4ad6ecc01604b338cf94ecc22c3bde922eb6c2c06e4d55a3e0db",
+    "sha256_in_prefix": "579d022778af4ad6ecc01604b338cf94ecc22c3bde922eb6c2c06e4d55a3e0db",
+    "size_in_bytes": 9997
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/mutex.h",
+    "path_type": "hardlink",
+    "sha256": "282872530293dd826fe340aac5cd53fb2c69d888dd3155f40e86031455ee8bfe",
+    "sha256_in_prefix": "282872530293dd826fe340aac5cd53fb2c69d888dd3155f40e86031455ee8bfe",
+    "size_in_bytes": 2473
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/null_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "fcc2fc146f520a8c828e86722c37b69f0172028c76391cb90cc6c1ff73313fbb",
+    "sha256_in_prefix": "fcc2fc146f520a8c828e86722c37b69f0172028c76391cb90cc6c1ff73313fbb",
+    "size_in_bytes": 2149
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/null_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "69a2cb01a1d91304c92699b3556a1a48036599a0092a387d79ea79e7ec3bf806",
+    "sha256_in_prefix": "69a2cb01a1d91304c92699b3556a1a48036599a0092a387d79ea79e7ec3bf806",
+    "size_in_bytes": 2514
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_for.h",
+    "path_type": "hardlink",
+    "sha256": "f93f652bde8f05c5d0588dbe9bc94f863e7ddd7beb437f40d2cbc078fe305f33",
+    "sha256_in_prefix": "f93f652bde8f05c5d0588dbe9bc94f863e7ddd7beb437f40d2cbc078fe305f33",
+    "size_in_bytes": 23505
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_for_each.h",
+    "path_type": "hardlink",
+    "sha256": "83bd0152764dcea09ea230d881a110ac46f7399997a6bec4bf27b048f599ebb1",
+    "sha256_in_prefix": "83bd0152764dcea09ea230d881a110ac46f7399997a6bec4bf27b048f599ebb1",
+    "size_in_bytes": 28089
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_invoke.h",
+    "path_type": "hardlink",
+    "sha256": "5b294e421ddcbd93fed32b0b5dead06349cecf60b53c1a5ca31b65e7dbbb31f2",
+    "sha256_in_prefix": "5b294e421ddcbd93fed32b0b5dead06349cecf60b53c1a5ca31b65e7dbbb31f2",
+    "size_in_bytes": 7784
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_pipeline.h",
+    "path_type": "hardlink",
+    "sha256": "a3e30d91c9d68306050f4f1386956fb8ab0eb48deea22b6553539f71e2830bc5",
+    "sha256_in_prefix": "a3e30d91c9d68306050f4f1386956fb8ab0eb48deea22b6553539f71e2830bc5",
+    "size_in_bytes": 5755
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_reduce.h",
+    "path_type": "hardlink",
+    "sha256": "9e0c7299abb3ec3cd68b40738975ef67d2fea6b7f846a4548cb1245a4c029d56",
+    "sha256_in_prefix": "9e0c7299abb3ec3cd68b40738975ef67d2fea6b7f846a4548cb1245a4c029d56",
+    "size_in_bytes": 37860
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_scan.h",
+    "path_type": "hardlink",
+    "sha256": "4782f4abfc98ca5935d9ab63bc14a851b49c251a986ec2eecbc89e438d3a43ba",
+    "sha256_in_prefix": "4782f4abfc98ca5935d9ab63bc14a851b49c251a986ec2eecbc89e438d3a43ba",
+    "size_in_bytes": 23288
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/parallel_sort.h",
+    "path_type": "hardlink",
+    "sha256": "5da330361cc646a1e719f194790f4eb7aa2ef48d899359f62fe4c09c677c0bd1",
+    "sha256_in_prefix": "5da330361cc646a1e719f194790f4eb7aa2ef48d899359f62fe4c09c677c0bd1",
+    "size_in_bytes": 11544
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/partitioner.h",
+    "path_type": "hardlink",
+    "sha256": "7f633a2aa069867ce1df0f6afd1ff3969fc6cfa4b27047f1942170453d8dabe8",
+    "sha256_in_prefix": "7f633a2aa069867ce1df0f6afd1ff3969fc6cfa4b27047f1942170453d8dabe8",
+    "size_in_bytes": 27760
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/profiling.h",
+    "path_type": "hardlink",
+    "sha256": "daa70d10cb491b624d9ffbda98f759e5ca3023bfd7d5b4b9816dfc6782a7cef1",
+    "sha256_in_prefix": "daa70d10cb491b624d9ffbda98f759e5ca3023bfd7d5b4b9816dfc6782a7cef1",
+    "size_in_bytes": 10034
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/queuing_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "333f3963aed4600cf6d5d46964e628fe6b1e0104da9a3cdf2c06766d64294f2f",
+    "sha256_in_prefix": "333f3963aed4600cf6d5d46964e628fe6b1e0104da9a3cdf2c06766d64294f2f",
+    "size_in_bytes": 6394
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/queuing_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "7ad6bbde55c6ef747d74dbc66d018a48ebaaa362bc734054eadb46412fae448e",
+    "sha256_in_prefix": "7ad6bbde55c6ef747d74dbc66d018a48ebaaa362bc734054eadb46412fae448e",
+    "size_in_bytes": 6634
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "cd513bff334d6e69fc78657f280f3b12535fccd129defe0ed8c1cd6356f97935",
+    "sha256_in_prefix": "cd513bff334d6e69fc78657f280f3b12535fccd129defe0ed8c1cd6356f97935",
+    "size_in_bytes": 8087
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/scalable_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "090714056c87a3f97fe6067da0dc2f2819640dc056151a24ab2c11b22ab4637e",
+    "sha256_in_prefix": "090714056c87a3f97fe6067da0dc2f2819640dc056151a24ab2c11b22ab4637e",
+    "size_in_bytes": 11707
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/spin_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "bc8031ea40e0fa13229799fac8f4dfdad4bec4304a916d396743f6eaacb25f8b",
+    "sha256_in_prefix": "bc8031ea40e0fa13229799fac8f4dfdad4bec4304a916d396743f6eaacb25f8b",
+    "size_in_bytes": 3513
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/spin_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "b2d6071c52979475ca8260d567d3ec96725bf59097989767d2b3b8871dfceec0",
+    "sha256_in_prefix": "b2d6071c52979475ca8260d567d3ec96725bf59097989767d2b3b8871dfceec0",
+    "size_in_bytes": 7839
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/task.h",
+    "path_type": "hardlink",
+    "sha256": "88869ac99b90ac515ab5f83690c68dc34f16901c1c8e16ef398ef90572000dce",
+    "sha256_in_prefix": "88869ac99b90ac515ab5f83690c68dc34f16901c1c8e16ef398ef90572000dce",
+    "size_in_bytes": 1090
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/task_arena.h",
+    "path_type": "hardlink",
+    "sha256": "56fdd8e316dec32d3707edf92f4519f4fb0b9e6293f568da0022c1067f6cd9cc",
+    "sha256_in_prefix": "56fdd8e316dec32d3707edf92f4519f4fb0b9e6293f568da0022c1067f6cd9cc",
+    "size_in_bytes": 17681
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/task_group.h",
+    "path_type": "hardlink",
+    "sha256": "c22ce702bb9a3ee01a3cb990ad45f545c6c7ebe8f6903ed54b2c6780ab79ce53",
+    "sha256_in_prefix": "c22ce702bb9a3ee01a3cb990ad45f545c6c7ebe8f6903ed54b2c6780ab79ce53",
+    "size_in_bytes": 26335
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/task_scheduler_observer.h",
+    "path_type": "hardlink",
+    "sha256": "382f859fca884ca5d42cf77dbdb4a59b38602cb6c4a7018775ab9c35d4cd2b0a",
+    "sha256_in_prefix": "382f859fca884ca5d42cf77dbdb4a59b38602cb6c4a7018775ab9c35d4cd2b0a",
+    "size_in_bytes": 4585
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/tbb_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "6d449626863c62c0ea81eac6a6906439a8476cb1ce0a1a4b131d8c6c0b052fa4",
+    "sha256_in_prefix": "6d449626863c62c0ea81eac6a6906439a8476cb1ce0a1a4b131d8c6c0b052fa4",
+    "size_in_bytes": 3782
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/tbbmalloc_proxy.h",
+    "path_type": "hardlink",
+    "sha256": "492455f28630c3e1e99c6b6be7f4394cc447875a32770406bb67d70119b6308b",
+    "sha256_in_prefix": "492455f28630c3e1e99c6b6be7f4394cc447875a32770406bb67d70119b6308b",
+    "size_in_bytes": 1907
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/tick_count.h",
+    "path_type": "hardlink",
+    "sha256": "036df916b7748d6a61bde925236b5ec6ef652a6f269f6847326b7d670b8dce40",
+    "sha256_in_prefix": "036df916b7748d6a61bde925236b5ec6ef652a6f269f6847326b7d670b8dce40",
+    "size_in_bytes": 3201
+   },
+   {
+    "_path": "Library/include/oneapi/tbb/version.h",
+    "path_type": "hardlink",
+    "sha256": "0cdf17e24adc3b6ef87e76ef142483056c8a1e682917a2e04b17c16d2ef6f662",
+    "sha256_in_prefix": "0cdf17e24adc3b6ef87e76ef142483056c8a1e682917a2e04b17c16d2ef6f662",
+    "size_in_bytes": 4313
+   },
+   {
+    "_path": "Library/include/tbb/blocked_range.h",
+    "path_type": "hardlink",
+    "sha256": "5d280718c2041a51f397034b5dcaaee62a21bd45d5275d1e5b246201ba827700",
+    "sha256_in_prefix": "5d280718c2041a51f397034b5dcaaee62a21bd45d5275d1e5b246201ba827700",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/blocked_range2d.h",
+    "path_type": "hardlink",
+    "sha256": "0c3f305ca4c0ad81c8e61655b14116de0be3af5be9a5c87e56acfcfe5d1bd2c1",
+    "sha256_in_prefix": "0c3f305ca4c0ad81c8e61655b14116de0be3af5be9a5c87e56acfcfe5d1bd2c1",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/blocked_range3d.h",
+    "path_type": "hardlink",
+    "sha256": "f5e6c6f1c2e1ddebf4853e5f3f89ff567fd335718732fc514892d31d0997e87e",
+    "sha256_in_prefix": "f5e6c6f1c2e1ddebf4853e5f3f89ff567fd335718732fc514892d31d0997e87e",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/blocked_rangeNd.h",
+    "path_type": "hardlink",
+    "sha256": "fff6a0c8246bbd76fa16986b4a173f6bd69f8d1e9e7a70f9964787d1a67c8659",
+    "sha256_in_prefix": "fff6a0c8246bbd76fa16986b4a173f6bd69f8d1e9e7a70f9964787d1a67c8659",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/cache_aligned_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "fad93d0f6b0bb0fe55874269b48c55acca2d7c2c10f458bd10d7c7d0552247de",
+    "sha256_in_prefix": "fad93d0f6b0bb0fe55874269b48c55acca2d7c2c10f458bd10d7c7d0552247de",
+    "size_in_bytes": 665
+   },
+   {
+    "_path": "Library/include/tbb/collaborative_call_once.h",
+    "path_type": "hardlink",
+    "sha256": "d0ed572befc8ecc7919fdcf04294dda8d01c74834f802d79b2f43289b83a0e98",
+    "sha256_in_prefix": "d0ed572befc8ecc7919fdcf04294dda8d01c74834f802d79b2f43289b83a0e98",
+    "size_in_bytes": 660
+   },
+   {
+    "_path": "Library/include/tbb/combinable.h",
+    "path_type": "hardlink",
+    "sha256": "d546857ad777992f755c32b1201d93eda10baf8198dce459cf441ed50e738dd9",
+    "sha256_in_prefix": "d546857ad777992f755c32b1201d93eda10baf8198dce459cf441ed50e738dd9",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_hash_map.h",
+    "path_type": "hardlink",
+    "sha256": "a350d12b4e2c60b56c2e67a15a7e747a0ee78dc9cde54414c05a46c3a014a082",
+    "sha256_in_prefix": "a350d12b4e2c60b56c2e67a15a7e747a0ee78dc9cde54414c05a46c3a014a082",
+    "size_in_bytes": 661
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_lru_cache.h",
+    "path_type": "hardlink",
+    "sha256": "d7b5a060d0333133498d6e00cc5dd3b5f3097da0d472aae9dd83d11bab8deb7a",
+    "sha256_in_prefix": "d7b5a060d0333133498d6e00cc5dd3b5f3097da0d472aae9dd83d11bab8deb7a",
+    "size_in_bytes": 662
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_map.h",
+    "path_type": "hardlink",
+    "sha256": "dcaf68784291e8f0c86e9d5006a43f746fbec6cdb4512677f80ccc472423b492",
+    "sha256_in_prefix": "dcaf68784291e8f0c86e9d5006a43f746fbec6cdb4512677f80ccc472423b492",
+    "size_in_bytes": 656
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_priority_queue.h",
+    "path_type": "hardlink",
+    "sha256": "61143cad1b3abc6826ef001f769aa90614655e83f96b14815b50a7aa82a1b1f0",
+    "sha256_in_prefix": "61143cad1b3abc6826ef001f769aa90614655e83f96b14815b50a7aa82a1b1f0",
+    "size_in_bytes": 667
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_queue.h",
+    "path_type": "hardlink",
+    "sha256": "ea5d2734677fcf4b5f58bee655e163a045b374caad781e698d17edfc153ea2c5",
+    "sha256_in_prefix": "ea5d2734677fcf4b5f58bee655e163a045b374caad781e698d17edfc153ea2c5",
+    "size_in_bytes": 658
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_set.h",
+    "path_type": "hardlink",
+    "sha256": "39dc21ad6c4087d97a3bb28752b1eb011a8b7edac8584674689207e1ad769f49",
+    "sha256_in_prefix": "39dc21ad6c4087d97a3bb28752b1eb011a8b7edac8584674689207e1ad769f49",
+    "size_in_bytes": 656
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_unordered_map.h",
+    "path_type": "hardlink",
+    "sha256": "0c98ca103a45807c65c9f995a8523fcb58d01f5a6a9be75c6d3900d587da6a17",
+    "sha256_in_prefix": "0c98ca103a45807c65c9f995a8523fcb58d01f5a6a9be75c6d3900d587da6a17",
+    "size_in_bytes": 666
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_unordered_set.h",
+    "path_type": "hardlink",
+    "sha256": "4e5b01dd5d8c7a83ac15c0bc15e3ec7ed8e78340058aa78a0eb40967b9970047",
+    "sha256_in_prefix": "4e5b01dd5d8c7a83ac15c0bc15e3ec7ed8e78340058aa78a0eb40967b9970047",
+    "size_in_bytes": 666
+   },
+   {
+    "_path": "Library/include/tbb/concurrent_vector.h",
+    "path_type": "hardlink",
+    "sha256": "ff0951002ed7fe7e7fabd1649734d7ee109bb94790183cdcf95d91817f992516",
+    "sha256_in_prefix": "ff0951002ed7fe7e7fabd1649734d7ee109bb94790183cdcf95d91817f992516",
+    "size_in_bytes": 659
+   },
+   {
+    "_path": "Library/include/tbb/enumerable_thread_specific.h",
+    "path_type": "hardlink",
+    "sha256": "22d1c1594c0e4686ddfafbaabd0371ab7b64c2d4a437ec704edd89ff96afad00",
+    "sha256_in_prefix": "22d1c1594c0e4686ddfafbaabd0371ab7b64c2d4a437ec704edd89ff96afad00",
+    "size_in_bytes": 668
+   },
+   {
+    "_path": "Library/include/tbb/flow_graph.h",
+    "path_type": "hardlink",
+    "sha256": "2a0857fdb3eaf9c68300987619cf41628ef9af1a0a215408e53d3a3c3efe1f43",
+    "sha256_in_prefix": "2a0857fdb3eaf9c68300987619cf41628ef9af1a0a215408e53d3a3c3efe1f43",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/flow_graph_abstractions.h",
+    "path_type": "hardlink",
+    "sha256": "bd5a80085a271b0493c4adadc636b13ff8f392e8f635ce9b57f291ba3e126345",
+    "sha256_in_prefix": "bd5a80085a271b0493c4adadc636b13ff8f392e8f635ce9b57f291ba3e126345",
+    "size_in_bytes": 665
+   },
+   {
+    "_path": "Library/include/tbb/global_control.h",
+    "path_type": "hardlink",
+    "sha256": "101b3f1eb7fba413f5651bbe879419d2bdb8a5deeace76e49cca049eeffda5be",
+    "sha256_in_prefix": "101b3f1eb7fba413f5651bbe879419d2bdb8a5deeace76e49cca049eeffda5be",
+    "size_in_bytes": 656
+   },
+   {
+    "_path": "Library/include/tbb/info.h",
+    "path_type": "hardlink",
+    "sha256": "44279351e234b8b3c5dc510d06e3a002213c4c33443490d7f01c694ee93730db",
+    "sha256_in_prefix": "44279351e234b8b3c5dc510d06e3a002213c4c33443490d7f01c694ee93730db",
+    "size_in_bytes": 646
+   },
+   {
+    "_path": "Library/include/tbb/memory_pool.h",
+    "path_type": "hardlink",
+    "sha256": "e51db0de7c91581458e09f583e61b8e1ead088424b8d0ae03ad2e1996b90afc9",
+    "sha256_in_prefix": "e51db0de7c91581458e09f583e61b8e1ead088424b8d0ae03ad2e1996b90afc9",
+    "size_in_bytes": 653
+   },
+   {
+    "_path": "Library/include/tbb/mutex.h",
+    "path_type": "hardlink",
+    "sha256": "baf1a0c73fe818f58d9f2f9a969af217609e4eb60b57c79f814f1c88b0e30e8b",
+    "sha256_in_prefix": "baf1a0c73fe818f58d9f2f9a969af217609e4eb60b57c79f814f1c88b0e30e8b",
+    "size_in_bytes": 642
+   },
+   {
+    "_path": "Library/include/tbb/null_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "9ed7a293132d4a3f7ab15a27e1af9b9e66119d2c9e00d10feb56d0ae104be4d4",
+    "sha256_in_prefix": "9ed7a293132d4a3f7ab15a27e1af9b9e66119d2c9e00d10feb56d0ae104be4d4",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/null_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "dcd56ef0920c61decc09c5bd0c30df750986e71bde0ef8ec4e31c1824cb7185b",
+    "sha256_in_prefix": "dcd56ef0920c61decc09c5bd0c30df750986e71bde0ef8ec4e31c1824cb7185b",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/parallel_for.h",
+    "path_type": "hardlink",
+    "sha256": "33d16c056a50e76dd9747550c1cb1b485ef5676a57fc2609c5e5f2d7ad7257f3",
+    "sha256_in_prefix": "33d16c056a50e76dd9747550c1cb1b485ef5676a57fc2609c5e5f2d7ad7257f3",
+    "size_in_bytes": 654
+   },
+   {
+    "_path": "Library/include/tbb/parallel_for_each.h",
+    "path_type": "hardlink",
+    "sha256": "cc5d163ac27df5e1257ae338d644c488a9e226c598f50b7ba7c7500ac87cb6cc",
+    "sha256_in_prefix": "cc5d163ac27df5e1257ae338d644c488a9e226c598f50b7ba7c7500ac87cb6cc",
+    "size_in_bytes": 659
+   },
+   {
+    "_path": "Library/include/tbb/parallel_invoke.h",
+    "path_type": "hardlink",
+    "sha256": "4531ecd69e1e00794d48c16568b344df2f5991f4303ef0d26d81f1d317737490",
+    "sha256_in_prefix": "4531ecd69e1e00794d48c16568b344df2f5991f4303ef0d26d81f1d317737490",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/parallel_pipeline.h",
+    "path_type": "hardlink",
+    "sha256": "313d3bfcd13e33f73146c4507b9552c95ca95569f5124e6303242481396845cd",
+    "sha256_in_prefix": "313d3bfcd13e33f73146c4507b9552c95ca95569f5124e6303242481396845cd",
+    "size_in_bytes": 659
+   },
+   {
+    "_path": "Library/include/tbb/parallel_reduce.h",
+    "path_type": "hardlink",
+    "sha256": "bb19901dbf31bfe06ab5480279c7a85a402dcea6f485f89ad8615b9f28f4af36",
+    "sha256_in_prefix": "bb19901dbf31bfe06ab5480279c7a85a402dcea6f485f89ad8615b9f28f4af36",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/parallel_scan.h",
+    "path_type": "hardlink",
+    "sha256": "fec7ffefd64310040ccb961ea56f2ab22d54fa8e9c2946cc130053873d6be778",
+    "sha256_in_prefix": "fec7ffefd64310040ccb961ea56f2ab22d54fa8e9c2946cc130053873d6be778",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/parallel_sort.h",
+    "path_type": "hardlink",
+    "sha256": "c1050ac2e28c447b0f4d411b83aef1b41907d429de51aa22557d42b16d090b35",
+    "sha256_in_prefix": "c1050ac2e28c447b0f4d411b83aef1b41907d429de51aa22557d42b16d090b35",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/partitioner.h",
+    "path_type": "hardlink",
+    "sha256": "7e16a8e56ad0d5b035bae68f468d050207792cf89b2a3037a5894269ccdcf6a1",
+    "sha256_in_prefix": "7e16a8e56ad0d5b035bae68f468d050207792cf89b2a3037a5894269ccdcf6a1",
+    "size_in_bytes": 653
+   },
+   {
+    "_path": "Library/include/tbb/profiling.h",
+    "path_type": "hardlink",
+    "sha256": "7fb6c116524b85183fcdcc3236a18f31a4f43bceca0135478a0c74fda42d9604",
+    "sha256_in_prefix": "7fb6c116524b85183fcdcc3236a18f31a4f43bceca0135478a0c74fda42d9604",
+    "size_in_bytes": 651
+   },
+   {
+    "_path": "Library/include/tbb/queuing_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "2db98f6781e92a39cb42ef68e3fa318c771a26d566f2cb2e3f52ff8c6e2c258b",
+    "sha256_in_prefix": "2db98f6781e92a39cb42ef68e3fa318c771a26d566f2cb2e3f52ff8c6e2c258b",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/queuing_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "e9a844562ede9a2ce8079a87d2e832476d0987d8624588b872da0e8d2d8d9005",
+    "sha256_in_prefix": "e9a844562ede9a2ce8079a87d2e832476d0987d8624588b872da0e8d2d8d9005",
+    "size_in_bytes": 658
+   },
+   {
+    "_path": "Library/include/tbb/rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "93ae041fa56b4fee380848d8976de4dfdffeddd14f20e39c8c64515c54fdd51e",
+    "sha256_in_prefix": "93ae041fa56b4fee380848d8976de4dfdffeddd14f20e39c8c64515c54fdd51e",
+    "size_in_bytes": 645
+   },
+   {
+    "_path": "Library/include/tbb/scalable_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "52c786155efab412366064d80ca8d5caae14182fabaa61335f2e8c9b393b4291",
+    "sha256_in_prefix": "52c786155efab412366064d80ca8d5caae14182fabaa61335f2e8c9b393b4291",
+    "size_in_bytes": 660
+   },
+   {
+    "_path": "Library/include/tbb/spin_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "efd3a77e8d09912e7a027802e622d4c0bbfe61aefb9186422ce1a619b652a9c2",
+    "sha256_in_prefix": "efd3a77e8d09912e7a027802e622d4c0bbfe61aefb9186422ce1a619b652a9c2",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/spin_rw_mutex.h",
+    "path_type": "hardlink",
+    "sha256": "e5e55f5d3aae6474a258c87cd1b3d274518f28f6f2e0291b2c064eaf9e573928",
+    "sha256_in_prefix": "e5e55f5d3aae6474a258c87cd1b3d274518f28f6f2e0291b2c064eaf9e573928",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/task.h",
+    "path_type": "hardlink",
+    "sha256": "ba2a5e401a1399b6e33b8cb2919bb4d434f0a716d752a3072b67fd7aa4ae30df",
+    "sha256_in_prefix": "ba2a5e401a1399b6e33b8cb2919bb4d434f0a716d752a3072b67fd7aa4ae30df",
+    "size_in_bytes": 646
+   },
+   {
+    "_path": "Library/include/tbb/task_arena.h",
+    "path_type": "hardlink",
+    "sha256": "60830bb91a1063c55659e5fe02da3a65dbb3111068ba6ef771655abe591c693e",
+    "sha256_in_prefix": "60830bb91a1063c55659e5fe02da3a65dbb3111068ba6ef771655abe591c693e",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/task_group.h",
+    "path_type": "hardlink",
+    "sha256": "6f9a8ddb50964ce7052d898be26012177ed78958fefdcd347650f0d06604fdbe",
+    "sha256_in_prefix": "6f9a8ddb50964ce7052d898be26012177ed78958fefdcd347650f0d06604fdbe",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/task_scheduler_observer.h",
+    "path_type": "hardlink",
+    "sha256": "054d36291bf7c42a26d86a1b69dd63682f6c95c02a0880a863c291bb9ec8e6e6",
+    "sha256_in_prefix": "054d36291bf7c42a26d86a1b69dd63682f6c95c02a0880a863c291bb9ec8e6e6",
+    "size_in_bytes": 665
+   },
+   {
+    "_path": "Library/include/tbb/tbb.h",
+    "path_type": "hardlink",
+    "sha256": "cc07208ee166a217f747030dde1f40880c6249e963e7d3cba1e6515c3789ca8c",
+    "sha256_in_prefix": "cc07208ee166a217f747030dde1f40880c6249e963e7d3cba1e6515c3789ca8c",
+    "size_in_bytes": 641
+   },
+   {
+    "_path": "Library/include/tbb/tbb_allocator.h",
+    "path_type": "hardlink",
+    "sha256": "482e89b8ab92d28d8db6493448c6c75855bb276b0582edf5fa77f9e409f4bd23",
+    "sha256_in_prefix": "482e89b8ab92d28d8db6493448c6c75855bb276b0582edf5fa77f9e409f4bd23",
+    "size_in_bytes": 655
+   },
+   {
+    "_path": "Library/include/tbb/tbbmalloc_proxy.h",
+    "path_type": "hardlink",
+    "sha256": "f100ce8dcbc6a9ffd570a0596193f30abd832939722d9f57383bcaad5f5e1d66",
+    "sha256_in_prefix": "f100ce8dcbc6a9ffd570a0596193f30abd832939722d9f57383bcaad5f5e1d66",
+    "size_in_bytes": 657
+   },
+   {
+    "_path": "Library/include/tbb/tick_count.h",
+    "path_type": "hardlink",
+    "sha256": "daea8fa5babfab1d37bee5dd013d9f84b75fc766dbaf1c2ade5438f955e49a34",
+    "sha256_in_prefix": "daea8fa5babfab1d37bee5dd013d9f84b75fc766dbaf1c2ade5438f955e49a34",
+    "size_in_bytes": 652
+   },
+   {
+    "_path": "Library/include/tbb/version.h",
+    "path_type": "hardlink",
+    "sha256": "85cc01e558b12725a63435c1ca996fa830e134bfad163d48f28094d57e153fe6",
+    "sha256_in_prefix": "85cc01e558b12725a63435c1ca996fa830e134bfad163d48f28094d57e153fe6",
+    "size_in_bytes": 649
+   },
+   {
+    "_path": "Library/lib/cmake/TBB/TBBConfig.cmake",
+    "path_type": "hardlink",
+    "sha256": "d9a5ba8f6dbed325293dcb8603c6233256ea1b4b2ed3b016ea37da0ddd2f6c07",
+    "sha256_in_prefix": "d9a5ba8f6dbed325293dcb8603c6233256ea1b4b2ed3b016ea37da0ddd2f6c07",
+    "size_in_bytes": 53
+   },
+   {
+    "_path": "Library/lib/cmake/TBB/TBBConfigVersion.cmake",
+    "path_type": "hardlink",
+    "sha256": "3a27487c12a83df54afc77cfd75275884c8b31fc1fc4aefb0c5deebecf924549",
+    "sha256_in_prefix": "3a27487c12a83df54afc77cfd75275884c8b31fc1fc4aefb0c5deebecf924549",
+    "size_in_bytes": 1908
+   },
+   {
+    "_path": "Library/lib/cmake/TBB/TBBTargets-release.cmake",
+    "path_type": "hardlink",
+    "sha256": "d50345377c96d733b3c15a4c4f6dbbf2298342d3616bec9450409f1e1d57fac3",
+    "sha256_in_prefix": "d50345377c96d733b3c15a4c4f6dbbf2298342d3616bec9450409f1e1d57fac3",
+    "size_in_bytes": 2599
+   },
+   {
+    "_path": "Library/lib/cmake/TBB/TBBTargets.cmake",
+    "file_mode": "text",
+    "path_type": "hardlink",
+    "prefix_placeholder": "D:/bld/tbb_1732982513522/_h_env",
+    "sha256": "e2ef82be73bb51d0246aa2818c7b26c7f7a16d512840934e8bd35617e7b1c297",
+    "sha256_in_prefix": "a567c03b761ba120f0c50e9550d175032abb144f6b3bef15748bffb1a6822010",
+    "size_in_bytes": 5260
+   },
+   {
+    "_path": "Library/lib/pkgconfig/tbb.pc",
+    "file_mode": "text",
+    "path_type": "hardlink",
+    "prefix_placeholder": "D:/bld/tbb_1732982513522/_h_env",
+    "sha256": "43760a8fb7abd66cbc9fc1659b9ddcf00b337f03c39c987126b1d85cea11c223",
+    "sha256_in_prefix": "e5e40a69117ab66f1766772c4341c3537e488ac77d07106dc234e5a148966523",
+    "size_in_bytes": 949
+   },
+   {
+    "_path": "Library/lib/tbb.lib",
+    "path_type": "hardlink",
+    "sha256": "cd839744d2dd017d5c02172a0c74b7d878abc9e3b2bcd2546822281cc1fc1bf3",
+    "sha256_in_prefix": "cd839744d2dd017d5c02172a0c74b7d878abc9e3b2bcd2546822281cc1fc1bf3",
+    "size_in_bytes": 44060
+   },
+   {
+    "_path": "Library/lib/tbb12.lib",
+    "path_type": "hardlink",
+    "sha256": "cd839744d2dd017d5c02172a0c74b7d878abc9e3b2bcd2546822281cc1fc1bf3",
+    "sha256_in_prefix": "cd839744d2dd017d5c02172a0c74b7d878abc9e3b2bcd2546822281cc1fc1bf3",
+    "size_in_bytes": 44060
+   },
+   {
+    "_path": "Library/lib/tbbbind_2_5.lib",
+    "path_type": "hardlink",
+    "sha256": "b5e3c44954c3ee29c97ca313d3ba1938296fc204f6111d610544d186af0c668c",
+    "sha256_in_prefix": "b5e3c44954c3ee29c97ca313d3ba1938296fc204f6111d610544d186af0c668c",
+    "size_in_bytes": 3770
+   },
+   {
+    "_path": "Library/lib/tbbmalloc.lib",
+    "path_type": "hardlink",
+    "sha256": "3b05272c0691fb9306d3d40bf06af46d6578ac888e57a7bf1b8cf063d3fa8d27",
+    "sha256_in_prefix": "3b05272c0691fb9306d3d40bf06af46d6578ac888e57a7bf1b8cf063d3fa8d27",
+    "size_in_bytes": 9616
+   },
+   {
+    "_path": "Library/lib/tbbmalloc_proxy.lib",
+    "path_type": "hardlink",
+    "sha256": "7666138983302354ea53cbbfc25ec9a78d73f3e8f84dca5f9df0f8721b080629",
+    "sha256_in_prefix": "7666138983302354ea53cbbfc25ec9a78d73f3e8f84dca5f9df0f8721b080629",
+    "size_in_bytes": 2192
+   },
+   {
+    "_path": "Library/share/doc/TBB/README.md",
+    "path_type": "hardlink",
+    "sha256": "b3979d3c2a8dca63a4750497cd35bc53a03e52524ea55caa1df7c646bf529a86",
+    "sha256_in_prefix": "b3979d3c2a8dca63a4750497cd35bc53a03e52524ea55caa1df7c646bf529a86",
+    "size_in_bytes": 3046
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "tbb-devel=2021.13.0",
+ "sha256": "c290681bb8e03f13ec490e7ed048dc74da884f23d146c7f98283c0d218532dcb",
+ "size": 1062747,
+ "subdir": "win-64",
+ "timestamp": 1732982884000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/tbb-devel-2021.13.0-h47441b3_1.conda",
+ "version": "2021.13.0"
+}

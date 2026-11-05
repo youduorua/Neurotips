@@ -1,0 +1,52 @@
+{
+  "name": "pigz",
+  "version": "2.8",
+  "build": "h005e9e7_2",
+  "build_number": 2,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "pigz-2.8-h005e9e7_2.conda",
+  "md5": "74ff961ada54c7d69a27dda4a451c118",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/pigz-2.8-h005e9e7_2.conda",
+  "sha256": "8f3d30c640ba709859e000bbc0b9d621ecc19c65fb54295546ac7e61881bd6cf",
+  "depends": [
+    "libwinpthread >=12.0.0.r4.gg4f2fc60ca",
+    "libgcc >=14",
+    "ucrt >=10.0.20348.0",
+    "libzlib >=1.3.1,<2.0a0"
+  ],
+  "constrains": [],
+  "license": "Zlib",
+  "timestamp": 1764560379000,
+  "size": 195561,
+  "requested_spec": "pigz",
+  "package_tarball_full_path": "F:\\miniconda\\pkgs\\pigz-2.8-h005e9e7_2.conda",
+  "extracted_package_dir": "F:\\miniconda\\pkgs\\pigz-2.8-h005e9e7_2",
+  "files": [
+    "Library/bin/pigz.exe",
+    "Library/bin/unpigz.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/pigz.exe",
+        "path_type": "hardlink",
+        "sha256": "3608023fe84444905e1a7bd7f8da7d4239c21b6b76cb9df528932b583fb15de3",
+        "size_in_bytes": 433829,
+        "sha256_in_prefix": "3608023fe84444905e1a7bd7f8da7d4239c21b6b76cb9df528932b583fb15de3"
+      },
+      {
+        "_path": "Library/bin/unpigz.exe",
+        "path_type": "hardlink",
+        "sha256": "3608023fe84444905e1a7bd7f8da7d4239c21b6b76cb9df528932b583fb15de3",
+        "size_in_bytes": 433829,
+        "sha256_in_prefix": "3608023fe84444905e1a7bd7f8da7d4239c21b6b76cb9df528932b583fb15de3"
+      }
+    ]
+  },
+  "link": {
+    "source": "F:\\miniconda\\pkgs\\pigz-2.8-h005e9e7_2",
+    "type": 1
+  }
+}

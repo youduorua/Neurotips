@@ -1,0 +1,25 @@
+# 手动测试 18/31(绕 GUI,直接 batch_runner),验证 prepare .gz 修复。
+base_config: config/config_exhaustive.yaml
+output_root: F:/TI/output
+registry: config/institutions.yaml
+auto_prepare: true
+auto_simulate: true
+skip_existing: true
+compute_mode: gpu
+tasks:
+  - institution: study
+    institution_code: study
+    subject_id: '18'
+    subject_name: '18'
+    mri_path: F:/TI/18
+    coordMNI: [-28.0, -36.0, -4.0]
+    name: MNI_target
+    radius: 5.0
+  - institution: study
+    institution_code: study
+    subject_id: '31'
+    subject_name: '31'
+    mri_path: F:/TI/31
+    coordMNI: [-28.0, -36.0, -4.0]
+    name: MNI_target
+    radius: 5.0

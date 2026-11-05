@@ -1,0 +1,48 @@
+# Base config for EXHAUSTIVE search, GPU/Taichi, MNI(-28,-36,-4) r=5, no avoid/probe.
+data_path: ''
+output_root: F:/TI/output
+institution: study
+subMark: '23'
+subject_name: ''
+exampleIdx: 1
+initialElecNum: 4
+eeg_posi: EEG_10_10
+cur: 2.0
+cur_min: 0.5
+cur_max: 1.5
+cur_sum: 2.0
+precision: 0.05
+case: 1
+case1:
+  num: 1
+  name:
+  - MNI_target
+  coordMNI:
+  - - -28.0
+    - -36.0
+    - -4.0
+  shape:
+  - sphere
+  radius:
+  - 5.0
+  intensity: -1.0
+avoid:
+  num: 0
+  name: []
+  coordMNI: []
+  shape: []
+  radius: []
+  coef: []
+probe_regions: []
+Method: ExhaustiveSearch
+thres: 0.15
+alpha: 2.0
+other_alpha: 2.0
+w1: 0.0
+w2: 1.0
+type: tet
+nt: 0
+compute:
+  use_gpu: true
+  use_taichi: true
+  mode: gpu

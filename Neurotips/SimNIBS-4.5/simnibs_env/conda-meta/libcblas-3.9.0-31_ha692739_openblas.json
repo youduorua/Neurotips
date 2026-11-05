@@ -1,0 +1,47 @@
+{
+ "build": "31_ha692739_openblas",
+ "build_number": 31,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [
+  "liblapacke 3.9.0 31*_openblas",
+  "blas 2.131 openblas",
+  "liblapack 3.9.0 31*_openblas"
+ ],
+ "depends": [
+  "libblas 3.9.0 31_h706a439_openblas",
+  "libopenblas * openmp*"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/bin/libcblas.dll"
+ ],
+ "fn": "libcblas-3.9.0-31_ha692739_openblas.conda",
+ "license": "BSD-3-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "eb23fb69878e24779b8e191f0db8a4cf",
+ "name": "libcblas",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/bin/libcblas.dll",
+    "path_type": "hardlink",
+    "sha256": "ad88eb242b3dba05de3267cbe027a2087ee12ae36dc06f13e188b5d6e961c696",
+    "sha256_in_prefix": "ad88eb242b3dba05de3267cbe027a2087ee12ae36dc06f13e188b5d6e961c696",
+    "size_in_bytes": 27976192
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "006e725cab278dff09efed26673d44e79c8b81ae3babf5552c1feb813476a77b",
+ "size": 3956404,
+ "subdir": "win-64",
+ "timestamp": 1740088497000,
+ "track_features": "blas_openblas",
+ "url": "https://conda.anaconda.org/conda-forge/win-64/libcblas-3.9.0-31_ha692739_openblas.conda",
+ "version": "3.9.0"
+}

@@ -1,0 +1,77 @@
+{
+ "build": "h2466b09_0",
+ "build_number": 0,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "libwebp-base 1.4.0.*",
+  "libwebp-base >=1.4.0,<2.0a0",
+  "ucrt >=10.0.20348.0",
+  "vc >=14.2,<15",
+  "vc14_runtime >=14.29.30139"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/bin/cwebp.exe",
+  "Library/bin/dwebp.exe",
+  "Library/bin/img2webp.exe",
+  "Library/bin/webpinfo.exe",
+  "Library/bin/webpmux.exe"
+ ],
+ "fn": "libwebp-1.4.0-h2466b09_0.conda",
+ "license": "BSD-3-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "11334a8fb02041b453e2f89a4ae16f8d",
+ "name": "libwebp",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/bin/cwebp.exe",
+    "path_type": "hardlink",
+    "sha256": "f6224f5f1d08e88716f3a6dc141a2072cbe0d68f8a744eb82789db297e43c78a",
+    "sha256_in_prefix": "f6224f5f1d08e88716f3a6dc141a2072cbe0d68f8a744eb82789db297e43c78a",
+    "size_in_bytes": 48128
+   },
+   {
+    "_path": "Library/bin/dwebp.exe",
+    "path_type": "hardlink",
+    "sha256": "a1e705d33c7f9ef8bb3d369c4251e5eae85ef516944b1b4807ed159eff1a7e3f",
+    "sha256_in_prefix": "a1e705d33c7f9ef8bb3d369c4251e5eae85ef516944b1b4807ed159eff1a7e3f",
+    "size_in_bytes": 29184
+   },
+   {
+    "_path": "Library/bin/img2webp.exe",
+    "path_type": "hardlink",
+    "sha256": "cb7474f355b932c06cb0eb6d231f0bfe33bec91ad401b985c3218c9bfa548be1",
+    "sha256_in_prefix": "cb7474f355b932c06cb0eb6d231f0bfe33bec91ad401b985c3218c9bfa548be1",
+    "size_in_bytes": 33792
+   },
+   {
+    "_path": "Library/bin/webpinfo.exe",
+    "path_type": "hardlink",
+    "sha256": "1a741c7d4b501dda466bb285f692cdfc1d5a3a18b2fa77c334b78bf53578534b",
+    "sha256_in_prefix": "1a741c7d4b501dda466bb285f692cdfc1d5a3a18b2fa77c334b78bf53578534b",
+    "size_in_bytes": 31744
+   },
+   {
+    "_path": "Library/bin/webpmux.exe",
+    "path_type": "hardlink",
+    "sha256": "6a3fe6bf51e7ff6560ca41b9ea8ea3adc41602a7c2ab944219d90b851be9db57",
+    "sha256_in_prefix": "6a3fe6bf51e7ff6560ca41b9ea8ea3adc41602a7c2ab944219d90b851be9db57",
+    "size_in_bytes": 31744
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "libwebp=1.4.0",
+ "sha256": "ebabb57084e85cd09d529dbb4fe0f4db6cd0d369ad8095342c37b98855fd87fd",
+ "size": 71106,
+ "subdir": "win-64",
+ "timestamp": 1714600150000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/libwebp-1.4.0-h2466b09_0.conda",
+ "version": "1.4.0"
+}

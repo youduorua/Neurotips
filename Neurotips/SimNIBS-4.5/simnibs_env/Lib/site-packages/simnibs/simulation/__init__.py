@@ -1,0 +1,4 @@
+"""
+SimNIBS simulation handling
+
+"""

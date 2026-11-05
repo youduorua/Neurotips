@@ -1,0 +1,12 @@
+prefix=D:/bld/libtiff_1734398598498/_h_env/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.7.0
+Libs: -L${libdir} -ltiff
+Libs.private: 
+Cflags: -I${includedir}
+Requires.private:  zlib libdeflate libjpeg Lerc liblzma libzstd

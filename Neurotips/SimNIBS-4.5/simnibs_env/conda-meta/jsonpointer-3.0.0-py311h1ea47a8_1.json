@@ -1,0 +1,138 @@
+{
+ "build": "py311h1ea47a8_1",
+ "build_number": 1,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "python >=3.11,<3.12.0a0",
+  "python_abi 3.11.* *_cp311"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Lib/site-packages/__pycache__/jsonpointer.cpython-311.pyc",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/AUTHORS",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/INSTALLER",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/LICENSE.txt",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/METADATA",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/RECORD",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/REQUESTED",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/WHEEL",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/direct_url.json",
+  "Lib/site-packages/jsonpointer-3.0.0.dist-info/top_level.txt",
+  "Lib/site-packages/jsonpointer.py",
+  "Scripts/jsonpointer-script.py",
+  "Scripts/jsonpointer.exe"
+ ],
+ "fn": "jsonpointer-3.0.0-py311h1ea47a8_1.conda",
+ "license": "BSD-3-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "943f7fab631e12750641efd7279a268c",
+ "name": "jsonpointer",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Lib/site-packages/__pycache__/jsonpointer.cpython-311.pyc",
+    "path_type": "hardlink",
+    "sha256": "8047d7dfd2d1e3cb1f17f7df4cb9e465dd7cd59a1f5e1816165c91613ed4ab81",
+    "sha256_in_prefix": "8047d7dfd2d1e3cb1f17f7df4cb9e465dd7cd59a1f5e1816165c91613ed4ab81",
+    "size_in_bytes": 14604
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/AUTHORS",
+    "path_type": "hardlink",
+    "sha256": "4d58319d0f59c87bef5b07b3fe4db0f19c2d7d5545b034c6bf7b57c89bbef57f",
+    "sha256_in_prefix": "4d58319d0f59c87bef5b07b3fe4db0f19c2d7d5545b034c6bf7b57c89bbef57f",
+    "size_in_bytes": 113
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/INSTALLER",
+    "path_type": "hardlink",
+    "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "size_in_bytes": 5
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/LICENSE.txt",
+    "path_type": "hardlink",
+    "sha256": "d8b24f15d472885f788a2d6e985850f264627b86012a17bb242c83f310d907e5",
+    "sha256_in_prefix": "d8b24f15d472885f788a2d6e985850f264627b86012a17bb242c83f310d907e5",
+    "size_in_bytes": 1413
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/METADATA",
+    "path_type": "hardlink",
+    "sha256": "8ed95f2936d878388daf1940ad853eb1b1c15cc4da507d99c7abd0bcc2a96006",
+    "sha256_in_prefix": "8ed95f2936d878388daf1940ad853eb1b1c15cc4da507d99c7abd0bcc2a96006",
+    "size_in_bytes": 2302
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/RECORD",
+    "path_type": "hardlink",
+    "sha256": "212db2e293b24354b7dc22f73bda3afbcecdfd1677533cd8d0d527a7aaa89d76",
+    "sha256_in_prefix": "212db2e293b24354b7dc22f73bda3afbcecdfd1677533cd8d0d527a7aaa89d76",
+    "size_in_bytes": 990
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/REQUESTED",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/WHEEL",
+    "path_type": "hardlink",
+    "sha256": "3389f8ce614acd0664e262c273270d2332173bb60f284fdbe42c383e7847120f",
+    "sha256_in_prefix": "3389f8ce614acd0664e262c273270d2332173bb60f284fdbe42c383e7847120f",
+    "size_in_bytes": 109
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/direct_url.json",
+    "path_type": "hardlink",
+    "sha256": "2754481ecc06ae979a3effe3a3c07e49679d35e4ae74f8c4c0ca1820366b71a9",
+    "sha256_in_prefix": "2754481ecc06ae979a3effe3a3c07e49679d35e4ae74f8c4c0ca1820366b71a9",
+    "size_in_bytes": 72
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer-3.0.0.dist-info/top_level.txt",
+    "path_type": "hardlink",
+    "sha256": "06c51c6abfc2d276733c657669c92b27d0a9554f3fd16fe91d82b0a5d9d675d3",
+    "sha256_in_prefix": "06c51c6abfc2d276733c657669c92b27d0a9554f3fd16fe91d82b0a5d9d675d3",
+    "size_in_bytes": 12
+   },
+   {
+    "_path": "Lib/site-packages/jsonpointer.py",
+    "path_type": "hardlink",
+    "sha256": "91711c3679d4912f0d7529aa4a21498dccc9976f9d49992c20b80a2f44ac0015",
+    "sha256_in_prefix": "91711c3679d4912f0d7529aa4a21498dccc9976f9d49992c20b80a2f44ac0015",
+    "size_in_bytes": 10601
+   },
+   {
+    "_path": "Scripts/jsonpointer-script.py",
+    "path_type": "hardlink",
+    "sha256": "90c4a670c60c8d442f0eede70ec0b6fac840f8d556590b47fba5b96efd20fc4b",
+    "sha256_in_prefix": "90c4a670c60c8d442f0eede70ec0b6fac840f8d556590b47fba5b96efd20fc4b",
+    "size_in_bytes": 1830
+   },
+   {
+    "_path": "Scripts/jsonpointer.exe",
+    "path_type": "hardlink",
+    "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+    "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+    "size_in_bytes": 54032
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "9a667eeae67936e710ff69ee7ce0e784d6052eeba9670b268c565a55178098c4",
+ "size": 42891,
+ "subdir": "win-64",
+ "timestamp": 1725303340000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/jsonpointer-3.0.0-py311h1ea47a8_1.conda",
+ "version": "3.0.0"
+}

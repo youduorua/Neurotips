@@ -1,0 +1,62 @@
+{
+ "build": "h2466b09_2",
+ "build_number": 2,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "libbrotlicommon 1.1.0 h2466b09_2",
+  "ucrt >=10.0.20348.0",
+  "vc >=14.2,<15",
+  "vc14_runtime >=14.29.30139"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/bin/brotlienc.dll",
+  "Library/lib/brotlienc.lib",
+  "Library/lib/pkgconfig/libbrotlienc.pc"
+ ],
+ "fn": "libbrotlienc-1.1.0-h2466b09_2.conda",
+ "license": "MIT",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "85741a24d97954a991e55e34bc55990b",
+ "name": "libbrotlienc",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/bin/brotlienc.dll",
+    "path_type": "hardlink",
+    "sha256": "65072874d961840edb3b3d1c5efafcd07cd6351e5be7af53eb161d1a91a66355",
+    "sha256_in_prefix": "65072874d961840edb3b3d1c5efafcd07cd6351e5be7af53eb161d1a91a66355",
+    "size_in_bytes": 3343872
+   },
+   {
+    "_path": "Library/lib/brotlienc.lib",
+    "path_type": "hardlink",
+    "sha256": "4ff0ac40c56c40e68ca5f50ef5a95f10dcb54fd34619aab3735f6fdb58679c90",
+    "sha256_in_prefix": "4ff0ac40c56c40e68ca5f50ef5a95f10dcb54fd34619aab3735f6fdb58679c90",
+    "size_in_bytes": 4990
+   },
+   {
+    "_path": "Library/lib/pkgconfig/libbrotlienc.pc",
+    "file_mode": "text",
+    "path_type": "hardlink",
+    "prefix_placeholder": "D:/bld/brotli-split_1725267609074/_h_env",
+    "sha256": "d71484c4cfba7d70d2caf71672077aaa6c8d752de4792f8dffca5e10f35fdf3c",
+    "sha256_in_prefix": "7bf9fc41ab3df50b20ce234d60cb9c2ffd0ef739542260b2122cc9ba6bf5b1f2",
+    "size_in_bytes": 385
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "3d0dd7ef505962f107b7ea8f894e0b3dd01bf46852b362c8a7fc136b039bc9e1",
+ "size": 245929,
+ "subdir": "win-64",
+ "timestamp": 1725268238000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlienc-1.1.0-h2466b09_2.conda",
+ "version": "1.1.0"
+}

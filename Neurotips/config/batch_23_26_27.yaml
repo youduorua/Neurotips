@@ -1,0 +1,33 @@
+# Batch: subjects 23, 26, 27 — exhaustive, MNI(-28,-36,-4) r=5, no avoid/probe, GPU.
+base_config: config/config_exhaustive.yaml
+output_root: F:/TI/output
+registry: config/institutions.yaml
+auto_prepare: true
+auto_simulate: true
+skip_existing: true
+compute_mode: gpu
+tasks:
+  - institution: study
+    institution_code: study
+    subject_id: '23'
+    subject_name: '23'
+    mri_path: F:/TI/23
+    coordMNI: [-28.0, -36.0, -4.0]
+    name: MNI_target
+    radius: 5.0
+  - institution: study
+    institution_code: study
+    subject_id: '26'
+    subject_name: '26'
+    mri_path: F:/TI/26
+    coordMNI: [-28.0, -36.0, -4.0]
+    name: MNI_target
+    radius: 5.0
+  - institution: study
+    institution_code: study
+    subject_id: '27'
+    subject_name: '27'
+    mri_path: F:/TI/27
+    coordMNI: [-28.0, -36.0, -4.0]
+    name: MNI_target
+    radius: 5.0

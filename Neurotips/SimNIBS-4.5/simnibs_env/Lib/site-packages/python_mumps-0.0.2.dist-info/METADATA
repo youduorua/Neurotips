@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: python-mumps
+Version: 0.0.2
+Summary: Bindings and Python interface for the MUMPS sparse solver
+Home-page: https://gitlab.kwant-project.org/kwant/python-mumps
+Author-Email: Python-MUMPS authors <authors@kwant-project.org>
+License: BSD 2-Clause License
+        
+        Copyright (c) 2018 Python-MUMPS Authors
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Project-URL: Homepage, https://gitlab.kwant-project.org/kwant/python-mumps
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.23
+Requires-Dist: scipy>=1.8
+Description-Content-Type: text/markdown
+
+# Python-MUMPS
+
+Python bindings for the [MUMPS](http://mumps-solver.org/): a parallel sparse direct solver.
+
+## Scope
+
+This package targets MUMPS packaged by conda-forge using Cython bindings. It
+aims to provide a full wrapper of the MUMPS sequential API. Its primary target
+OS is Linux.
+
+Next steps include:
+
+- Support for Windows and OSX
+- Support for distributed (MPI) MUMPS
+
+## Installation
+
+`python-mumps` works with Python 3.10 and higher on Linux, Windows and Mac.
+
+The recommended way to install `python-mumps` is using `mamba`/`conda`.
+
+```bash
+mamba install -c conda-forge python-mumps
+```
+
+`python-mumps` can also be installed from PyPI, however this is a more involved procedure
+that requires separately installing the MUMPS library and a C compiler.
+
+## Usage example
+
+The following example shows how Python-MUMPS can be used to implement sparse diagonalization
+with Scipy.
+
+```python
+import scipy.sparse.linalg as sla
+from scipy.sparse import identity
+import mumps
+
+
+def sparse_diag(matrix, k, sigma, **kwargs):
+    """Call sla.eigsh with mumps support.
+
+    See scipy.sparse.linalg.eigsh for documentation.
+    """
+    class LuInv(sla.LinearOperator):
+        def __init__(self, A):
+            inst = mumps.Context()
+            inst.analyze(A, ordering='pord')
+            inst.factor(A)
+            self.solve = inst.solve
+            sla.LinearOperator.__init__(self, A.dtype, A.shape)
+
+        def _matvec(self, x):
+            return self.solve(x.astype(self.dtype))
+
+    opinv = LuInv(matrix - sigma * identity(matrix.shape[0]))
+    return sla.eigsh(matrix, k, sigma=sigma, OPinv=opinv, **kwargs)
+```
+
+## Development
+
+`python-mumps` recommends [Spin](https://github.com/scientific-python/spin/). Get spin with:
+
+```bash
+pip install spin
+```
+
+Then to build, test and install `python-mumps`:
+
+```bash
+spin build
+spin test -- --lf  # (Pytest arguments go after --)
+spin install
+```

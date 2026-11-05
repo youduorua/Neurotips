@@ -1,0 +1,138 @@
+{
+ "build": "pyhd8ed1ab_1",
+ "build_number": 1,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "python >=3.9"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Lib/site-packages/mock-5.1.0.dist-info/INSTALLER",
+  "Lib/site-packages/mock-5.1.0.dist-info/LICENSE.txt",
+  "Lib/site-packages/mock-5.1.0.dist-info/METADATA",
+  "Lib/site-packages/mock-5.1.0.dist-info/RECORD",
+  "Lib/site-packages/mock-5.1.0.dist-info/REQUESTED",
+  "Lib/site-packages/mock-5.1.0.dist-info/WHEEL",
+  "Lib/site-packages/mock-5.1.0.dist-info/direct_url.json",
+  "Lib/site-packages/mock-5.1.0.dist-info/top_level.txt",
+  "Lib/site-packages/mock/__init__.py",
+  "Lib/site-packages/mock/backports.py",
+  "Lib/site-packages/mock/mock.py",
+  "Lib/site-packages/mock/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/mock/__pycache__/backports.cpython-311.pyc",
+  "Lib/site-packages/mock/__pycache__/mock.cpython-311.pyc"
+ ],
+ "fn": "mock-5.1.0-pyhd8ed1ab_1.conda",
+ "license": "BSD-2-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "122a03a9cb7918df2c1dee7fc3c0b921",
+ "name": "mock",
+ "noarch": "python",
+ "package_tarball_full_path": "",
+ "package_type": "noarch_python",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/INSTALLER",
+    "path_type": "hardlink",
+    "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "size_in_bytes": 5
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/LICENSE.txt",
+    "path_type": "hardlink",
+    "sha256": "5831ee149d3850b28df8ff02fb7bd07cecda81e85cc8435c20827d3922202d34",
+    "sha256_in_prefix": "5831ee149d3850b28df8ff02fb7bd07cecda81e85cc8435c20827d3922202d34",
+    "size_in_bytes": 1342
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/METADATA",
+    "path_type": "hardlink",
+    "sha256": "cf839785ab2a832668c205d4afd903ef44a3b65f71d7465d57a3512ae32ef97a",
+    "sha256_in_prefix": "cf839785ab2a832668c205d4afd903ef44a3b65f71d7465d57a3512ae32ef97a",
+    "size_in_bytes": 3013
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/RECORD",
+    "path_type": "hardlink",
+    "sha256": "39f32c0347bb65fa3e9d03c260fe1d96afbdd2c701ffd9a66e1990528eb513d4",
+    "sha256_in_prefix": "39f32c0347bb65fa3e9d03c260fe1d96afbdd2c701ffd9a66e1990528eb513d4",
+    "size_in_bytes": 991
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/REQUESTED",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/WHEEL",
+    "path_type": "hardlink",
+    "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+    "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+    "size_in_bytes": 91
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/direct_url.json",
+    "path_type": "hardlink",
+    "sha256": "fff5d084c297567656d31d4975711558377299ed9c2e12935b6147a81527a8d3",
+    "sha256_in_prefix": "fff5d084c297567656d31d4975711558377299ed9c2e12935b6147a81527a8d3",
+    "size_in_bytes": 100
+   },
+   {
+    "_path": "site-packages/mock-5.1.0.dist-info/top_level.txt",
+    "path_type": "hardlink",
+    "sha256": "61b1946176b6d6031da0cac42e0f359e77e47c121de491809bb2bc6cc53c8564",
+    "sha256_in_prefix": "61b1946176b6d6031da0cac42e0f359e77e47c121de491809bb2bc6cc53c8564",
+    "size_in_bytes": 5
+   },
+   {
+    "_path": "site-packages/mock/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "052d892224c114115cbc5fa6f97397854310a31f943f4cb22c6ad5948a61a967",
+    "sha256_in_prefix": "052d892224c114115cbc5fa6f97397854310a31f943f4cb22c6ad5948a61a967",
+    "size_in_bytes": 334
+   },
+   {
+    "_path": "site-packages/mock/backports.py",
+    "path_type": "hardlink",
+    "sha256": "cf1bb71671643c54febf2f4b4d870447e7610d87104b01ed6c62186af113deaf",
+    "sha256_in_prefix": "cf1bb71671643c54febf2f4b4d870447e7610d87104b01ed6c62186af113deaf",
+    "size_in_bytes": 2808
+   },
+   {
+    "_path": "site-packages/mock/mock.py",
+    "path_type": "hardlink",
+    "sha256": "4e2a39b5ea866c252b368cb23ba13a2a3a056e26ad0e9344c23b88ef027f8e2f",
+    "sha256_in_prefix": "4e2a39b5ea866c252b368cb23ba13a2a3a056e26ad0e9344c23b88ef027f8e2f",
+    "size_in_bytes": 110383
+   },
+   {
+    "_path": "Lib/site-packages/mock/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/mock/__pycache__/backports.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/mock/__pycache__/mock.cpython-311.pyc",
+    "path_type": "pyc_file"
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "mock=5.1.0",
+ "sha256": "82b0982b1a6954c3d578b09a2972f93663741e63f1b47171bda1c9c572160a68",
+ "size": 33578,
+ "subdir": "noarch",
+ "timestamp": 1733235516000,
+ "url": "https://conda.anaconda.org/conda-forge/noarch/mock-5.1.0-pyhd8ed1ab_1.conda",
+ "version": "5.1.0"
+}

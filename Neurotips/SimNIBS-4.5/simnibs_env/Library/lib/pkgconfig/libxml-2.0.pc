@@ -1,0 +1,11 @@
+prefix=D:/bld/libxml2_1739952777465/_h_env/Library 
+exec_prefix=D:/bld/libxml2_1739952777465/_h_env/Library 
+libdir=D:/bld/libxml2_1739952777465/_h_env/Library/lib 
+includedir=D:/bld/libxml2_1739952777465/_h_env/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.13.6 
+Description: libXML library version2. 
+Requires: 
+Libs: -LD:/bld/libxml2_1739952777465/_h_env/Library/lib -lxml2 -liconv -lz 
+Cflags: -ID:/bld/libxml2_1739952777465/_h_env/Library/include/libxml2 -ID:/bld/libxml2_1739952777465/_h_env/Library/include 

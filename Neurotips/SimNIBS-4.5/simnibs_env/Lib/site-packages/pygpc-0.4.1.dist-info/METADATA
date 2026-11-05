@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pygpc
+Version: 0.4.1
+Summary: A sensitivity and uncertainty analysis toolbox for Python
+Author: Konstantin Weise
+Author-email: kweise@cbs.mpg.de
+License: GPL3
+Project-URL: Documentation, https://pygpc.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/pygpc-polynomial-chaos/pygpc
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: h5py
+Requires-Dist: tqdm
+Requires-Dist: pandas
+

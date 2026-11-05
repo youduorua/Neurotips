@@ -1,0 +1,4187 @@
+{
+ "build": "pyha770c72_0",
+ "build_number": 0,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "importlib_resources >=1.3",
+  "numpy >=1.20",
+  "packaging >=17",
+  "python >=3.8"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Lib/site-packages/nibabel-5.2.1.dist-info/INSTALLER",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/METADATA",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/RECORD",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/REQUESTED",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/WHEEL",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/direct_url.json",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/entry_points.txt",
+  "Lib/site-packages/nibabel-5.2.1.dist-info/licenses/COPYING",
+  "Lib/site-packages/nibabel/.gitignore",
+  "Lib/site-packages/nibabel/__init__.py",
+  "Lib/site-packages/nibabel/_compression.py",
+  "Lib/site-packages/nibabel/_version.py",
+  "Lib/site-packages/nibabel/_version.pyi",
+  "Lib/site-packages/nibabel/affines.py",
+  "Lib/site-packages/nibabel/analyze.py",
+  "Lib/site-packages/nibabel/arrayproxy.py",
+  "Lib/site-packages/nibabel/arraywriters.py",
+  "Lib/site-packages/nibabel/batteryrunners.py",
+  "Lib/site-packages/nibabel/benchmarks/__init__.py",
+  "Lib/site-packages/nibabel/benchmarks/bench_array_to_file.py",
+  "Lib/site-packages/nibabel/benchmarks/bench_arrayproxy_slicing.py",
+  "Lib/site-packages/nibabel/benchmarks/bench_fileslice.py",
+  "Lib/site-packages/nibabel/benchmarks/bench_finite_range.py",
+  "Lib/site-packages/nibabel/benchmarks/bench_load_save.py",
+  "Lib/site-packages/nibabel/benchmarks/butils.py",
+  "Lib/site-packages/nibabel/benchmarks/pytest.benchmark.ini",
+  "Lib/site-packages/nibabel/brikhead.py",
+  "Lib/site-packages/nibabel/caret.py",
+  "Lib/site-packages/nibabel/casting.py",
+  "Lib/site-packages/nibabel/cifti2/__init__.py",
+  "Lib/site-packages/nibabel/cifti2/cifti2.py",
+  "Lib/site-packages/nibabel/cifti2/cifti2_axes.py",
+  "Lib/site-packages/nibabel/cifti2/parse_cifti2.py",
+  "Lib/site-packages/nibabel/cifti2/tests/__init__.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_axes.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_cifti2.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_cifti2io_axes.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_cifti2io_header.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_name.py",
+  "Lib/site-packages/nibabel/cifti2/tests/test_new_cifti2.py",
+  "Lib/site-packages/nibabel/cmdline/__init__.py",
+  "Lib/site-packages/nibabel/cmdline/conform.py",
+  "Lib/site-packages/nibabel/cmdline/convert.py",
+  "Lib/site-packages/nibabel/cmdline/dicomfs.py",
+  "Lib/site-packages/nibabel/cmdline/diff.py",
+  "Lib/site-packages/nibabel/cmdline/ls.py",
+  "Lib/site-packages/nibabel/cmdline/nifti_dx.py",
+  "Lib/site-packages/nibabel/cmdline/parrec2nii.py",
+  "Lib/site-packages/nibabel/cmdline/roi.py",
+  "Lib/site-packages/nibabel/cmdline/stats.py",
+  "Lib/site-packages/nibabel/cmdline/tck2trk.py",
+  "Lib/site-packages/nibabel/cmdline/tests/__init__.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_conform.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_convert.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_parrec2nii.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_roi.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_stats.py",
+  "Lib/site-packages/nibabel/cmdline/tests/test_utils.py",
+  "Lib/site-packages/nibabel/cmdline/trk2tck.py",
+  "Lib/site-packages/nibabel/cmdline/utils.py",
+  "Lib/site-packages/nibabel/conftest.py",
+  "Lib/site-packages/nibabel/data.py",
+  "Lib/site-packages/nibabel/dataobj_images.py",
+  "Lib/site-packages/nibabel/deprecated.py",
+  "Lib/site-packages/nibabel/deprecator.py",
+  "Lib/site-packages/nibabel/dft.py",
+  "Lib/site-packages/nibabel/ecat.py",
+  "Lib/site-packages/nibabel/environment.py",
+  "Lib/site-packages/nibabel/eulerangles.py",
+  "Lib/site-packages/nibabel/externals/__init__.py",
+  "Lib/site-packages/nibabel/externals/conftest.py",
+  "Lib/site-packages/nibabel/externals/netcdf.py",
+  "Lib/site-packages/nibabel/externals/oset.py",
+  "Lib/site-packages/nibabel/externals/tests/__init__.py",
+  "Lib/site-packages/nibabel/externals/tests/data/example_1.nc",
+  "Lib/site-packages/nibabel/externals/tests/test_netcdf.py",
+  "Lib/site-packages/nibabel/filebasedimages.py",
+  "Lib/site-packages/nibabel/fileholders.py",
+  "Lib/site-packages/nibabel/filename_parser.py",
+  "Lib/site-packages/nibabel/fileslice.py",
+  "Lib/site-packages/nibabel/fileutils.py",
+  "Lib/site-packages/nibabel/freesurfer/__init__.py",
+  "Lib/site-packages/nibabel/freesurfer/io.py",
+  "Lib/site-packages/nibabel/freesurfer/mghformat.py",
+  "Lib/site-packages/nibabel/freesurfer/tests/__init__.py",
+  "Lib/site-packages/nibabel/freesurfer/tests/test_io.py",
+  "Lib/site-packages/nibabel/freesurfer/tests/test_mghformat.py",
+  "Lib/site-packages/nibabel/funcs.py",
+  "Lib/site-packages/nibabel/gifti/__init__.py",
+  "Lib/site-packages/nibabel/gifti/gifti.py",
+  "Lib/site-packages/nibabel/gifti/parse_gifti_fast.py",
+  "Lib/site-packages/nibabel/gifti/tests/__init__.py",
+  "Lib/site-packages/nibabel/gifti/tests/data/ascii.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/ascii_flat_data.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/base64bin.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/external.dat",
+  "Lib/site-packages/nibabel/gifti/tests/data/external.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/external.gii.bz2",
+  "Lib/site-packages/nibabel/gifti/tests/data/external.gii.gz",
+  "Lib/site-packages/nibabel/gifti/tests/data/gzipbase64.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/label.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/rh.aparc.annot.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/rh.shape.curv.gii",
+  "Lib/site-packages/nibabel/gifti/tests/data/task.func.gii",
+  "Lib/site-packages/nibabel/gifti/tests/test_1.py",
+  "Lib/site-packages/nibabel/gifti/tests/test_gifti.py",
+  "Lib/site-packages/nibabel/gifti/tests/test_parse_gifti_fast.py",
+  "Lib/site-packages/nibabel/gifti/util.py",
+  "Lib/site-packages/nibabel/imageclasses.py",
+  "Lib/site-packages/nibabel/imageglobals.py",
+  "Lib/site-packages/nibabel/imagestats.py",
+  "Lib/site-packages/nibabel/info.py",
+  "Lib/site-packages/nibabel/loadsave.py",
+  "Lib/site-packages/nibabel/minc1.py",
+  "Lib/site-packages/nibabel/minc2.py",
+  "Lib/site-packages/nibabel/mriutils.py",
+  "Lib/site-packages/nibabel/nicom/__init__.py",
+  "Lib/site-packages/nibabel/nicom/ascconv.py",
+  "Lib/site-packages/nibabel/nicom/csareader.py",
+  "Lib/site-packages/nibabel/nicom/dicomreaders.py",
+  "Lib/site-packages/nibabel/nicom/dicomwrappers.py",
+  "Lib/site-packages/nibabel/nicom/dwiparams.py",
+  "Lib/site-packages/nibabel/nicom/structreader.py",
+  "Lib/site-packages/nibabel/nicom/tests/__init__.py",
+  "Lib/site-packages/nibabel/nicom/tests/data/0.dcm",
+  "Lib/site-packages/nibabel/nicom/tests/data/1.dcm",
+  "Lib/site-packages/nibabel/nicom/tests/data/ascconv_sample.txt",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa2_b0.bin",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa2_b1000.bin",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa2_zero_len.bin.gz",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa_slice_norm.dcm",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa_str_1001n_items.bin",
+  "Lib/site-packages/nibabel/nicom/tests/data/csa_str_valid.bin",
+  "Lib/site-packages/nibabel/nicom/tests/data/decimal_rescale.dcm",
+  "Lib/site-packages/nibabel/nicom/tests/data/philips_mprage.dcm.gz",
+  "Lib/site-packages/nibabel/nicom/tests/data/siemens_dwi_0.dcm.gz",
+  "Lib/site-packages/nibabel/nicom/tests/data/siemens_dwi_1000.dcm.gz",
+  "Lib/site-packages/nibabel/nicom/tests/data/slicethickness_empty_string.dcm",
+  "Lib/site-packages/nibabel/nicom/tests/data_pkgs.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_ascconv.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_csareader.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_dicomreaders.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_dicomwrappers.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_dwiparams.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_structreader.py",
+  "Lib/site-packages/nibabel/nicom/tests/test_utils.py",
+  "Lib/site-packages/nibabel/nicom/utils.py",
+  "Lib/site-packages/nibabel/nifti1.py",
+  "Lib/site-packages/nibabel/nifti2.py",
+  "Lib/site-packages/nibabel/onetime.py",
+  "Lib/site-packages/nibabel/openers.py",
+  "Lib/site-packages/nibabel/optpkg.py",
+  "Lib/site-packages/nibabel/orientations.py",
+  "Lib/site-packages/nibabel/parrec.py",
+  "Lib/site-packages/nibabel/pkg_info.py",
+  "Lib/site-packages/nibabel/pointset.py",
+  "Lib/site-packages/nibabel/processing.py",
+  "Lib/site-packages/nibabel/py.typed",
+  "Lib/site-packages/nibabel/pydicom_compat.py",
+  "Lib/site-packages/nibabel/quaternions.py",
+  "Lib/site-packages/nibabel/rstutils.py",
+  "Lib/site-packages/nibabel/spaces.py",
+  "Lib/site-packages/nibabel/spatialimages.py",
+  "Lib/site-packages/nibabel/spm2analyze.py",
+  "Lib/site-packages/nibabel/spm99analyze.py",
+  "Lib/site-packages/nibabel/streamlines/__init__.py",
+  "Lib/site-packages/nibabel/streamlines/array_sequence.py",
+  "Lib/site-packages/nibabel/streamlines/header.py",
+  "Lib/site-packages/nibabel/streamlines/tck.py",
+  "Lib/site-packages/nibabel/streamlines/tests/__init__.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_array_sequence.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_streamlines.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_tck.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_tractogram.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_tractogram_file.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_trk.py",
+  "Lib/site-packages/nibabel/streamlines/tests/test_utils.py",
+  "Lib/site-packages/nibabel/streamlines/tractogram.py",
+  "Lib/site-packages/nibabel/streamlines/tractogram_file.py",
+  "Lib/site-packages/nibabel/streamlines/trk.py",
+  "Lib/site-packages/nibabel/streamlines/utils.py",
+  "Lib/site-packages/nibabel/testing/__init__.py",
+  "Lib/site-packages/nibabel/testing/helpers.py",
+  "Lib/site-packages/nibabel/testing/np_features.py",
+  "Lib/site-packages/nibabel/tests/__init__.py",
+  "Lib/site-packages/nibabel/tests/conftest.py",
+  "Lib/site-packages/nibabel/tests/data/.gitignore",
+  "Lib/site-packages/nibabel/tests/data/0.dcm",
+  "Lib/site-packages/nibabel/tests/data/1.dcm",
+  "Lib/site-packages/nibabel/tests/data/ADC_Map.PAR",
+  "Lib/site-packages/nibabel/tests/data/ASL_3D_Multiecho.PAR",
+  "Lib/site-packages/nibabel/tests/data/DTI.PAR",
+  "Lib/site-packages/nibabel/tests/data/DTIv40.PAR",
+  "Lib/site-packages/nibabel/tests/data/NA.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_cor_20APtrans_15RLrot_SENSE_15_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_cor_SENSE_8_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15AP_SENSE_13_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15FH_SENSE_12_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15RL_SENSE_11_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_SENSE_7_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_-30AP_10RL_20FH_SENSE_14_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_15FH_SENSE_9_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_15RL_SENSE_10_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_SENSE_6_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/README.rst",
+  "Lib/site-packages/nibabel/tests/data/T1.PAR",
+  "Lib/site-packages/nibabel/tests/data/T1_3echo_mag_real_imag_phase.PAR",
+  "Lib/site-packages/nibabel/tests/data/T1_dual_echo.PAR",
+  "Lib/site-packages/nibabel/tests/data/T2-interleaved.PAR",
+  "Lib/site-packages/nibabel/tests/data/T2.PAR",
+  "Lib/site-packages/nibabel/tests/data/T2_-interleaved.PAR",
+  "Lib/site-packages/nibabel/tests/data/T2_.PAR",
+  "Lib/site-packages/nibabel/tests/data/analyze.hdr",
+  "Lib/site-packages/nibabel/tests/data/anatomical.nii",
+  "Lib/site-packages/nibabel/tests/data/bad_attribute+orig.HEAD",
+  "Lib/site-packages/nibabel/tests/data/bad_datatype+orig.HEAD",
+  "Lib/site-packages/nibabel/tests/data/check_parrec_reslice.py",
+  "Lib/site-packages/nibabel/tests/data/complex.trk",
+  "Lib/site-packages/nibabel/tests/data/complex_big_endian.trk",
+  "Lib/site-packages/nibabel/tests/data/empty.tck",
+  "Lib/site-packages/nibabel/tests/data/empty.trk",
+  "Lib/site-packages/nibabel/tests/data/example4d+orig.BRIK.gz",
+  "Lib/site-packages/nibabel/tests/data/example4d+orig.HEAD",
+  "Lib/site-packages/nibabel/tests/data/example4d.nii.gz",
+  "Lib/site-packages/nibabel/tests/data/example_nifti2.nii.gz",
+  "Lib/site-packages/nibabel/tests/data/fieldmap.PAR",
+  "Lib/site-packages/nibabel/tests/data/functional.nii",
+  "Lib/site-packages/nibabel/tests/data/gen_standard.py",
+  "Lib/site-packages/nibabel/tests/data/make_moved_anat.py",
+  "Lib/site-packages/nibabel/tests/data/matlab_nan.tck",
+  "Lib/site-packages/nibabel/tests/data/minc1-no-att.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc1_1_scale.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc1_4d.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc2-4d-d.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc2-no-att.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc2_1_scale.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc2_4d.mnc",
+  "Lib/site-packages/nibabel/tests/data/minc2_baddim.mnc",
+  "Lib/site-packages/nibabel/tests/data/multiline_header_field.tck",
+  "Lib/site-packages/nibabel/tests/data/nifti1.hdr",
+  "Lib/site-packages/nibabel/tests/data/nifti2.hdr",
+  "Lib/site-packages/nibabel/tests/data/no_header_end.tck",
+  "Lib/site-packages/nibabel/tests/data/no_header_end_eof.tck",
+  "Lib/site-packages/nibabel/tests/data/no_magic_number.tck",
+  "Lib/site-packages/nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.REC",
+  "Lib/site-packages/nibabel/tests/data/phantom_fake_dualTR.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_fake_v4.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_fake_v4_1.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_truncated.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_truncated.REC",
+  "Lib/site-packages/nibabel/tests/data/phantom_varscale.PAR",
+  "Lib/site-packages/nibabel/tests/data/phantom_varscale.REC",
+  "Lib/site-packages/nibabel/tests/data/reoriented_anat_moved.nii",
+  "Lib/site-packages/nibabel/tests/data/resample_using_spm.m",
+  "Lib/site-packages/nibabel/tests/data/resampled_anat_moved.nii",
+  "Lib/site-packages/nibabel/tests/data/row_major.dconn.nii",
+  "Lib/site-packages/nibabel/tests/data/scaled+tlrc.BRIK",
+  "Lib/site-packages/nibabel/tests/data/scaled+tlrc.HEAD",
+  "Lib/site-packages/nibabel/tests/data/simple.tck",
+  "Lib/site-packages/nibabel/tests/data/simple.trk",
+  "Lib/site-packages/nibabel/tests/data/simple_big_endian.tck",
+  "Lib/site-packages/nibabel/tests/data/small.mnc",
+  "Lib/site-packages/nibabel/tests/data/standard.LPS.trk",
+  "Lib/site-packages/nibabel/tests/data/standard.nii.gz",
+  "Lib/site-packages/nibabel/tests/data/standard.tck",
+  "Lib/site-packages/nibabel/tests/data/standard.trk",
+  "Lib/site-packages/nibabel/tests/data/test.mgz",
+  "Lib/site-packages/nibabel/tests/data/tiny.mnc",
+  "Lib/site-packages/nibabel/tests/data/tinypet.v",
+  "Lib/site-packages/nibabel/tests/data/to_canonical.m",
+  "Lib/site-packages/nibabel/tests/data/umass_anonymized.PAR",
+  "Lib/site-packages/nibabel/tests/data/variant_v4_2_header.PAR",
+  "Lib/site-packages/nibabel/tests/nibabel_data.py",
+  "Lib/site-packages/nibabel/tests/scriptrunner.py",
+  "Lib/site-packages/nibabel/tests/test_affines.py",
+  "Lib/site-packages/nibabel/tests/test_analyze.py",
+  "Lib/site-packages/nibabel/tests/test_api_validators.py",
+  "Lib/site-packages/nibabel/tests/test_arrayproxy.py",
+  "Lib/site-packages/nibabel/tests/test_arraywriters.py",
+  "Lib/site-packages/nibabel/tests/test_batteryrunners.py",
+  "Lib/site-packages/nibabel/tests/test_brikhead.py",
+  "Lib/site-packages/nibabel/tests/test_casting.py",
+  "Lib/site-packages/nibabel/tests/test_data.py",
+  "Lib/site-packages/nibabel/tests/test_dataobj_images.py",
+  "Lib/site-packages/nibabel/tests/test_deprecated.py",
+  "Lib/site-packages/nibabel/tests/test_deprecator.py",
+  "Lib/site-packages/nibabel/tests/test_dft.py",
+  "Lib/site-packages/nibabel/tests/test_diff.py",
+  "Lib/site-packages/nibabel/tests/test_ecat.py",
+  "Lib/site-packages/nibabel/tests/test_ecat_data.py",
+  "Lib/site-packages/nibabel/tests/test_endiancodes.py",
+  "Lib/site-packages/nibabel/tests/test_environment.py",
+  "Lib/site-packages/nibabel/tests/test_euler.py",
+  "Lib/site-packages/nibabel/tests/test_filebasedimages.py",
+  "Lib/site-packages/nibabel/tests/test_filehandles.py",
+  "Lib/site-packages/nibabel/tests/test_fileholders.py",
+  "Lib/site-packages/nibabel/tests/test_filename_parser.py",
+  "Lib/site-packages/nibabel/tests/test_files_interface.py",
+  "Lib/site-packages/nibabel/tests/test_fileslice.py",
+  "Lib/site-packages/nibabel/tests/test_fileutils.py",
+  "Lib/site-packages/nibabel/tests/test_floating.py",
+  "Lib/site-packages/nibabel/tests/test_funcs.py",
+  "Lib/site-packages/nibabel/tests/test_image_api.py",
+  "Lib/site-packages/nibabel/tests/test_image_load_save.py",
+  "Lib/site-packages/nibabel/tests/test_image_types.py",
+  "Lib/site-packages/nibabel/tests/test_imageclasses.py",
+  "Lib/site-packages/nibabel/tests/test_imageglobals.py",
+  "Lib/site-packages/nibabel/tests/test_imagestats.py",
+  "Lib/site-packages/nibabel/tests/test_init.py",
+  "Lib/site-packages/nibabel/tests/test_loadsave.py",
+  "Lib/site-packages/nibabel/tests/test_minc1.py",
+  "Lib/site-packages/nibabel/tests/test_minc2.py",
+  "Lib/site-packages/nibabel/tests/test_minc2_data.py",
+  "Lib/site-packages/nibabel/tests/test_mriutils.py",
+  "Lib/site-packages/nibabel/tests/test_nibabel_data.py",
+  "Lib/site-packages/nibabel/tests/test_nifti1.py",
+  "Lib/site-packages/nibabel/tests/test_nifti2.py",
+  "Lib/site-packages/nibabel/tests/test_onetime.py",
+  "Lib/site-packages/nibabel/tests/test_openers.py",
+  "Lib/site-packages/nibabel/tests/test_optpkg.py",
+  "Lib/site-packages/nibabel/tests/test_orientations.py",
+  "Lib/site-packages/nibabel/tests/test_parrec.py",
+  "Lib/site-packages/nibabel/tests/test_parrec_data.py",
+  "Lib/site-packages/nibabel/tests/test_pkg_info.py",
+  "Lib/site-packages/nibabel/tests/test_pointset.py",
+  "Lib/site-packages/nibabel/tests/test_processing.py",
+  "Lib/site-packages/nibabel/tests/test_proxy_api.py",
+  "Lib/site-packages/nibabel/tests/test_quaternions.py",
+  "Lib/site-packages/nibabel/tests/test_recoder.py",
+  "Lib/site-packages/nibabel/tests/test_removalschedule.py",
+  "Lib/site-packages/nibabel/tests/test_round_trip.py",
+  "Lib/site-packages/nibabel/tests/test_rstutils.py",
+  "Lib/site-packages/nibabel/tests/test_scaling.py",
+  "Lib/site-packages/nibabel/tests/test_scripts.py",
+  "Lib/site-packages/nibabel/tests/test_spaces.py",
+  "Lib/site-packages/nibabel/tests/test_spatialimages.py",
+  "Lib/site-packages/nibabel/tests/test_spm2analyze.py",
+  "Lib/site-packages/nibabel/tests/test_spm99analyze.py",
+  "Lib/site-packages/nibabel/tests/test_testing.py",
+  "Lib/site-packages/nibabel/tests/test_tmpdirs.py",
+  "Lib/site-packages/nibabel/tests/test_tripwire.py",
+  "Lib/site-packages/nibabel/tests/test_viewers.py",
+  "Lib/site-packages/nibabel/tests/test_volumeutils.py",
+  "Lib/site-packages/nibabel/tests/test_wrapstruct.py",
+  "Lib/site-packages/nibabel/tmpdirs.py",
+  "Lib/site-packages/nibabel/tripwire.py",
+  "Lib/site-packages/nibabel/viewers.py",
+  "Lib/site-packages/nibabel/volumeutils.py",
+  "Lib/site-packages/nibabel/wrapstruct.py",
+  "Lib/site-packages/nibabel/xmlutils.py",
+  "Lib/site-packages/nisext/__init__.py",
+  "Lib/site-packages/nisext/py3builder.py",
+  "Lib/site-packages/nisext/sexts.py",
+  "Lib/site-packages/nisext/testers.py",
+  "Lib/site-packages/nisext/tests/__init__.py",
+  "Lib/site-packages/nisext/tests/test_sexts.py",
+  "Lib/site-packages/nisext/tests/test_testers.py",
+  "Lib/site-packages/nibabel/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/_compression.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/_version.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/affines.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/arrayproxy.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/arraywriters.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/batteryrunners.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_array_to_file.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_arrayproxy_slicing.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_fileslice.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_finite_range.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_load_save.cpython-311.pyc",
+  "Lib/site-packages/nibabel/benchmarks/__pycache__/butils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/brikhead.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/caret.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/casting.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/__pycache__/cifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/__pycache__/cifti2_axes.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/__pycache__/parse_cifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_axes.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2io_axes.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2io_header.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_name.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_new_cifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/conform.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/convert.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/dicomfs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/diff.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/ls.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/nifti_dx.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/parrec2nii.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/roi.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/stats.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/tck2trk.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_conform.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_convert.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_parrec2nii.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_roi.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_stats.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/trk2tck.cpython-311.pyc",
+  "Lib/site-packages/nibabel/cmdline/__pycache__/utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/conftest.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/dataobj_images.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/deprecated.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/deprecator.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/dft.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/ecat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/environment.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/eulerangles.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/__pycache__/conftest.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/__pycache__/netcdf.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/__pycache__/oset.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/externals/tests/__pycache__/test_netcdf.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/filebasedimages.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/fileholders.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/filename_parser.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/fileslice.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/fileutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/__pycache__/io.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/__pycache__/mghformat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/test_io.cpython-311.pyc",
+  "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/test_mghformat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/funcs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/__pycache__/gifti.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/__pycache__/parse_gifti_fast.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_1.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_gifti.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_parse_gifti_fast.cpython-311.pyc",
+  "Lib/site-packages/nibabel/gifti/__pycache__/util.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/imageclasses.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/imageglobals.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/imagestats.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/info.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/loadsave.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/minc1.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/minc2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/mriutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/ascconv.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/csareader.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/dicomreaders.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/dicomwrappers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/dwiparams.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/structreader.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/data_pkgs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_ascconv.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_csareader.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dicomreaders.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dicomwrappers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dwiparams.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_structreader.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/nicom/__pycache__/utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/nifti1.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/nifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/onetime.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/openers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/optpkg.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/orientations.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/parrec.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/pkg_info.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/pointset.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/processing.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/pydicom_compat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/quaternions.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/rstutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/spaces.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/spatialimages.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/spm2analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/spm99analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/array_sequence.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/header.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/tck.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_array_sequence.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_streamlines.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tck.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tractogram.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tractogram_file.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_trk.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/tractogram.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/tractogram_file.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/trk.cpython-311.pyc",
+  "Lib/site-packages/nibabel/streamlines/__pycache__/utils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/testing/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/testing/__pycache__/helpers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/testing/__pycache__/np_features.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/conftest.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/data/__pycache__/check_parrec_reslice.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/data/__pycache__/gen_standard.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/data/__pycache__/make_moved_anat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/nibabel_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/scriptrunner.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_affines.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_api_validators.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_arrayproxy.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_arraywriters.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_batteryrunners.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_brikhead.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_casting.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_dataobj_images.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_deprecated.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_deprecator.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_dft.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_diff.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_ecat.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_ecat_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_endiancodes.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_environment.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_euler.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_filebasedimages.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_filehandles.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_fileholders.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_filename_parser.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_files_interface.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_fileslice.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_fileutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_floating.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_funcs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_image_api.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_image_load_save.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_image_types.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_imageclasses.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_imageglobals.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_imagestats.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_init.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_loadsave.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_minc1.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_minc2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_minc2_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_mriutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_nibabel_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_nifti1.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_nifti2.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_onetime.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_openers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_optpkg.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_orientations.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_parrec.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_parrec_data.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_pkg_info.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_pointset.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_processing.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_proxy_api.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_quaternions.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_recoder.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_removalschedule.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_round_trip.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_rstutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_scaling.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_scripts.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_spaces.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_spatialimages.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_spm2analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_spm99analyze.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_testing.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_tmpdirs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_tripwire.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_viewers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_volumeutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/tests/__pycache__/test_wrapstruct.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/tmpdirs.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/tripwire.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/viewers.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/volumeutils.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/wrapstruct.cpython-311.pyc",
+  "Lib/site-packages/nibabel/__pycache__/xmlutils.cpython-311.pyc",
+  "Lib/site-packages/nisext/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nisext/__pycache__/py3builder.cpython-311.pyc",
+  "Lib/site-packages/nisext/__pycache__/sexts.cpython-311.pyc",
+  "Lib/site-packages/nisext/__pycache__/testers.cpython-311.pyc",
+  "Lib/site-packages/nisext/tests/__pycache__/__init__.cpython-311.pyc",
+  "Lib/site-packages/nisext/tests/__pycache__/test_sexts.cpython-311.pyc",
+  "Lib/site-packages/nisext/tests/__pycache__/test_testers.cpython-311.pyc",
+  "Scripts/nib-conform-script.py",
+  "Scripts/nib-convert-script.py",
+  "Scripts/nib-dicomfs-script.py",
+  "Scripts/nib-diff-script.py",
+  "Scripts/nib-ls-script.py",
+  "Scripts/nib-nifti-dx-script.py",
+  "Scripts/nib-roi-script.py",
+  "Scripts/nib-stats-script.py",
+  "Scripts/nib-tck2trk-script.py",
+  "Scripts/nib-trk2tck-script.py",
+  "Scripts/parrec2nii-script.py",
+  "Scripts/nib-conform.exe",
+  "Scripts/nib-convert.exe",
+  "Scripts/nib-dicomfs.exe",
+  "Scripts/nib-diff.exe",
+  "Scripts/nib-ls.exe",
+  "Scripts/nib-nifti-dx.exe",
+  "Scripts/nib-roi.exe",
+  "Scripts/nib-stats.exe",
+  "Scripts/nib-tck2trk.exe",
+  "Scripts/nib-trk2tck.exe",
+  "Scripts/parrec2nii.exe"
+ ],
+ "fn": "nibabel-5.2.1-pyha770c72_0.conda",
+ "license": "MIT",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "95ea4b21646fda1e2a34e0ddd895c9cc",
+ "name": "nibabel",
+ "noarch": "python",
+ "package_tarball_full_path": "",
+ "package_type": "noarch_python",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/INSTALLER",
+    "path_type": "hardlink",
+    "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+    "size_in_bytes": 5
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/METADATA",
+    "path_type": "hardlink",
+    "sha256": "f9be69afe3adbc9a28d4ce206b998be274cd04a4deb437892676e32257b93a8c",
+    "sha256_in_prefix": "f9be69afe3adbc9a28d4ce206b998be274cd04a4deb437892676e32257b93a8c",
+    "size_in_bytes": 8841
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/RECORD",
+    "path_type": "hardlink",
+    "sha256": "280b4e7b24203f8982117c64aac6b9ea5727572136fd9978c8a28e968cffd132",
+    "sha256_in_prefix": "280b4e7b24203f8982117c64aac6b9ea5727572136fd9978c8a28e968cffd132",
+    "size_in_bytes": 46494
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/REQUESTED",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/WHEEL",
+    "path_type": "hardlink",
+    "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+    "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+    "size_in_bytes": 87
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/direct_url.json",
+    "path_type": "hardlink",
+    "sha256": "5dc4fc3869f45985d1b884a69608fd125c27edd466535a3179b0957b628070d2",
+    "sha256_in_prefix": "5dc4fc3869f45985d1b884a69608fd125c27edd466535a3179b0957b628070d2",
+    "size_in_bytes": 103
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/entry_points.txt",
+    "path_type": "hardlink",
+    "sha256": "ada03c3eae19d5f9456fbeef95e1f619c08be4b9393492d0551bfc95e6e37a9a",
+    "sha256_in_prefix": "ada03c3eae19d5f9456fbeef95e1f619c08be4b9393492d0551bfc95e6e37a9a",
+    "size_in_bytes": 467
+   },
+   {
+    "_path": "site-packages/nibabel-5.2.1.dist-info/licenses/COPYING",
+    "path_type": "hardlink",
+    "sha256": "5ab0638392203d737b4d6c70e3920a61888efdee7de84a8374f3626522306dc7",
+    "sha256_in_prefix": "5ab0638392203d737b4d6c70e3920a61888efdee7de84a8374f3626522306dc7",
+    "size_in_bytes": 9830
+   },
+   {
+    "_path": "site-packages/nibabel/.gitignore",
+    "path_type": "hardlink",
+    "sha256": "fac424efff03df940be9a5d224acebb2b4b9dd83f01fb22317ef876ae2d483ae",
+    "sha256_in_prefix": "fac424efff03df940be9a5d224acebb2b4b9dd83f01fb22317ef876ae2d483ae",
+    "size_in_bytes": 208
+   },
+   {
+    "_path": "site-packages/nibabel/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "d2484fbfa57c8982452aff2445747a91cea83fd3a7f176e9f4715f4a76f3c4d6",
+    "sha256_in_prefix": "d2484fbfa57c8982452aff2445747a91cea83fd3a7f176e9f4715f4a76f3c4d6",
+    "size_in_bytes": 5096
+   },
+   {
+    "_path": "site-packages/nibabel/_compression.py",
+    "path_type": "hardlink",
+    "sha256": "4e8b7670acc6e040bc0241701b91949806515a164412ab0deee1ddc588c5e0bd",
+    "sha256_in_prefix": "4e8b7670acc6e040bc0241701b91949806515a164412ab0deee1ddc588c5e0bd",
+    "size_in_bytes": 1474
+   },
+   {
+    "_path": "site-packages/nibabel/_version.py",
+    "path_type": "hardlink",
+    "sha256": "66aba09f85d5575ec93da3e8cf5944881c0e99f3b5becb7b52435e1850c80782",
+    "sha256_in_prefix": "66aba09f85d5575ec93da3e8cf5944881c0e99f3b5becb7b52435e1850c80782",
+    "size_in_bytes": 160
+   },
+   {
+    "_path": "site-packages/nibabel/_version.pyi",
+    "path_type": "hardlink",
+    "sha256": "fcaac8623dffb34b17701865fd6210ad86543f63f06094610fd1f068ed6d9e2a",
+    "sha256_in_prefix": "fcaac8623dffb34b17701865fd6210ad86543f63f06094610fd1f068ed6d9e2a",
+    "size_in_bytes": 96
+   },
+   {
+    "_path": "site-packages/nibabel/affines.py",
+    "path_type": "hardlink",
+    "sha256": "bb31de1cbf4461309d2a75916862377170e2f891ed73958f3049026b35a74742",
+    "sha256_in_prefix": "bb31de1cbf4461309d2a75916862377170e2f891ed73958f3049026b35a74742",
+    "size_in_bytes": 12823
+   },
+   {
+    "_path": "site-packages/nibabel/analyze.py",
+    "path_type": "hardlink",
+    "sha256": "486af5e63e305cfdc157c69630fc79cd059e5ace8caf66add79912e120a565b5",
+    "sha256_in_prefix": "486af5e63e305cfdc157c69630fc79cd059e5ace8caf66add79912e120a565b5",
+    "size_in_bytes": 38086
+   },
+   {
+    "_path": "site-packages/nibabel/arrayproxy.py",
+    "path_type": "hardlink",
+    "sha256": "73ba1f8f91f6f95ddb639692dfd462793d32758322c872d893299a3a65456add",
+    "sha256_in_prefix": "73ba1f8f91f6f95ddb639692dfd462793d32758322c872d893299a3a65456add",
+    "size_in_bytes": 19795
+   },
+   {
+    "_path": "site-packages/nibabel/arraywriters.py",
+    "path_type": "hardlink",
+    "sha256": "eec30fff5d0188f2f9260b5e25bceac0ceb4fd4a3e26b4f005f813024e3f3002",
+    "sha256_in_prefix": "eec30fff5d0188f2f9260b5e25bceac0ceb4fd4a3e26b4f005f813024e3f3002",
+    "size_in_bytes": 27969
+   },
+   {
+    "_path": "site-packages/nibabel/batteryrunners.py",
+    "path_type": "hardlink",
+    "sha256": "5e94e75635efa234b7de857ca241b3a87289d7e76e2aab40f07c7391703a9707",
+    "sha256_in_prefix": "5e94e75635efa234b7de857ca241b3a87289d7e76e2aab40f07c7391703a9707",
+    "size_in_bytes": 9345
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "2dd79f403b49478e08c43759cf791f691d4ecb32d1e395cbcd002d3bc3f13ee0",
+    "sha256_in_prefix": "2dd79f403b49478e08c43759cf791f691d4ecb32d1e395cbcd002d3bc3f13ee0",
+    "size_in_bytes": 25
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/bench_array_to_file.py",
+    "path_type": "hardlink",
+    "sha256": "cf5fa997b8bc38ca51fcaf73d734ecfe7fc86bf273d86c2a5ea3bff5eae9e9fc",
+    "sha256_in_prefix": "cf5fa997b8bc38ca51fcaf73d734ecfe7fc86bf273d86c2a5ea3bff5eae9e9fc",
+    "size_in_bytes": 1888
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/bench_arrayproxy_slicing.py",
+    "path_type": "hardlink",
+    "sha256": "7ac32602ff2c46b617192c71caa19a5addcf859f89a2387a42e873bd7d425b9b",
+    "sha256_in_prefix": "7ac32602ff2c46b617192c71caa19a5addcf859f89a2387a42e873bd7d425b9b",
+    "size_in_bytes": 5934
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/bench_fileslice.py",
+    "path_type": "hardlink",
+    "sha256": "c349d8e90f05dd17304eef2cec59c04d3cabef25e7a5dfc0e2a3044906334e92",
+    "sha256_in_prefix": "c349d8e90f05dd17304eef2cec59c04d3cabef25e7a5dfc0e2a3044906334e92",
+    "size_in_bytes": 3203
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/bench_finite_range.py",
+    "path_type": "hardlink",
+    "sha256": "3d2cb67524e50f0e099edb1a87a11454110a278402db9468064b04f41c5244ff",
+    "sha256_in_prefix": "3d2cb67524e50f0e099edb1a87a11454110a278402db9468064b04f41c5244ff",
+    "size_in_bytes": 1229
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/bench_load_save.py",
+    "path_type": "hardlink",
+    "sha256": "50df306e076997617d29cf8ecef8e87fa31bba56fb812565abaa0f80e9a5027a",
+    "sha256_in_prefix": "50df306e076997617d29cf8ecef8e87fa31bba56fb812565abaa0f80e9a5027a",
+    "size_in_bytes": 2051
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/butils.py",
+    "path_type": "hardlink",
+    "sha256": "4d287a77ebc3348801bee6018f07950cc70cf3260eca7ed6e97c12d51f4dd19b",
+    "sha256_in_prefix": "4d287a77ebc3348801bee6018f07950cc70cf3260eca7ed6e97c12d51f4dd19b",
+    "size_in_bytes": 269
+   },
+   {
+    "_path": "site-packages/nibabel/benchmarks/pytest.benchmark.ini",
+    "path_type": "hardlink",
+    "sha256": "3f7dca2b9c14f781e51bc0ea044f9ef436d5de228ad3a40ce0ac1073fcc39534",
+    "sha256_in_prefix": "3f7dca2b9c14f781e51bc0ea044f9ef436d5de228ad3a40ce0ac1073fcc39534",
+    "size_in_bytes": 85
+   },
+   {
+    "_path": "site-packages/nibabel/brikhead.py",
+    "path_type": "hardlink",
+    "sha256": "872512a80da708e16dc5128d32b2e881558540e3eaeaab688c60d7ed9cefc4ac",
+    "sha256_in_prefix": "872512a80da708e16dc5128d32b2e881558540e3eaeaab688c60d7ed9cefc4ac",
+    "size_in_bytes": 19396
+   },
+   {
+    "_path": "site-packages/nibabel/caret.py",
+    "path_type": "hardlink",
+    "sha256": "8820d235cbfc53fd8530b4d4c8e8015d5f22b5430beae275d28d953845c104bc",
+    "sha256_in_prefix": "8820d235cbfc53fd8530b4d4c8e8015d5f22b5430beae275d28d953845c104bc",
+    "size_in_bytes": 3422
+   },
+   {
+    "_path": "site-packages/nibabel/casting.py",
+    "path_type": "hardlink",
+    "sha256": "b97835d5dabe9b73735b00ec727807c8e1ba183174cdf4d0fd114ae9aa923127",
+    "sha256_in_prefix": "b97835d5dabe9b73735b00ec727807c8e1ba183174cdf4d0fd114ae9aa923127",
+    "size_in_bytes": 25295
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "756ecf4acd7d668bcf378c38a2df5c4da38a5af5e12195d60b3b81e5d65ee220",
+    "sha256_in_prefix": "756ecf4acd7d668bcf378c38a2df5c4da38a5af5e12195d60b3b81e5d65ee220",
+    "size_in_bytes": 1132
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/cifti2.py",
+    "path_type": "hardlink",
+    "sha256": "ade15ed3e7e971d40e569806b8e28b98b11d54d06d1b633eaa41e41ed1f08405",
+    "sha256_in_prefix": "ade15ed3e7e971d40e569806b8e28b98b11d54d06d1b633eaa41e41ed1f08405",
+    "size_in_bytes": 54410
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/cifti2_axes.py",
+    "path_type": "hardlink",
+    "sha256": "8ef439f1c835903c67e0a81674bee139dd40ea68fe0541e7179e82523d0281a1",
+    "sha256_in_prefix": "8ef439f1c835903c67e0a81674bee139dd40ea68fe0541e7179e82523d0281a1",
+    "size_in_bytes": 53902
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/parse_cifti2.py",
+    "path_type": "hardlink",
+    "sha256": "bd4736f1b6c504920fd6deafb5260a776e3d0634cdb0062d326ffcb15edf5512",
+    "sha256_in_prefix": "bd4736f1b6c504920fd6deafb5260a776e3d0634cdb0062d326ffcb15edf5512",
+    "size_in_bytes": 21496
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_axes.py",
+    "path_type": "hardlink",
+    "sha256": "2a7fd6a14d85c38c7897b4e9cac39c0c3432d6dbd61e8224ed01a31f2ae5f624",
+    "sha256_in_prefix": "2a7fd6a14d85c38c7897b4e9cac39c0c3432d6dbd61e8224ed01a31f2ae5f624",
+    "size_in_bytes": 22696
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_cifti2.py",
+    "path_type": "hardlink",
+    "sha256": "def370da391e42ef2730a0168be5260961c172a6a53c78800c989f0f75d02f4a",
+    "sha256_in_prefix": "def370da391e42ef2730a0168be5260961c172a6a53c78800c989f0f75d02f4a",
+    "size_in_bytes": 12166
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_cifti2io_axes.py",
+    "path_type": "hardlink",
+    "sha256": "23d13bdf5d5f832612059dc666902356196d242512fb5edd6467a7a85ff59c99",
+    "sha256_in_prefix": "23d13bdf5d5f832612059dc666902356196d242512fb5edd6467a7a85ff59c99",
+    "size_in_bytes": 8652
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_cifti2io_header.py",
+    "path_type": "hardlink",
+    "sha256": "05b52432fe4c257b98f8215b0552ce7c4fdd75c713686e45441813e8c9d18f8a",
+    "sha256_in_prefix": "05b52432fe4c257b98f8215b0552ce7c4fdd75c713686e45441813e8c9d18f8a",
+    "size_in_bytes": 20966
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_name.py",
+    "path_type": "hardlink",
+    "sha256": "15e5bc827f400ff213d0838b9f39e0c50e4c9ccadcceb664d7e8daa06e0c65b3",
+    "sha256_in_prefix": "15e5bc827f400ff213d0838b9f39e0c50e4c9ccadcceb664d7e8daa06e0c65b3",
+    "size_in_bytes": 1126
+   },
+   {
+    "_path": "site-packages/nibabel/cifti2/tests/test_new_cifti2.py",
+    "path_type": "hardlink",
+    "sha256": "2e8905030870669e197d38cc0295cb2b53462b00be0852aa0d37ac9f5802f425",
+    "sha256_in_prefix": "2e8905030870669e197d38cc0295cb2b53462b00be0852aa0d37ac9f5802f425",
+    "size_in_bytes": 19502
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "16aee7fe2e16c436061739a1a49e9157e9ba85ae8fe07faa82fe2a0a13a10215",
+    "sha256_in_prefix": "16aee7fe2e16c436061739a1a49e9157e9ba85ae8fe07faa82fe2a0a13a10215",
+    "size_in_bytes": 441
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/conform.py",
+    "path_type": "hardlink",
+    "sha256": "33a763c414ca86c4d8902e3f8d58c65245789842a37793f7c3a4f288a1f25f42",
+    "sha256_in_prefix": "33a763c414ca86c4d8902e3f8d58c65245789842a37793f7c3a4f288a1f25f42",
+    "size_in_bytes": 2020
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/convert.py",
+    "path_type": "hardlink",
+    "sha256": "90d032701736b4b545ea9dfe85e38ce6843a22830de0fe097d7d6b1e1210e257",
+    "sha256_in_prefix": "90d032701736b4b545ea9dfe85e38ce6843a22830de0fe097d7d6b1e1210e257",
+    "size_in_bytes": 2233
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/dicomfs.py",
+    "path_type": "hardlink",
+    "sha256": "d65523590e33af7cda7d2bf177462b5e68070c48caaa74b766af526d6e8a5ad2",
+    "sha256_in_prefix": "d65523590e33af7cda7d2bf177462b5e68070c48caaa74b766af526d6e8a5ad2",
+    "size_in_bytes": 7963
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/diff.py",
+    "path_type": "hardlink",
+    "sha256": "2447dc170893ef877e551be69f09c576246101781f4f9624da9e9b9eb427baca",
+    "sha256_in_prefix": "2447dc170893ef877e551be69f09c576246101781f4f9624da9e9b9eb427baca",
+    "size_in_bytes": 12265
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/ls.py",
+    "path_type": "hardlink",
+    "sha256": "55988824a7ee86abf97debbeb03f48fa3fcf9165789787c7c94975fa2111d17a",
+    "sha256_in_prefix": "55988824a7ee86abf97debbeb03f48fa3fcf9165789787c7c94975fa2111d17a",
+    "size_in_bytes": 6115
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/nifti_dx.py",
+    "path_type": "hardlink",
+    "sha256": "611a93c1d0603d3b3c6ff09f819d89748c05adb9cea7287fab4b07d072d2e4a1",
+    "sha256_in_prefix": "611a93c1d0603d3b3c6ff09f819d89748c05adb9cea7287fab4b07d072d2e4a1",
+    "size_in_bytes": 1245
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/parrec2nii.py",
+    "path_type": "hardlink",
+    "sha256": "569abc30d4a8a5decd35b8fc429c1bf7d0b0bdd6e7a6d2f4c164fa87235a2a55",
+    "sha256_in_prefix": "569abc30d4a8a5decd35b8fc429c1bf7d0b0bdd6e7a6d2f4c164fa87235a2a55",
+    "size_in_bytes": 15039
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/roi.py",
+    "path_type": "hardlink",
+    "sha256": "b60bca5f644e69455392d59cbec82b78a7e1e3c429610c949f6778e3aff0f2b8",
+    "sha256_in_prefix": "b60bca5f644e69455392d59cbec82b78a7e1e3c429610c949f6778e3aff0f2b8",
+    "size_in_bytes": 3233
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/stats.py",
+    "path_type": "hardlink",
+    "sha256": "d41989830c701a88efd58c1ec8ef0032009a459a45ff538375f7fa1176761a53",
+    "sha256_in_prefix": "d41989830c701a88efd58c1ec8ef0032009a459a45ff538375f7fa1176761a53",
+    "size_in_bytes": 1600
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tck2trk.py",
+    "path_type": "hardlink",
+    "sha256": "d9bf9b8902a905e2a69bbb8389867ddebc5478082329e6663326022ea135e0f7",
+    "sha256_in_prefix": "d9bf9b8902a905e2a69bbb8389867ddebc5478082329e6663326022ea135e0f7",
+    "size_in_bytes": 1842
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_conform.py",
+    "path_type": "hardlink",
+    "sha256": "581c8f2f788ef085a0e867043fc1cf370c1b339b516759afa4185015cc808450",
+    "sha256_in_prefix": "581c8f2f788ef085a0e867043fc1cf370c1b339b516759afa4185015cc808450",
+    "size_in_bytes": 1863
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_convert.py",
+    "path_type": "hardlink",
+    "sha256": "75311b6fd38a6d1e5ec505ce7194804c2841bd928ae7b76be60792f58c468eba",
+    "sha256_in_prefix": "75311b6fd38a6d1e5ec505ce7194804c2841bd928ae7b76be60792f58c468eba",
+    "size_in_bytes": 5299
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_parrec2nii.py",
+    "path_type": "hardlink",
+    "sha256": "94accffbd952fc2a8789e1fb444b36c3657cb28f6c930735d32bbdbef43d52a1",
+    "sha256_in_prefix": "94accffbd952fc2a8789e1fb444b36c3657cb28f6c930735d32bbdbef43d52a1",
+    "size_in_bytes": 3059
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_roi.py",
+    "path_type": "hardlink",
+    "sha256": "22809442f4150ac237598d75d521bdcea512589cde5a5abd7d6c4f2f3c6f3717",
+    "sha256_in_prefix": "22809442f4150ac237598d75d521bdcea512589cde5a5abd7d6c4f2f3c6f3717",
+    "size_in_bytes": 5609
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_stats.py",
+    "path_type": "hardlink",
+    "sha256": "8c4ca88f227aa3708e3728e49fe4d099d9a7231a828942ca9d7052f6705db507",
+    "sha256_in_prefix": "8c4ca88f227aa3708e3728e49fe4d099d9a7231a828942ca9d7052f6705db507",
+    "size_in_bytes": 1046
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/tests/test_utils.py",
+    "path_type": "hardlink",
+    "sha256": "286199cda2d049280c5bc51bcfc46db31a996a7b3d8736112b074e7c134c658f",
+    "sha256_in_prefix": "286199cda2d049280c5bc51bcfc46db31a996a7b3d8736112b074e7c134c658f",
+    "size_in_bytes": 10584
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/trk2tck.py",
+    "path_type": "hardlink",
+    "sha256": "6a1f5351eebb19dff6989ea69b05c1ae46e90688565461327bb5a6f13126607c",
+    "sha256_in_prefix": "6a1f5351eebb19dff6989ea69b05c1ae46e90688565461327bb5a6f13126607c",
+    "size_in_bytes": 1199
+   },
+   {
+    "_path": "site-packages/nibabel/cmdline/utils.py",
+    "path_type": "hardlink",
+    "sha256": "3117b8fbf8ea453fc851c71a233f33a8c60fa8e8621b85e71631aa34f5d929b0",
+    "sha256_in_prefix": "3117b8fbf8ea453fc851c71a233f33a8c60fa8e8621b85e71631aa34f5d929b0",
+    "size_in_bytes": 3432
+   },
+   {
+    "_path": "site-packages/nibabel/conftest.py",
+    "path_type": "hardlink",
+    "sha256": "bea7212f646bede0ff9f58d05d59ad39264b753c4e5f40fcbda75893067d4828",
+    "sha256_in_prefix": "bea7212f646bede0ff9f58d05d59ad39264b753c4e5f40fcbda75893067d4828",
+    "size_in_bytes": 903
+   },
+   {
+    "_path": "site-packages/nibabel/data.py",
+    "path_type": "hardlink",
+    "sha256": "2b063c6ad6ecddf6e3f742c0d6dfa3bc4b80f51f4e0efcb4eda77cf0ea3e2151",
+    "sha256_in_prefix": "2b063c6ad6ecddf6e3f742c0d6dfa3bc4b80f51f4e0efcb4eda77cf0ea3e2151",
+    "size_in_bytes": 11625
+   },
+   {
+    "_path": "site-packages/nibabel/dataobj_images.py",
+    "path_type": "hardlink",
+    "sha256": "ae6ef77617697bf412fd3df16f7373b053fb83eec0262b7cded6b1489bfda516",
+    "sha256_in_prefix": "ae6ef77617697bf412fd3df16f7373b053fb83eec0262b7cded6b1489bfda516",
+    "size_in_bytes": 21107
+   },
+   {
+    "_path": "site-packages/nibabel/deprecated.py",
+    "path_type": "hardlink",
+    "sha256": "e4453b635404cf7fd70cc6e65514a9968ea12bc7e1830813666249e3d4b479ef",
+    "sha256_in_prefix": "e4453b635404cf7fd70cc6e65514a9968ea12bc7e1830813666249e3d4b479ef",
+    "size_in_bytes": 3531
+   },
+   {
+    "_path": "site-packages/nibabel/deprecator.py",
+    "path_type": "hardlink",
+    "sha256": "70194e66f9db727e08ce94b841969bbbd206309b3e8d59b25b5ea094244c58f3",
+    "sha256_in_prefix": "70194e66f9db727e08ce94b841969bbbd206309b3e8d59b25b5ea094244c58f3",
+    "size_in_bytes": 7596
+   },
+   {
+    "_path": "site-packages/nibabel/dft.py",
+    "path_type": "hardlink",
+    "sha256": "1d50d0e5bb009d8ce9b3eac1631a364c32266a3625f331557ba3a9920768fe4a",
+    "sha256_in_prefix": "1d50d0e5bb009d8ce9b3eac1631a364c32266a3625f331557ba3a9920768fe4a",
+    "size_in_bytes": 18272
+   },
+   {
+    "_path": "site-packages/nibabel/ecat.py",
+    "path_type": "hardlink",
+    "sha256": "90b2580425689bf0a3f4a3c365f5421d9c4bde87acfa363cf3c35e94c7c9ea3a",
+    "sha256_in_prefix": "90b2580425689bf0a3f4a3c365f5421d9c4bde87acfa363cf3c35e94c7c9ea3a",
+    "size_in_bytes": 35335
+   },
+   {
+    "_path": "site-packages/nibabel/environment.py",
+    "path_type": "hardlink",
+    "sha256": "937a812dbfdfd86f7aac56be1d9d3fec03e64601e146ab5e94c14e094e7c0c6c",
+    "sha256_in_prefix": "937a812dbfdfd86f7aac56be1d9d3fec03e64601e146ab5e94c14e094e7c0c6c",
+    "size_in_bytes": 2161
+   },
+   {
+    "_path": "site-packages/nibabel/eulerangles.py",
+    "path_type": "hardlink",
+    "sha256": "f4025affde91d3637234bbbaed07ef36095de5b78a514046d18cee0ee330beb7",
+    "sha256_in_prefix": "f4025affde91d3637234bbbaed07ef36095de5b78a514046d18cee0ee330beb7",
+    "size_in_bytes": 13291
+   },
+   {
+    "_path": "site-packages/nibabel/externals/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e65db7191a8f757ea5340c01915544ae7d89c0e7cf29c01bdd9dfdf1e82d88b0",
+    "sha256_in_prefix": "e65db7191a8f757ea5340c01915544ae7d89c0e7cf29c01bdd9dfdf1e82d88b0",
+    "size_in_bytes": 65
+   },
+   {
+    "_path": "site-packages/nibabel/externals/conftest.py",
+    "path_type": "hardlink",
+    "sha256": "a60aa97615065ed2e9369c08aee1a2b05bdc9295085a828e0ee56f9db4c8a0e7",
+    "sha256_in_prefix": "a60aa97615065ed2e9369c08aee1a2b05bdc9295085a828e0ee56f9db4c8a0e7",
+    "size_in_bytes": 529
+   },
+   {
+    "_path": "site-packages/nibabel/externals/netcdf.py",
+    "path_type": "hardlink",
+    "sha256": "a6afcbbf70fe6e18710dd385e0f840f2374f33cfac25cbe2f31ea44a83952188",
+    "sha256_in_prefix": "a6afcbbf70fe6e18710dd385e0f840f2374f33cfac25cbe2f31ea44a83952188",
+    "size_in_bytes": 38907
+   },
+   {
+    "_path": "site-packages/nibabel/externals/oset.py",
+    "path_type": "hardlink",
+    "sha256": "d01867430a415f0a31c11ecc70f5544aaf46406fa8df7338d82082e8a28bc1b2",
+    "sha256_in_prefix": "d01867430a415f0a31c11ecc70f5544aaf46406fa8df7338d82082e8a28bc1b2",
+    "size_in_bytes": 2434
+   },
+   {
+    "_path": "site-packages/nibabel/externals/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "c23ab0c6b64592e14c169f6521fb0c69d52928e730cbb7cfe279a6a7c5c9e3d1",
+    "sha256_in_prefix": "c23ab0c6b64592e14c169f6521fb0c69d52928e730cbb7cfe279a6a7c5c9e3d1",
+    "size_in_bytes": 33
+   },
+   {
+    "_path": "site-packages/nibabel/externals/tests/data/example_1.nc",
+    "path_type": "hardlink",
+    "sha256": "1247c2e7b7565de963817cb9b2276b247246d760f5826414c8f0cad7c5b3953e",
+    "sha256_in_prefix": "1247c2e7b7565de963817cb9b2276b247246d760f5826414c8f0cad7c5b3953e",
+    "size_in_bytes": 1736
+   },
+   {
+    "_path": "site-packages/nibabel/externals/tests/test_netcdf.py",
+    "path_type": "hardlink",
+    "sha256": "61dd89f3fe6c7dbac780817bc05412a522801fa87dc5198abd0efec0e349cad4",
+    "sha256_in_prefix": "61dd89f3fe6c7dbac780817bc05412a522801fa87dc5198abd0efec0e349cad4",
+    "size_in_bytes": 5477
+   },
+   {
+    "_path": "site-packages/nibabel/filebasedimages.py",
+    "path_type": "hardlink",
+    "sha256": "9f245c830d291309ff7ea6ef57fefa4f39f6a842f0eab14faed09a9b5bf1b49a",
+    "sha256_in_prefix": "9f245c830d291309ff7ea6ef57fefa4f39f6a842f0eab14faed09a9b5bf1b49a",
+    "size_in_bytes": 21601
+   },
+   {
+    "_path": "site-packages/nibabel/fileholders.py",
+    "path_type": "hardlink",
+    "sha256": "24b4e31b1ed9cd046021dfc0e86eca2841a3e017d91bfb34f18fda1f2ab36b3f",
+    "sha256_in_prefix": "24b4e31b1ed9cd046021dfc0e86eca2841a3e017d91bfb34f18fda1f2ab36b3f",
+    "size_in_bytes": 3605
+   },
+   {
+    "_path": "site-packages/nibabel/filename_parser.py",
+    "path_type": "hardlink",
+    "sha256": "814587b99c3733fe6d18b59458c5bc251939170bc2bc2a871b25230392e1a166",
+    "sha256_in_prefix": "814587b99c3733fe6d18b59458c5bc251939170bc2bc2a871b25230392e1a166",
+    "size_in_bytes": 10983
+   },
+   {
+    "_path": "site-packages/nibabel/fileslice.py",
+    "path_type": "hardlink",
+    "sha256": "bc7ec29fda58261a3eed025820478f15563c33b0c6b24f9f8fd2b6488ec9ec6f",
+    "sha256_in_prefix": "bc7ec29fda58261a3eed025820478f15563c33b0c6b24f9f8fd2b6488ec9ec6f",
+    "size_in_bytes": 30316
+   },
+   {
+    "_path": "site-packages/nibabel/fileutils.py",
+    "path_type": "hardlink",
+    "sha256": "84e4ee41ccdbd7318dd703b40a7a06fa162bccf2c6e1d95c7d123a543d2fdac7",
+    "sha256_in_prefix": "84e4ee41ccdbd7318dd703b40a7a06fa162bccf2c6e1d95c7d123a543d2fdac7",
+    "size_in_bytes": 2330
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "dfaf73489371bebd409c0472077b4928b66e2b91d4815cb439dd2194d39912fd",
+    "sha256_in_prefix": "dfaf73489371bebd409c0472077b4928b66e2b91d4815cb439dd2194d39912fd",
+    "size_in_bytes": 242
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/io.py",
+    "path_type": "hardlink",
+    "sha256": "985061e5edfc57e796e2d8a3617e741a468dda26779cd6609d745863305d017c",
+    "sha256_in_prefix": "985061e5edfc57e796e2d8a3617e741a468dda26779cd6609d745863305d017c",
+    "size_in_bytes": 20288
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/mghformat.py",
+    "path_type": "hardlink",
+    "sha256": "68334e2a922074f58f4d0f1c37fb2ad5d2fda3cba228363b35b4229085155d33",
+    "sha256_in_prefix": "68334e2a922074f58f4d0f1c37fb2ad5d2fda3cba228363b35b4229085155d33",
+    "size_in_bytes": 21150
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/tests/test_io.py",
+    "path_type": "hardlink",
+    "sha256": "ad7d6a04928cf0c4684fa2ec883de6226ffb21334bedc139b5625f699a68d259",
+    "sha256_in_prefix": "ad7d6a04928cf0c4684fa2ec883de6226ffb21334bedc139b5625f699a68d259",
+    "size_in_bytes": 14571
+   },
+   {
+    "_path": "site-packages/nibabel/freesurfer/tests/test_mghformat.py",
+    "path_type": "hardlink",
+    "sha256": "60c37ad97fa0bd87c46ca926dba938642829b0118cb6c0c4f002b296be680af5",
+    "sha256_in_prefix": "60c37ad97fa0bd87c46ca926dba938642829b0118cb6c0c4f002b296be680af5",
+    "size_in_bytes": 16253
+   },
+   {
+    "_path": "site-packages/nibabel/funcs.py",
+    "path_type": "hardlink",
+    "sha256": "f6bef35616652abb0cac8b471ccbb2ea0184ac262ca056da7d444f31a2c8d8c0",
+    "sha256_in_prefix": "f6bef35616652abb0cac8b471ccbb2ea0184ac262ca056da7d444f31a2c8d8c0",
+    "size_in_bytes": 7124
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "a70221553b28a7ddedf25e34c639dfb28a33934a8e3ba1b8d97129cd49ee753e",
+    "sha256_in_prefix": "a70221553b28a7ddedf25e34c639dfb28a33934a8e3ba1b8d97129cd49ee753e",
+    "size_in_bytes": 653
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/gifti.py",
+    "path_type": "hardlink",
+    "sha256": "da1c2eead71f3896a084dd7f9e1bbd20b7f75c6a602a9c88ada1adc85b0f57f0",
+    "sha256_in_prefix": "da1c2eead71f3896a084dd7f9e1bbd20b7f75c6a602a9c88ada1adc85b0f57f0",
+    "size_in_bytes": 33217
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/parse_gifti_fast.py",
+    "path_type": "hardlink",
+    "sha256": "695821d53b2685cd92f083dfb122b25ef3e684c8523f405a710c3403db16dac0",
+    "sha256_in_prefix": "695821d53b2685cd92f083dfb122b25ef3e684c8523f405a710c3403db16dac0",
+    "size_in_bytes": 14474
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/ascii.gii",
+    "path_type": "hardlink",
+    "sha256": "224415b988134065b2967c246c6c4ff55f7d4f3a94437a5cb40e57e011a41a8f",
+    "sha256_in_prefix": "224415b988134065b2967c246c6c4ff55f7d4f3a94437a5cb40e57e011a41a8f",
+    "size_in_bytes": 2878
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/ascii_flat_data.gii",
+    "path_type": "hardlink",
+    "sha256": "fed9e73dcd3aa0629a978f8b4c41383471de3ba66ab0dbb925320197be3571b9",
+    "sha256_in_prefix": "fed9e73dcd3aa0629a978f8b4c41383471de3ba66ab0dbb925320197be3571b9",
+    "size_in_bytes": 3209
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/base64bin.gii",
+    "path_type": "hardlink",
+    "sha256": "637769f352f46ecbb237db6ffb6271856f2673a9069b195d63fed6ce585af74a",
+    "sha256_in_prefix": "637769f352f46ecbb237db6ffb6271856f2673a9069b195d63fed6ce585af74a",
+    "size_in_bytes": 2049
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/external.dat",
+    "path_type": "hardlink",
+    "sha256": "311c1d16bd1403b737349ce6e36f9257474ad2377870cca869c7d9aef63c0bd5",
+    "sha256_in_prefix": "311c1d16bd1403b737349ce6e36f9257474ad2377870cca869c7d9aef63c0bd5",
+    "size_in_bytes": 240
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/external.gii",
+    "path_type": "hardlink",
+    "sha256": "da5c863ebfb9fddea5aa89265534848b75552bafc8788aacb28ae455794d8341",
+    "sha256_in_prefix": "da5c863ebfb9fddea5aa89265534848b75552bafc8788aacb28ae455794d8341",
+    "size_in_bytes": 1498
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/external.gii.bz2",
+    "path_type": "hardlink",
+    "sha256": "95aa8da6f47f85bcacab48a016fc23e6fa1decbec6ac50b7c62d69b98c090fc5",
+    "sha256_in_prefix": "95aa8da6f47f85bcacab48a016fc23e6fa1decbec6ac50b7c62d69b98c090fc5",
+    "size_in_bytes": 558
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/external.gii.gz",
+    "path_type": "hardlink",
+    "sha256": "c98372531e5fa5c4abad0b72aaa7c7cf3daee7336e03e1e5611e3122d8146892",
+    "sha256_in_prefix": "c98372531e5fa5c4abad0b72aaa7c7cf3daee7336e03e1e5611e3122d8146892",
+    "size_in_bytes": 488
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/gzipbase64.gii",
+    "path_type": "hardlink",
+    "sha256": "73d3ca383b33bb5cbf56896bbeaa71c56003117dce45792b546d1144a9d24fc9",
+    "sha256_in_prefix": "73d3ca383b33bb5cbf56896bbeaa71c56003117dce45792b546d1144a9d24fc9",
+    "size_in_bytes": 712631
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/label.gii",
+    "path_type": "hardlink",
+    "sha256": "e6c4666119c4aa4e49bd2102b4c593187ced17c3d2e61f0f0c48bcc1a69f9458",
+    "sha256_in_prefix": "e6c4666119c4aa4e49bd2102b4c593187ced17c3d2e61f0f0c48bcc1a69f9458",
+    "size_in_bytes": 862335
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/rh.aparc.annot.gii",
+    "path_type": "hardlink",
+    "sha256": "6684b3343341d1d6f5738e1f9ebf85f961202d3b568f88b07e70c7ac61febe9e",
+    "sha256_in_prefix": "6684b3343341d1d6f5738e1f9ebf85f961202d3b568f88b07e70c7ac61febe9e",
+    "size_in_bytes": 47942
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/rh.shape.curv.gii",
+    "path_type": "hardlink",
+    "sha256": "f9f55cfe292a4e230960ca65a36e5f625a65085f4b900127f7db2b6f0c819e52",
+    "sha256_in_prefix": "f9f55cfe292a4e230960ca65a36e5f625a65085f4b900127f7db2b6f0c819e52",
+    "size_in_bytes": 641433
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/data/task.func.gii",
+    "path_type": "hardlink",
+    "sha256": "f56df5b6142794117e363829a609fe205185dcb6026fa083a0c79a867066fd6d",
+    "sha256_in_prefix": "f56df5b6142794117e363829a609fe205185dcb6026fa083a0c79a867066fd6d",
+    "size_in_bytes": 36622
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/test_1.py",
+    "path_type": "hardlink",
+    "sha256": "0248b40eeeb3f97f901ffbe5936c8531a42cd406bfcafcf5de6af6c2a9dc657b",
+    "sha256_in_prefix": "0248b40eeeb3f97f901ffbe5936c8531a42cd406bfcafcf5de6af6c2a9dc657b",
+    "size_in_bytes": 515
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/test_gifti.py",
+    "path_type": "hardlink",
+    "sha256": "fd7f3de12f193634b8d85cf735de9e8c1db4395387fe9d3d32ac9446dfdffba9",
+    "sha256_in_prefix": "fd7f3de12f193634b8d85cf735de9e8c1db4395387fe9d3d32ac9446dfdffba9",
+    "size_in_bytes": 17855
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/tests/test_parse_gifti_fast.py",
+    "path_type": "hardlink",
+    "sha256": "8fc1bac3ded932828049fe6803c28becbc6c7968f1b262fe3677215a6742c9bc",
+    "sha256_in_prefix": "8fc1bac3ded932828049fe6803c28becbc6c7968f1b262fe3677215a6742c9bc",
+    "size_in_bytes": 15107
+   },
+   {
+    "_path": "site-packages/nibabel/gifti/util.py",
+    "path_type": "hardlink",
+    "sha256": "35cc48564ca447f82eaba15ce4268943bca72df6154404c35c9c553eea36d457",
+    "sha256_in_prefix": "35cc48564ca447f82eaba15ce4268943bca72df6154404c35c9c553eea36d457",
+    "size_in_bytes": 1402
+   },
+   {
+    "_path": "site-packages/nibabel/imageclasses.py",
+    "path_type": "hardlink",
+    "sha256": "89106a3caf3d4b7d68ee6d2826f405277f592e32458f9b33238bf8e9092fa9ef",
+    "sha256_in_prefix": "89106a3caf3d4b7d68ee6d2826f405277f592e32458f9b33238bf8e9092fa9ef",
+    "size_in_bytes": 2259
+   },
+   {
+    "_path": "site-packages/nibabel/imageglobals.py",
+    "path_type": "hardlink",
+    "sha256": "c136dc4b045b986a14a65fe2997dda397eb843096092c433d5682447bf25bc53",
+    "sha256_in_prefix": "c136dc4b045b986a14a65fe2997dda397eb843096092c433d5682447bf25bc53",
+    "size_in_bytes": 1989
+   },
+   {
+    "_path": "site-packages/nibabel/imagestats.py",
+    "path_type": "hardlink",
+    "sha256": "3c145a393840ff1dc7f858a640a7b89a97a7a01379c90ea2adef4ddfa2dda412",
+    "sha256_in_prefix": "3c145a393840ff1dc7f858a640a7b89a97a7a01379c90ea2adef4ddfa2dda412",
+    "size_in_bytes": 1777
+   },
+   {
+    "_path": "site-packages/nibabel/info.py",
+    "path_type": "hardlink",
+    "sha256": "202b508933dc439026e0c6a2f23452822b836334bc0426f96e9eb4b8d9f38d7a",
+    "sha256_in_prefix": "202b508933dc439026e0c6a2f23452822b836334bc0426f96e9eb4b8d9f38d7a",
+    "size_in_bytes": 3977
+   },
+   {
+    "_path": "site-packages/nibabel/loadsave.py",
+    "path_type": "hardlink",
+    "sha256": "64eb2518fdeadb30fe4be9d3153a86548941b66e63600fde06e6df5a6301f017",
+    "sha256_in_prefix": "64eb2518fdeadb30fe4be9d3153a86548941b66e63600fde06e6df5a6301f017",
+    "size_in_bytes": 10358
+   },
+   {
+    "_path": "site-packages/nibabel/minc1.py",
+    "path_type": "hardlink",
+    "sha256": "284b0f63f096a9b1bdbdc5a3303891d219d52c493c08fd0f73be80eabf0466ee",
+    "sha256_in_prefix": "284b0f63f096a9b1bdbdc5a3303891d219d52c493c08fd0f73be80eabf0466ee",
+    "size_in_bytes": 12648
+   },
+   {
+    "_path": "site-packages/nibabel/minc2.py",
+    "path_type": "hardlink",
+    "sha256": "1e1913a2f6ccfa9bc87efefaf9073af3487f537849ead24fd10219d3c006d3aa",
+    "sha256_in_prefix": "1e1913a2f6ccfa9bc87efefaf9073af3487f537849ead24fd10219d3c006d3aa",
+    "size_in_bytes": 6507
+   },
+   {
+    "_path": "site-packages/nibabel/mriutils.py",
+    "path_type": "hardlink",
+    "sha256": "ceeac967644f6cdda1dd43e3e80fb593bf9150c5e6ea3a1d69e4b1e63a61a2da",
+    "sha256_in_prefix": "ceeac967644f6cdda1dd43e3e80fb593bf9150c5e6ea3a1d69e4b1e63a61a2da",
+    "size_in_bytes": 1534
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "7af36de5806a836eaedcd38dfed86f82f51de02901d9e2bf591a085ad0871b12",
+    "sha256_in_prefix": "7af36de5806a836eaedcd38dfed86f82f51de02901d9e2bf591a085ad0871b12",
+    "size_in_bytes": 842
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/ascconv.py",
+    "path_type": "hardlink",
+    "sha256": "bfe76e19b6ac49d740e67a4f55f08e3e03255c58626b9e2c4b90e2779874ff7b",
+    "sha256_in_prefix": "bfe76e19b6ac49d740e67a4f55f08e3e03255c58626b9e2c4b90e2779874ff7b",
+    "size_in_bytes": 7061
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/csareader.py",
+    "path_type": "hardlink",
+    "sha256": "7f43d22f941074258537bd028b90c5fabaec4fcde712367e9c2e8e89619a1231",
+    "sha256_in_prefix": "7f43d22f941074258537bd028b90c5fabaec4fcde712367e9c2e8e89619a1231",
+    "size_in_bytes": 7237
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/dicomreaders.py",
+    "path_type": "hardlink",
+    "sha256": "bfc0a9b2f98e59833bcbe7cc0bb327b365ff609350335714bdc1a631a67e5685",
+    "sha256_in_prefix": "bfc0a9b2f98e59833bcbe7cc0bb327b365ff609350335714bdc1a631a67e5685",
+    "size_in_bytes": 6535
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/dicomwrappers.py",
+    "path_type": "hardlink",
+    "sha256": "a4888c2996a73a837ca587dbf5ba7cc43e5ee12e4f98bd8e9106248083c3ea4a",
+    "sha256_in_prefix": "a4888c2996a73a837ca587dbf5ba7cc43e5ee12e4f98bd8e9106248083c3ea4a",
+    "size_in_bytes": 35588
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/dwiparams.py",
+    "path_type": "hardlink",
+    "sha256": "766f2a05406beb66cb34327e0445db1a8a2fbfe3d1bc1bdd207dd88c62340111",
+    "sha256_in_prefix": "766f2a05406beb66cb34327e0445db1a8a2fbfe3d1bc1bdd207dd88c62340111",
+    "size_in_bytes": 4688
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/structreader.py",
+    "path_type": "hardlink",
+    "sha256": "41d79cdb87019e1ceae0744ca82bf93071f2ea76f203cc38ed8c2843c04dfe9f",
+    "sha256_in_prefix": "41d79cdb87019e1ceae0744ca82bf93071f2ea76f203cc38ed8c2843c04dfe9f",
+    "size_in_bytes": 3566
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "acbe411e31405bae73fe9cb1b548acb107c6c3bdc947f4a3dfda2fdf8c7df443",
+    "sha256_in_prefix": "acbe411e31405bae73fe9cb1b548acb107c6c3bdc947f4a3dfda2fdf8c7df443",
+    "size_in_bytes": 189
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/0.dcm",
+    "path_type": "hardlink",
+    "sha256": "7045df97f3f8300f3af2f5ef4006b77b8c3c1181b5668d5f9a4783d2375c6dbb",
+    "sha256_in_prefix": "7045df97f3f8300f3af2f5ef4006b77b8c3c1181b5668d5f9a4783d2375c6dbb",
+    "size_in_bytes": 226390
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/1.dcm",
+    "path_type": "hardlink",
+    "sha256": "df90df7a1174bb1c9efcbb9ceb151b8a02ff0ecc62f86f85ec6d1eb400763489",
+    "sha256_in_prefix": "df90df7a1174bb1c9efcbb9ceb151b8a02ff0ecc62f86f85ec6d1eb400763489",
+    "size_in_bytes": 226390
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/ascconv_sample.txt",
+    "path_type": "hardlink",
+    "sha256": "205a9d4830ffcb3d89ad054d812abc09bffa85c97e9f091e622d2872076ce67e",
+    "sha256_in_prefix": "205a9d4830ffcb3d89ad054d812abc09bffa85c97e9f091e622d2872076ce67e",
+    "size_in_bytes": 46970
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa2_b0.bin",
+    "path_type": "hardlink",
+    "sha256": "88632da26d5ffd905018c6064afaccfed4dd77fb2747822d824a757e4f41516e",
+    "sha256_in_prefix": "88632da26d5ffd905018c6064afaccfed4dd77fb2747822d824a757e4f41516e",
+    "size_in_bytes": 11560
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa2_b1000.bin",
+    "path_type": "hardlink",
+    "sha256": "9779556e56f761939692c92641c1ede8a14b0fc8ae9c2cdd0828675b7a721cd8",
+    "sha256_in_prefix": "9779556e56f761939692c92641c1ede8a14b0fc8ae9c2cdd0828675b7a721cd8",
+    "size_in_bytes": 11864
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa2_zero_len.bin.gz",
+    "path_type": "hardlink",
+    "sha256": "7569925b8dbc33c36e9e679b54e13191320b80eb13ea1ad1ff91685ebaeca81d",
+    "sha256_in_prefix": "7569925b8dbc33c36e9e679b54e13191320b80eb13ea1ad1ff91685ebaeca81d",
+    "size_in_bytes": 9568
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa_slice_norm.dcm",
+    "path_type": "hardlink",
+    "sha256": "867eaf09e39aded47de5c181445b42627cabedc03d2ae9224798d185914931ec",
+    "sha256_in_prefix": "867eaf09e39aded47de5c181445b42627cabedc03d2ae9224798d185914931ec",
+    "size_in_bytes": 13400
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa_str_1001n_items.bin",
+    "path_type": "hardlink",
+    "sha256": "dbfb0b075bd834a4c5aa6425b962bc88d49611a2c03c5fe84f8cade412bb67b6",
+    "sha256_in_prefix": "dbfb0b075bd834a4c5aa6425b962bc88d49611a2c03c5fe84f8cade412bb67b6",
+    "size_in_bytes": 16116
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/csa_str_valid.bin",
+    "path_type": "hardlink",
+    "sha256": "8152d0716ede42f493405be1d64681cdffd736e311f4f3f1ef4bb774dac6544d",
+    "sha256_in_prefix": "8152d0716ede42f493405be1d64681cdffd736e311f4f3f1ef4bb774dac6544d",
+    "size_in_bytes": 132
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/decimal_rescale.dcm",
+    "path_type": "hardlink",
+    "sha256": "881274e34832e1d2bd9b4169fe8dc4be69335658244227ee5c3248a5fdb99f10",
+    "sha256_in_prefix": "881274e34832e1d2bd9b4169fe8dc4be69335658244227ee5c3248a5fdb99f10",
+    "size_in_bytes": 26650
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/philips_mprage.dcm.gz",
+    "path_type": "hardlink",
+    "sha256": "597835d50eaeb1d8423c2f62075fac7133652a1ce4e9812a2d1118d3ab83ebb6",
+    "sha256_in_prefix": "597835d50eaeb1d8423c2f62075fac7133652a1ce4e9812a2d1118d3ab83ebb6",
+    "size_in_bytes": 41441
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/siemens_dwi_0.dcm.gz",
+    "path_type": "hardlink",
+    "sha256": "4c8833f903b329660515d348cfb3d03e46d2cda13dc026946e7418840982e48a",
+    "sha256_in_prefix": "4c8833f903b329660515d348cfb3d03e46d2cda13dc026946e7418840982e48a",
+    "size_in_bytes": 19321
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/siemens_dwi_1000.dcm.gz",
+    "path_type": "hardlink",
+    "sha256": "0d5c5aea1e3de9ad78ddfbbd85c220d464ec66e41cd0cf67789e1f4cc6f3aca4",
+    "sha256_in_prefix": "0d5c5aea1e3de9ad78ddfbbd85c220d464ec66e41cd0cf67789e1f4cc6f3aca4",
+    "size_in_bytes": 19391
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data/slicethickness_empty_string.dcm",
+    "path_type": "hardlink",
+    "sha256": "4268eeb26d494383aceb75e5007fc4b7bf269c6ccabb4d64097fc18e615e9052",
+    "sha256_in_prefix": "4268eeb26d494383aceb75e5007fc4b7bf269c6ccabb4d64097fc18e615e9052",
+    "size_in_bytes": 41726
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/data_pkgs.py",
+    "path_type": "hardlink",
+    "sha256": "d7a2b0e1ece3e35a25193090547355064396b46dfd4f60d997a628049bcd7cbc",
+    "sha256_in_prefix": "d7a2b0e1ece3e35a25193090547355064396b46dfd4f60d997a628049bcd7cbc",
+    "size_in_bytes": 369
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_ascconv.py",
+    "path_type": "hardlink",
+    "sha256": "ef0261ecd6a8e8529ee2d9351d441b8a7446f357274c8c32a4124ea9f13fcc00",
+    "sha256_in_prefix": "ef0261ecd6a8e8529ee2d9351d441b8a7446f357274c8c32a4124ea9f13fcc00",
+    "size_in_bytes": 2643
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_csareader.py",
+    "path_type": "hardlink",
+    "sha256": "e9fcc8f43fc0b06de6fd99fc1514e2a628febd975d9bf58a92adca3bf3d1eb6a",
+    "sha256_in_prefix": "e9fcc8f43fc0b06de6fd99fc1514e2a628febd975d9bf58a92adca3bf3d1eb6a",
+    "size_in_bytes": 4660
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_dicomreaders.py",
+    "path_type": "hardlink",
+    "sha256": "3f764eb53dad1c9f7b1fa9b41affff5a18fa7a98509ac356a03c9c28d84a231f",
+    "sha256_in_prefix": "3f764eb53dad1c9f7b1fa9b41affff5a18fa7a98509ac356a03c9c28d84a231f",
+    "size_in_bytes": 2275
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_dicomwrappers.py",
+    "path_type": "hardlink",
+    "sha256": "e6713d7658c9b9450ba1dd8dea103aa8f74a63979e100a4092cbe30641941f30",
+    "sha256_in_prefix": "e6713d7658c9b9450ba1dd8dea103aa8f74a63979e100a4092cbe30641941f30",
+    "size_in_bytes": 30434
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_dwiparams.py",
+    "path_type": "hardlink",
+    "sha256": "491e5a34c606b3be438e6ee9408d89522a12ca906d02173c77242d8ba0624b80",
+    "sha256_in_prefix": "491e5a34c606b3be438e6ee9408d89522a12ca906d02173c77242d8ba0624b80",
+    "size_in_bytes": 1652
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_structreader.py",
+    "path_type": "hardlink",
+    "sha256": "8bbef194a6d394c71f3de0c5f220f6bab44d8162fdee3b2b069cec1a5249d609",
+    "sha256_in_prefix": "8bbef194a6d394c71f3de0c5f220f6bab44d8162fdee3b2b069cec1a5249d609",
+    "size_in_bytes": 1427
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/tests/test_utils.py",
+    "path_type": "hardlink",
+    "sha256": "1d81f8db36b768ba61161b860fb75e34088a7bdfef3e80205cdfdab514a1278c",
+    "sha256_in_prefix": "1d81f8db36b768ba61161b860fb75e34088a7bdfef3e80205cdfdab514a1278c",
+    "size_in_bytes": 2867
+   },
+   {
+    "_path": "site-packages/nibabel/nicom/utils.py",
+    "path_type": "hardlink",
+    "sha256": "031fddddfb6564f0f3a647c2353f57de04512a44cb73026a586b78e56f2a6b50",
+    "sha256_in_prefix": "031fddddfb6564f0f3a647c2353f57de04512a44cb73026a586b78e56f2a6b50",
+    "size_in_bytes": 1671
+   },
+   {
+    "_path": "site-packages/nibabel/nifti1.py",
+    "path_type": "hardlink",
+    "sha256": "3c577d043f51dc5c1601be9d601d6490fa37702ec22d1117af4498d82f00191b",
+    "sha256_in_prefix": "3c577d043f51dc5c1601be9d601d6490fa37702ec22d1117af4498d82f00191b",
+    "size_in_bytes": 90019
+   },
+   {
+    "_path": "site-packages/nibabel/nifti2.py",
+    "path_type": "hardlink",
+    "sha256": "a5f08ca06b1e29e93317bc982e1d0b977b73a74ae6ebeb2337d924f33e280d74",
+    "sha256_in_prefix": "a5f08ca06b1e29e93317bc982e1d0b977b73a74ae6ebeb2337d924f33e280d74",
+    "size_in_bytes": 10857
+   },
+   {
+    "_path": "site-packages/nibabel/onetime.py",
+    "path_type": "hardlink",
+    "sha256": "11da5fc0a2334039b3a51ad1431ca11f8e7dccf4667649578fd47d117559a96a",
+    "sha256_in_prefix": "11da5fc0a2334039b3a51ad1431ca11f8e7dccf4667649578fd47d117559a96a",
+    "size_in_bytes": 6694
+   },
+   {
+    "_path": "site-packages/nibabel/openers.py",
+    "path_type": "hardlink",
+    "sha256": "b9f219cee41f6936bdf414bd739cc6bd99c05a1cb584204786229bf32896c6dd",
+    "sha256_in_prefix": "b9f219cee41f6936bdf414bd739cc6bd99c05a1cb584204786229bf32896c6dd",
+    "size_in_bytes": 9586
+   },
+   {
+    "_path": "site-packages/nibabel/optpkg.py",
+    "path_type": "hardlink",
+    "sha256": "927ba3d2ca1d0ca06a03e492799136d617b1ccf56615b7df3ef79839345fc624",
+    "sha256_in_prefix": "927ba3d2ca1d0ca06a03e492799136d617b1ccf56615b7df3ef79839345fc624",
+    "size_in_bytes": 4375
+   },
+   {
+    "_path": "site-packages/nibabel/orientations.py",
+    "path_type": "hardlink",
+    "sha256": "d10532fe67729bc58643a5a1ff3dc515b7331d9937d0598eba9f7fec0a5fc142",
+    "sha256_in_prefix": "d10532fe67729bc58643a5a1ff3dc515b7331d9937d0598eba9f7fec0a5fc142",
+    "size_in_bytes": 14040
+   },
+   {
+    "_path": "site-packages/nibabel/parrec.py",
+    "path_type": "hardlink",
+    "sha256": "84ba1470b45054df5b1d43d944dd33c13d5f7ac6f293cefaf3626593a343a128",
+    "sha256_in_prefix": "84ba1470b45054df5b1d43d944dd33c13d5f7ac6f293cefaf3626593a343a128",
+    "size_in_bytes": 51938
+   },
+   {
+    "_path": "site-packages/nibabel/pkg_info.py",
+    "path_type": "hardlink",
+    "sha256": "06e775d2421093b3801e03ea5280defd96b35baa1cd05ac4ef8603e3f640e38d",
+    "sha256_in_prefix": "06e775d2421093b3801e03ea5280defd96b35baa1cd05ac4ef8603e3f640e38d",
+    "size_in_bytes": 4211
+   },
+   {
+    "_path": "site-packages/nibabel/pointset.py",
+    "path_type": "hardlink",
+    "sha256": "55be3e6099f7f576f93df1bee9763c79430e924ad9be8498d8ccd7cd29be160e",
+    "sha256_in_prefix": "55be3e6099f7f576f93df1bee9763c79430e924ad9be8498d8ccd7cd29be160e",
+    "size_in_bytes": 6395
+   },
+   {
+    "_path": "site-packages/nibabel/processing.py",
+    "path_type": "hardlink",
+    "sha256": "23c78ae3df38a7ecbfecceaf238200a94d1cdcb9d3cf161dbe6054dad4089e46",
+    "sha256_in_prefix": "23c78ae3df38a7ecbfecceaf238200a94d1cdcb9d3cf161dbe6054dad4089e46",
+    "size_in_bytes": 14668
+   },
+   {
+    "_path": "site-packages/nibabel/py.typed",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/pydicom_compat.py",
+    "path_type": "hardlink",
+    "sha256": "1226591030efa9991be345bec39dc1aba3eb99ddb8569144c4641816064fe530",
+    "sha256_in_prefix": "1226591030efa9991be345bec39dc1aba3eb99ddb8569144c4641816064fe530",
+    "size_in_bytes": 1861
+   },
+   {
+    "_path": "site-packages/nibabel/quaternions.py",
+    "path_type": "hardlink",
+    "sha256": "f6bd112175c3eb75872318f8e54e517c0f5dbe79ed702cd373d7f0ce590e6ac4",
+    "sha256_in_prefix": "f6bd112175c3eb75872318f8e54e517c0f5dbe79ed702cd373d7f0ce590e6ac4",
+    "size_in_bytes": 13693
+   },
+   {
+    "_path": "site-packages/nibabel/rstutils.py",
+    "path_type": "hardlink",
+    "sha256": "a29a4ce0b5a8e4ccb3b120bd4beb180f8c170afb1743fb26cda415560491ee39",
+    "sha256_in_prefix": "a29a4ce0b5a8e4ccb3b120bd4beb180f8c170afb1743fb26cda415560491ee39",
+    "size_in_bytes": 4558
+   },
+   {
+    "_path": "site-packages/nibabel/spaces.py",
+    "path_type": "hardlink",
+    "sha256": "1ea65b34ca76e939d445ecdc547bff3d823fc058013b85d6c0f899c376bb3a4c",
+    "sha256_in_prefix": "1ea65b34ca76e939d445ecdc547bff3d823fc058013b85d6c0f899c376bb3a4c",
+    "size_in_bytes": 5435
+   },
+   {
+    "_path": "site-packages/nibabel/spatialimages.py",
+    "path_type": "hardlink",
+    "sha256": "4de4a95f156ae6e355ec960cd97d478091f06910264bd17b4d4cccb08d20ed5b",
+    "sha256_in_prefix": "4de4a95f156ae6e355ec960cd97d478091f06910264bd17b4d4cccb08d20ed5b",
+    "size_in_bytes": 23704
+   },
+   {
+    "_path": "site-packages/nibabel/spm2analyze.py",
+    "path_type": "hardlink",
+    "sha256": "8ea0b11ce60e6a9137749ff13eb9f3153537ce01cb8307d97e88d552e4b5099f",
+    "sha256_in_prefix": "8ea0b11ce60e6a9137749ff13eb9f3153537ce01cb8307d97e88d552e4b5099f",
+    "size_in_bytes": 4700
+   },
+   {
+    "_path": "site-packages/nibabel/spm99analyze.py",
+    "path_type": "hardlink",
+    "sha256": "acf0f2eca9b1cee1cf62e6bfdf4123b6005cd241e465120b62a959ba17836635",
+    "sha256_in_prefix": "acf0f2eca9b1cee1cf62e6bfdf4123b6005cd241e465120b62a959ba17836635",
+    "size_in_bytes": 12487
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "a69b34f786d119b90f2ab549977c76f7e14455b26d85b63942f84586fc013138",
+    "sha256_in_prefix": "a69b34f786d119b90f2ab549977c76f7e14455b26d85b63942f84586fc013138",
+    "size_in_bytes": 4438
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/array_sequence.py",
+    "path_type": "hardlink",
+    "sha256": "0a9c623ca6d1cf5750bc866479eeba1c17891a504c3fefc8e547bcca37ca3111",
+    "sha256_in_prefix": "0a9c623ca6d1cf5750bc866479eeba1c17891a504c3fefc8e547bcca37ca3111",
+    "size_in_bytes": 22473
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/header.py",
+    "path_type": "hardlink",
+    "sha256": "f4f6c3e31bc12d0f021fc88b08c8626d86aa4c76c1f1f1145fa97d72c8085d9d",
+    "sha256_in_prefix": "f4f6c3e31bc12d0f021fc88b08c8626d86aa4c76c1f1f1145fa97d72c8085d9d",
+    "size_in_bytes": 673
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tck.py",
+    "path_type": "hardlink",
+    "sha256": "493ff249981a8a53888cdd67cd11e3777d6c9f97741679aa507447ff5284a437",
+    "sha256_in_prefix": "493ff249981a8a53888cdd67cd11e3777d6c9f97741679aa507447ff5284a437",
+    "size_in_bytes": 17945
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_array_sequence.py",
+    "path_type": "hardlink",
+    "sha256": "edd1e1f9ec665b69f1a18f3afd6c9b73c24fd5e86fa53080abc54223db7c3bc7",
+    "sha256_in_prefix": "edd1e1f9ec665b69f1a18f3afd6c9b73c24fd5e86fa53080abc54223db7c3bc7",
+    "size_in_bytes": 19566
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_streamlines.py",
+    "path_type": "hardlink",
+    "sha256": "adf909dad65dc6caf792dfed08d1fb9084f1db7980404b8937b707be0bbbcebd",
+    "sha256_in_prefix": "adf909dad65dc6caf792dfed08d1fb9084f1db7980404b8937b707be0bbbcebd",
+    "size_in_bytes": 11377
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_tck.py",
+    "path_type": "hardlink",
+    "sha256": "9ad55c9f912a6da7488dbd38d7d07b56c4e9d4e85a25114cc16feff460469f77",
+    "sha256_in_prefix": "9ad55c9f912a6da7488dbd38d7d07b56c4e9d4e85a25114cc16feff460469f77",
+    "size_in_bytes": 11202
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_tractogram.py",
+    "path_type": "hardlink",
+    "sha256": "5c525a1a70c37e735e0b766c20fcda872241a84b17e9e224ce387032d1be2559",
+    "sha256_in_prefix": "5c525a1a70c37e735e0b766c20fcda872241a84b17e9e224ce387032d1be2559",
+    "size_in_bytes": 43877
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_tractogram_file.py",
+    "path_type": "hardlink",
+    "sha256": "2f480bf6393681e482777b1bc9adae7a0f50dfc5844e20a60fdde49feff8c181",
+    "sha256_in_prefix": "2f480bf6393681e482777b1bc9adae7a0f50dfc5844e20a60fdde49feff8c181",
+    "size_in_bytes": 2133
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_trk.py",
+    "path_type": "hardlink",
+    "sha256": "98b2305b170eb2f1cc4cd3cafa4c1deea96220f9be074b23d2b9bab0a9bdb010",
+    "sha256_in_prefix": "98b2305b170eb2f1cc4cd3cafa4c1deea96220f9be074b23d2b9bab0a9bdb010",
+    "size_in_bytes": 21177
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tests/test_utils.py",
+    "path_type": "hardlink",
+    "sha256": "d06cca1f660ab8e550ed25493356b8ac93568c5a26e369ba49d34d275bcf4ba2",
+    "sha256_in_prefix": "d06cca1f660ab8e550ed25493356b8ac93568c5a26e369ba49d34d275bcf4ba2",
+    "size_in_bytes": 824
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tractogram.py",
+    "path_type": "hardlink",
+    "sha256": "586ccf80ac07fe625133eeccdeb462e6136bbc070db1dad6db9151985d46c217",
+    "sha256_in_prefix": "586ccf80ac07fe625133eeccdeb462e6136bbc070db1dad6db9151985d46c217",
+    "size_in_bytes": 32425
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/tractogram_file.py",
+    "path_type": "hardlink",
+    "sha256": "3e3e135e502eeaa26f363ac8242eb9c9d799294dcb790720467075e39da4a665",
+    "sha256_in_prefix": "3e3e135e502eeaa26f363ac8242eb9c9d799294dcb790720467075e39da4a665",
+    "size_in_bytes": 3389
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/trk.py",
+    "path_type": "hardlink",
+    "sha256": "89ee5204bdbeb15a9344f4c51f4cf6a2d765c2c4fdb658bbc05986c6b6739592",
+    "sha256_in_prefix": "89ee5204bdbeb15a9344f4c51f4cf6a2d765c2c4fdb658bbc05986c6b6739592",
+    "size_in_bytes": 30081
+   },
+   {
+    "_path": "site-packages/nibabel/streamlines/utils.py",
+    "path_type": "hardlink",
+    "sha256": "e1f6e5447695243087265fe68c933cd1e9a6c66c21dd18523f5b0794a9641869",
+    "sha256_in_prefix": "e1f6e5447695243087265fe68c933cd1e9a6c66c21dd18523f5b0794a9641869",
+    "size_in_bytes": 1390
+   },
+   {
+    "_path": "site-packages/nibabel/testing/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "3b91181cdf9a716d45279c6a350b51129fcc1aa9132527eb51366a8c4347bcdf",
+    "sha256_in_prefix": "3b91181cdf9a716d45279c6a350b51129fcc1aa9132527eb51366a8c4347bcdf",
+    "size_in_bytes": 7875
+   },
+   {
+    "_path": "site-packages/nibabel/testing/helpers.py",
+    "path_type": "hardlink",
+    "sha256": "9315e72d872f6e1b49faf02da4252bfd93a14b54b6cc24a9e32ce98070fbc448",
+    "sha256_in_prefix": "9315e72d872f6e1b49faf02da4252bfd93a14b54b6cc24a9e32ce98070fbc448",
+    "size_in_bytes": 1574
+   },
+   {
+    "_path": "site-packages/nibabel/testing/np_features.py",
+    "path_type": "hardlink",
+    "sha256": "6a657a478b60283f1350757cf17834128b5fb0df6c9dca36fdd2efd44eabe408",
+    "sha256_in_prefix": "6a657a478b60283f1350757cf17834128b5fb0df6c9dca36fdd2efd44eabe408",
+    "size_in_bytes": 471
+   },
+   {
+    "_path": "site-packages/nibabel/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_in_bytes": 0
+   },
+   {
+    "_path": "site-packages/nibabel/tests/conftest.py",
+    "path_type": "hardlink",
+    "sha256": "899f3486a703735714227d28c0cfc0656d6ab79806ef0f57f74461e22919aefe",
+    "sha256_in_prefix": "899f3486a703735714227d28c0cfc0656d6ab79806ef0f57f74461e22919aefe",
+    "size_in_bytes": 684
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/.gitignore",
+    "path_type": "hardlink",
+    "sha256": "e084e990bc718e87ac0cd04f95e2706023c17af937a5b970b156a5006293fbe7",
+    "sha256_in_prefix": "e084e990bc718e87ac0cd04f95e2706023c17af937a5b970b156a5006293fbe7",
+    "size_in_bytes": 40
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/0.dcm",
+    "path_type": "hardlink",
+    "sha256": "7045df97f3f8300f3af2f5ef4006b77b8c3c1181b5668d5f9a4783d2375c6dbb",
+    "sha256_in_prefix": "7045df97f3f8300f3af2f5ef4006b77b8c3c1181b5668d5f9a4783d2375c6dbb",
+    "size_in_bytes": 226390
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/1.dcm",
+    "path_type": "hardlink",
+    "sha256": "df90df7a1174bb1c9efcbb9ceb151b8a02ff0ecc62f86f85ec6d1eb400763489",
+    "sha256_in_prefix": "df90df7a1174bb1c9efcbb9ceb151b8a02ff0ecc62f86f85ec6d1eb400763489",
+    "size_in_bytes": 226390
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/ADC_Map.PAR",
+    "path_type": "hardlink",
+    "sha256": "1581dd036c4c42d6deead83dcb04bfaaffbc09a6b6648be29de75d41dfaef5f6",
+    "sha256_in_prefix": "1581dd036c4c42d6deead83dcb04bfaaffbc09a6b6648be29de75d41dfaef5f6",
+    "size_in_bytes": 11896
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/ASL_3D_Multiecho.PAR",
+    "path_type": "hardlink",
+    "sha256": "209ac1b2cb1669e833b85d2af96e1fac502b2dc1db2a10c919e2b303e943daf2",
+    "sha256_in_prefix": "209ac1b2cb1669e833b85d2af96e1fac502b2dc1db2a10c919e2b303e943daf2",
+    "size_in_bytes": 33533
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/DTI.PAR",
+    "path_type": "hardlink",
+    "sha256": "1a9d6f4e3d075afe7d8fa9e2e872fd5cbc506443498ce4c670402d5d73adf6c4",
+    "sha256_in_prefix": "1a9d6f4e3d075afe7d8fa9e2e872fd5cbc506443498ce4c670402d5d73adf6c4",
+    "size_in_bytes": 28888
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/DTIv40.PAR",
+    "path_type": "hardlink",
+    "sha256": "e52ead532b022ce9926e546d7c3664cd93c204ae277a65701e7bdbd3997a15cb",
+    "sha256_in_prefix": "e52ead532b022ce9926e546d7c3664cd93c204ae277a65701e7bdbd3997a15cb",
+    "size_in_bytes": 24840
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/NA.PAR",
+    "path_type": "hardlink",
+    "sha256": "5f1533b64c3b08838de6198d22e5b3ad76a9f172b91cc4b3d1362e0de9c924b2",
+    "sha256_in_prefix": "5f1533b64c3b08838de6198d22e5b3ad76a9f172b91cc4b3d1362e0de9c924b2",
+    "size_in_bytes": 8091
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_cor_20APtrans_15RLrot_SENSE_15_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "5a51133ed7a31e87355a71fe9847259d8a3e929d1f2c15970ce4ee48bd482539",
+    "sha256_in_prefix": "5a51133ed7a31e87355a71fe9847259d8a3e929d1f2c15970ce4ee48bd482539",
+    "size_in_bytes": 17280
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_cor_SENSE_8_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "d2743ff735c14aaba0106d4c54d73dcdeb31597aef5ed735080070880b303196",
+    "sha256_in_prefix": "d2743ff735c14aaba0106d4c54d73dcdeb31597aef5ed735080070880b303196",
+    "size_in_bytes": 17230
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15AP_SENSE_13_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "73a715fd94ae9d2c8531dad26bb542c3babcd7418f1ec1c9b4a1393d44439007",
+    "sha256_in_prefix": "73a715fd94ae9d2c8531dad26bb542c3babcd7418f1ec1c9b4a1393d44439007",
+    "size_in_bytes": 17264
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15FH_SENSE_12_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "1106b4dab32d40aa77bc47e79a2fdfcac87f9cbbd56ecab5a44de03cb8a7278a",
+    "sha256_in_prefix": "1106b4dab32d40aa77bc47e79a2fdfcac87f9cbbd56ecab5a44de03cb8a7278a",
+    "size_in_bytes": 17203
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_15RL_SENSE_11_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "b4e36a0b85d59aa92b2b22d90860c4d65590ba573465b201a47bbee368074c23",
+    "sha256_in_prefix": "b4e36a0b85d59aa92b2b22d90860c4d65590ba573465b201a47bbee368074c23",
+    "size_in_bytes": 17263
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_sag_SENSE_7_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "14bbd8529e734553330abe2ce1644bc60918c7d785089246ebf3feefa55b9002",
+    "sha256_in_prefix": "14bbd8529e734553330abe2ce1644bc60918c7d785089246ebf3feefa55b9002",
+    "size_in_bytes": 17252
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_-30AP_10RL_20FH_SENSE_14_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "ff05e688c4c12fe726c17a1eca240664e93aaa85d3922963e6c79740dce5b8ed",
+    "sha256_in_prefix": "ff05e688c4c12fe726c17a1eca240664e93aaa85d3922963e6c79740dce5b8ed",
+    "size_in_bytes": 17290
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_15FH_SENSE_9_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "1b71b98e6656bf61a9dcc9e7f061100520a92b564d1e02f254443b0ae5c08d7f",
+    "sha256_in_prefix": "1b71b98e6656bf61a9dcc9e7f061100520a92b564d1e02f254443b0ae5c08d7f",
+    "size_in_bytes": 17201
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_15RL_SENSE_10_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "4423a602c330b1ec6f7920c5c5c0666aa519a03691e0c74838bdc77b78f587b7",
+    "sha256_in_prefix": "4423a602c330b1ec6f7920c5c5c0666aa519a03691e0c74838bdc77b78f587b7",
+    "size_in_bytes": 17264
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/Phantom_EPI_3mm_tra_SENSE_6_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "157099a83a3d58e33517c1e22a0f8ef1951b4bc063cfe945528bdd7cb9510240",
+    "sha256_in_prefix": "157099a83a3d58e33517c1e22a0f8ef1951b4bc063cfe945528bdd7cb9510240",
+    "size_in_bytes": 17252
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/README.rst",
+    "path_type": "hardlink",
+    "sha256": "9714551f65cbd4b50dc73bb472ff380afe402ec8040352ac01b92c02b01bbcb9",
+    "sha256_in_prefix": "9714551f65cbd4b50dc73bb472ff380afe402ec8040352ac01b92c02b01bbcb9",
+    "size_in_bytes": 345
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T1.PAR",
+    "path_type": "hardlink",
+    "sha256": "a935ff6c5c3c143d62558fe18102137c47f9f0e3ea55305b1a9f3530ea0bfaf8",
+    "sha256_in_prefix": "a935ff6c5c3c143d62558fe18102137c47f9f0e3ea55305b1a9f3530ea0bfaf8",
+    "size_in_bytes": 8365
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T1_3echo_mag_real_imag_phase.PAR",
+    "path_type": "hardlink",
+    "sha256": "12d9a3e7c49177a58836ee655e223ff0eb17c0e79b519c331ba8da372c373297",
+    "sha256_in_prefix": "12d9a3e7c49177a58836ee655e223ff0eb17c0e79b519c331ba8da372c373297",
+    "size_in_bytes": 110896
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T1_dual_echo.PAR",
+    "path_type": "hardlink",
+    "sha256": "a3fea4783026fed08de0805f9f04a3c09b39060bf33f1420cb637fbe0d920c30",
+    "sha256_in_prefix": "a3fea4783026fed08de0805f9f04a3c09b39060bf33f1420cb637fbe0d920c30",
+    "size_in_bytes": 110888
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T2-interleaved.PAR",
+    "path_type": "hardlink",
+    "sha256": "738d1fec4924e72d1b99c6cd1666ebd9de06e8705310cde84af762639f2739ca",
+    "sha256_in_prefix": "738d1fec4924e72d1b99c6cd1666ebd9de06e8705310cde84af762639f2739ca",
+    "size_in_bytes": 8379
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T2.PAR",
+    "path_type": "hardlink",
+    "sha256": "cc82866cba10615172624263a69a2ee0d094dec37a30adae0e1ee24ac0608a83",
+    "sha256_in_prefix": "cc82866cba10615172624263a69a2ee0d094dec37a30adae0e1ee24ac0608a83",
+    "size_in_bytes": 8367
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T2_-interleaved.PAR",
+    "path_type": "hardlink",
+    "sha256": "3aeee51705aec1984c4fddc6805a1e5735b1bffe8cc183725474b8683faed154",
+    "sha256_in_prefix": "3aeee51705aec1984c4fddc6805a1e5735b1bffe8cc183725474b8683faed154",
+    "size_in_bytes": 11314
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/T2_.PAR",
+    "path_type": "hardlink",
+    "sha256": "d8ba7bd048a2f9c7915e569d3f735da3051295ce27b902ec197e2dbb4e2014e1",
+    "sha256_in_prefix": "d8ba7bd048a2f9c7915e569d3f735da3051295ce27b902ec197e2dbb4e2014e1",
+    "size_in_bytes": 11300
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/analyze.hdr",
+    "path_type": "hardlink",
+    "sha256": "e4f069fda1f7309160cc74ca76836c394723f152a62574ff8ef79c336539a331",
+    "sha256_in_prefix": "e4f069fda1f7309160cc74ca76836c394723f152a62574ff8ef79c336539a331",
+    "size_in_bytes": 348
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/anatomical.nii",
+    "path_type": "hardlink",
+    "sha256": "1c089f37b6597a38bb4157a1e1b3f7f13f1bc9d4e7a8cfdfaf91d85cd8f66594",
+    "sha256_in_prefix": "1c089f37b6597a38bb4157a1e1b3f7f13f1bc9d4e7a8cfdfaf91d85cd8f66594",
+    "size_in_bytes": 68002
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/bad_attribute+orig.HEAD",
+    "path_type": "hardlink",
+    "sha256": "37cd12876670012389dd42bd1b0cfdea40fc247607d7799e190f5d77f8720a46",
+    "sha256_in_prefix": "37cd12876670012389dd42bd1b0cfdea40fc247607d7799e190f5d77f8720a46",
+    "size_in_bytes": 2673
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/bad_datatype+orig.HEAD",
+    "path_type": "hardlink",
+    "sha256": "d946114c27dbb3ac49dec8445303ad08c1419854f3767ecb5986219c6a60d1de",
+    "sha256_in_prefix": "d946114c27dbb3ac49dec8445303ad08c1419854f3767ecb5986219c6a60d1de",
+    "size_in_bytes": 2672
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/check_parrec_reslice.py",
+    "path_type": "hardlink",
+    "sha256": "03042c3d726b583fb322e5e3f63617e2a2bd3d090c63bc641dc6c7b46b5566da",
+    "sha256_in_prefix": "03042c3d726b583fb322e5e3f63617e2a2bd3d090c63bc641dc6c7b46b5566da",
+    "size_in_bytes": 2736
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/complex.trk",
+    "path_type": "hardlink",
+    "sha256": "871506074b854fa332fbbb3752c8cec415f5971d08f5509575e1dc73ce49678b",
+    "sha256_in_prefix": "871506074b854fa332fbbb3752c8cec415f5971d08f5509575e1dc73ce49678b",
+    "size_in_bytes": 1296
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/complex_big_endian.trk",
+    "path_type": "hardlink",
+    "sha256": "39e428dbbb3ff97c72d80ca344f2e0178a8c7fa75bf48c5f0d0d7546b0fb04ce",
+    "sha256_in_prefix": "39e428dbbb3ff97c72d80ca344f2e0178a8c7fa75bf48c5f0d0d7546b0fb04ce",
+    "size_in_bytes": 1296
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/empty.tck",
+    "path_type": "hardlink",
+    "sha256": "d83760dd8feef2ae300d525f6490a42b7ab5f5a27cbcdc41a235cd2e886a67a5",
+    "sha256_in_prefix": "d83760dd8feef2ae300d525f6490a42b7ab5f5a27cbcdc41a235cd2e886a67a5",
+    "size_in_bytes": 79
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/empty.trk",
+    "path_type": "hardlink",
+    "sha256": "47f690231d11c469c1f5e816dc424cf61206e288b43e11e97457659738a94e89",
+    "sha256_in_prefix": "47f690231d11c469c1f5e816dc424cf61206e288b43e11e97457659738a94e89",
+    "size_in_bytes": 1000
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/example4d+orig.BRIK.gz",
+    "path_type": "hardlink",
+    "sha256": "76ee906d4e79f2420abc2627070e599bf34fc31f16038a8ab0baae82b31c63c9",
+    "sha256_in_prefix": "76ee906d4e79f2420abc2627070e599bf34fc31f16038a8ab0baae82b31c63c9",
+    "size_in_bytes": 177051
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/example4d+orig.HEAD",
+    "path_type": "hardlink",
+    "sha256": "9c12a532a980bef5479bcdc63b0f398d250a80012c3ae33ac14abcb9a0d8a576",
+    "sha256_in_prefix": "9c12a532a980bef5479bcdc63b0f398d250a80012c3ae33ac14abcb9a0d8a576",
+    "size_in_bytes": 2672
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/example4d.nii.gz",
+    "path_type": "hardlink",
+    "sha256": "42097dfbab9d2a036b41ae5c97a359591cf2cf5c3f8dc6ca6455c0b8a7f22696",
+    "sha256_in_prefix": "42097dfbab9d2a036b41ae5c97a359591cf2cf5c3f8dc6ca6455c0b8a7f22696",
+    "size_in_bytes": 346451
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/example_nifti2.nii.gz",
+    "path_type": "hardlink",
+    "sha256": "a53e59e70eb0d8275a4fe347422a89551aee92d0eb1137a3444b1932a28c3fe2",
+    "sha256_in_prefix": "a53e59e70eb0d8275a4fe347422a89551aee92d0eb1137a3444b1932a28c3fe2",
+    "size_in_bytes": 21160
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/fieldmap.PAR",
+    "path_type": "hardlink",
+    "sha256": "f0479b7b506b7e50bee4cb6595548778a7b2d148c71d729cd92d569c20685bff",
+    "sha256_in_prefix": "f0479b7b506b7e50bee4cb6595548778a7b2d148c71d729cd92d569c20685bff",
+    "size_in_bytes": 11309
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/functional.nii",
+    "path_type": "hardlink",
+    "sha256": "0591d9f8c21f1a0af46567c47f96307ae8faf6b70771a881f4cc477502af7b26",
+    "sha256_in_prefix": "0591d9f8c21f1a0af46567c47f96307ae8faf6b70771a881f4cc477502af7b26",
+    "size_in_bytes": 43192
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/gen_standard.py",
+    "path_type": "hardlink",
+    "sha256": "d373aba4723b5842868d2ea7bd76f7739921ea1f497ca8f26c3464c13428a4c2",
+    "sha256_in_prefix": "d373aba4723b5842868d2ea7bd76f7739921ea1f497ca8f26c3464c13428a4c2",
+    "size_in_bytes": 2456
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/make_moved_anat.py",
+    "path_type": "hardlink",
+    "sha256": "48717f6ce9f018c18e620406821a063762d460b32c8d25b0a74f7ea4424510ad",
+    "sha256_in_prefix": "48717f6ce9f018c18e620406821a063762d460b32c8d25b0a74f7ea4424510ad",
+    "size_in_bytes": 687
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/matlab_nan.tck",
+    "path_type": "hardlink",
+    "sha256": "b85f70f29a415cb25fca7c0273ff81dc1806e881446cfedfc085cc0e7364cf30",
+    "sha256_in_prefix": "b85f70f29a415cb25fca7c0273ff81dc1806e881446cfedfc085cc0e7364cf30",
+    "size_in_bytes": 1657
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc1-no-att.mnc",
+    "path_type": "hardlink",
+    "sha256": "97aa62ff2e49e31ea8d27daf0e9c1030e5c41b916aa741e8cdf013e07013a021",
+    "sha256_in_prefix": "97aa62ff2e49e31ea8d27daf0e9c1030e5c41b916aa741e8cdf013e07013a021",
+    "size_in_bytes": 6872
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc1_1_scale.mnc",
+    "path_type": "hardlink",
+    "sha256": "18f85a8a17a7b06e33effdc0f1d5241d224bf0c7a8c160465ff93f0c9ac87aea",
+    "sha256_in_prefix": "18f85a8a17a7b06e33effdc0f1d5241d224bf0c7a8c160465ff93f0c9ac87aea",
+    "size_in_bytes": 6836
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc1_4d.mnc",
+    "path_type": "hardlink",
+    "sha256": "4fc90aa5a51274a99ffec492e1bdddea5c84743123d4345126415d79ccc1da55",
+    "sha256_in_prefix": "4fc90aa5a51274a99ffec492e1bdddea5c84743123d4345126415d79ccc1da55",
+    "size_in_bytes": 11804
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc2-4d-d.mnc",
+    "path_type": "hardlink",
+    "sha256": "2b7d409904761add8be89285b328859a295f031266ccc1de1b0d579f0cfd412b",
+    "sha256_in_prefix": "2b7d409904761add8be89285b328859a295f031266ccc1de1b0d579f0cfd412b",
+    "size_in_bytes": 183809
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc2-no-att.mnc",
+    "path_type": "hardlink",
+    "sha256": "756ab3add564ddcb01b4f2a9dd19cfd23b199d781ba79f146dd9c0bfd8cac87c",
+    "sha256_in_prefix": "756ab3add564ddcb01b4f2a9dd19cfd23b199d781ba79f146dd9c0bfd8cac87c",
+    "size_in_bytes": 21659
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc2_1_scale.mnc",
+    "path_type": "hardlink",
+    "sha256": "f8910c3cb9a6fb2e4bb0a9bfff1219861109119bc002525c7620c93b1565e49e",
+    "sha256_in_prefix": "f8910c3cb9a6fb2e4bb0a9bfff1219861109119bc002525c7620c93b1565e49e",
+    "size_in_bytes": 18268
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc2_4d.mnc",
+    "path_type": "hardlink",
+    "sha256": "a942420945d66e98a72fd0bc2e4a5bfd2b5cef6c5f9c9ad286def13a8a35e315",
+    "sha256_in_prefix": "a942420945d66e98a72fd0bc2e4a5bfd2b5cef6c5f9c9ad286def13a8a35e315",
+    "size_in_bytes": 27738
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/minc2_baddim.mnc",
+    "path_type": "hardlink",
+    "sha256": "83c5a1b23b869154a3c7d452668f848e2999ad5f427f12a68b69068386680c64",
+    "sha256_in_prefix": "83c5a1b23b869154a3c7d452668f848e2999ad5f427f12a68b69068386680c64",
+    "size_in_bytes": 19825
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/multiline_header_field.tck",
+    "path_type": "hardlink",
+    "sha256": "8c57bc0757c61e278c0ddd8906e1b926a8faffbb0a71247e624cb420d7d10622",
+    "sha256_in_prefix": "8c57bc0757c61e278c0ddd8906e1b926a8faffbb0a71247e624cb420d7d10622",
+    "size_in_bytes": 4411
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/nifti1.hdr",
+    "path_type": "hardlink",
+    "sha256": "356435fb06b67d6a62a437561424282683ab14611923a2e3862925d89ae3d816",
+    "sha256_in_prefix": "356435fb06b67d6a62a437561424282683ab14611923a2e3862925d89ae3d816",
+    "size_in_bytes": 352
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/nifti2.hdr",
+    "path_type": "hardlink",
+    "sha256": "ec314df24ffb06e1735513980e4b58ada54045a828bb8bbe890a9f67501b8491",
+    "sha256_in_prefix": "ec314df24ffb06e1735513980e4b58ada54045a828bb8bbe890a9f67501b8491",
+    "size_in_bytes": 544
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/no_header_end.tck",
+    "path_type": "hardlink",
+    "sha256": "f8cd829debf3d08080f703fe2a563d5b6f4923c961307d9cc5f0ab19828d79fe",
+    "sha256_in_prefix": "f8cd829debf3d08080f703fe2a563d5b6f4923c961307d9cc5f0ab19828d79fe",
+    "size_in_bytes": 81
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/no_header_end_eof.tck",
+    "path_type": "hardlink",
+    "sha256": "f8150edf58dde9ccfe1f4dc12f447207417df1e132a5cb32bebb73d455e26c5a",
+    "sha256_in_prefix": "f8150edf58dde9ccfe1f4dc12f447207417df1e132a5cb32bebb73d455e26c5a",
+    "size_in_bytes": 62
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/no_magic_number.tck",
+    "path_type": "hardlink",
+    "sha256": "8e9fdc50c276c34c6f4eb0a7aed3b161d03f33453119f447590cd7ff81b76db5",
+    "sha256_in_prefix": "8e9fdc50c276c34c6f4eb0a7aed3b161d03f33453119f447590cd7ff81b76db5",
+    "size_in_bytes": 71
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "f71ea4fc3dc7a22ef1cf1965c03d7750ca917c4c25cacabbc8c3fb65472d73f8",
+    "sha256_in_prefix": "f71ea4fc3dc7a22ef1cf1965c03d7750ca917c4c25cacabbc8c3fb65472d73f8",
+    "size_in_bytes": 13368
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.REC",
+    "path_type": "hardlink",
+    "sha256": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "sha256_in_prefix": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "size_in_bytes": 221184
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_fake_dualTR.PAR",
+    "path_type": "hardlink",
+    "sha256": "4b28e98e37f64c86578ac4fbba812abe7b010465b68dacdcd98690820e76e705",
+    "sha256_in_prefix": "4b28e98e37f64c86578ac4fbba812abe7b010465b68dacdcd98690820e76e705",
+    "size_in_bytes": 13180
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_fake_v4.PAR",
+    "path_type": "hardlink",
+    "sha256": "56c8fadce40b36cfd2216e2c2311dfa7f4501f717772d76c6eb80d3b0766c102",
+    "sha256_in_prefix": "56c8fadce40b36cfd2216e2c2311dfa7f4501f717772d76c6eb80d3b0766c102",
+    "size_in_bytes": 11609
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_fake_v4_1.PAR",
+    "path_type": "hardlink",
+    "sha256": "df78b5ddfd3af0604dfee615b0d34f828c8b0cf10e65917667399c6ae4ac2798",
+    "sha256_in_prefix": "df78b5ddfd3af0604dfee615b0d34f828c8b0cf10e65917667399c6ae4ac2798",
+    "size_in_bytes": 13174
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_truncated.PAR",
+    "path_type": "hardlink",
+    "sha256": "7e2a99972e927b5ff0a5e70654c885838e6562c29c70c705b4dcc0c46849d3ea",
+    "sha256_in_prefix": "7e2a99972e927b5ff0a5e70654c885838e6562c29c70c705b4dcc0c46849d3ea",
+    "size_in_bytes": 13368
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_truncated.REC",
+    "path_type": "hardlink",
+    "sha256": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "sha256_in_prefix": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "size_in_bytes": 221184
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_varscale.PAR",
+    "path_type": "hardlink",
+    "sha256": "feedb5ed454ceb83b79454004e7059fec43c3be1f16b85a8e7cb8f4cc89a2384",
+    "sha256_in_prefix": "feedb5ed454ceb83b79454004e7059fec43c3be1f16b85a8e7cb8f4cc89a2384",
+    "size_in_bytes": 13368
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/phantom_varscale.REC",
+    "path_type": "hardlink",
+    "sha256": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "sha256_in_prefix": "6a27cb6d719ed93f5ce2df947c6f8dbfaba5d458cfc7fc985099dbe5424b2aac",
+    "size_in_bytes": 221184
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/reoriented_anat_moved.nii",
+    "path_type": "hardlink",
+    "sha256": "fd54cf0ce7b52935ed63e02490a07c4f5d949ab2572d13d2626001aeecab17cf",
+    "sha256_in_prefix": "fd54cf0ce7b52935ed63e02490a07c4f5d949ab2572d13d2626001aeecab17cf",
+    "size_in_bytes": 48400
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/resample_using_spm.m",
+    "path_type": "hardlink",
+    "sha256": "c4c4b21ae08339313dd2897755ac125c2459efd791f17f56bd3a2a859403bfc5",
+    "sha256_in_prefix": "c4c4b21ae08339313dd2897755ac125c2459efd791f17f56bd3a2a859403bfc5",
+    "size_in_bytes": 604
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/resampled_anat_moved.nii",
+    "path_type": "hardlink",
+    "sha256": "1840a0022a316e2acacab3e18e716a15a140f2057ff88b7770a0ab3f9dd31cc3",
+    "sha256_in_prefix": "1840a0022a316e2acacab3e18e716a15a140f2057ff88b7770a0ab3f9dd31cc3",
+    "size_in_bytes": 4636
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/row_major.dconn.nii",
+    "path_type": "hardlink",
+    "sha256": "4447cf7162bbad58a6dbe894a52f9f470c2bed4149b214f2b38c75f4f08feb6d",
+    "sha256_in_prefix": "4447cf7162bbad58a6dbe894a52f9f470c2bed4149b214f2b38c75f4f08feb6d",
+    "size_in_bytes": 1888
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/scaled+tlrc.BRIK",
+    "path_type": "hardlink",
+    "sha256": "50d211c725fcf4bd6a41757ccaf6975dd3a8e32bdd56e09613269a9cdeeb233b",
+    "sha256_in_prefix": "50d211c725fcf4bd6a41757ccaf6975dd3a8e32bdd56e09613269a9cdeeb233b",
+    "size_in_bytes": 218268
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/scaled+tlrc.HEAD",
+    "path_type": "hardlink",
+    "sha256": "878b7f260271c146db584c5706fa200f6befebfc0ec945613f7bc60e2cf9a5d6",
+    "sha256_in_prefix": "878b7f260271c146db584c5706fa200f6befebfc0ec945613f7bc60e2cf9a5d6",
+    "size_in_bytes": 1923
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/simple.tck",
+    "path_type": "hardlink",
+    "sha256": "3fbfa9071e9c83bcdd1076b064db0974abddffaccda1dcf6115eba8c86c63196",
+    "sha256_in_prefix": "3fbfa9071e9c83bcdd1076b064db0974abddffaccda1dcf6115eba8c86c63196",
+    "size_in_bytes": 211
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/simple.trk",
+    "path_type": "hardlink",
+    "sha256": "1d36eb0cda9afb2eacee16d4f36aa2f3e7d8b04fc5e5fc5d4d8a6c853ba351aa",
+    "sha256_in_prefix": "1d36eb0cda9afb2eacee16d4f36aa2f3e7d8b04fc5e5fc5d4d8a6c853ba351aa",
+    "size_in_bytes": 1108
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/simple_big_endian.tck",
+    "path_type": "hardlink",
+    "sha256": "029d4568204a59b66a0e8a9f3a2dd1e10b03fc0db739578e5de2c09a9444f73d",
+    "sha256_in_prefix": "029d4568204a59b66a0e8a9f3a2dd1e10b03fc0db739578e5de2c09a9444f73d",
+    "size_in_bytes": 211
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/small.mnc",
+    "path_type": "hardlink",
+    "sha256": "93d04cfb7054151ee2ccf35508d3920e83e2cbf85b086bdb9d971090080135ce",
+    "sha256_in_prefix": "93d04cfb7054151ee2ccf35508d3920e83e2cbf85b086bdb9d971090080135ce",
+    "size_in_bytes": 40208
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/standard.LPS.trk",
+    "path_type": "hardlink",
+    "sha256": "18fb667beb4b33f0e47884ed39ab28897eb0e46c7999c6ccac4d7777bf89035b",
+    "sha256_in_prefix": "18fb667beb4b33f0e47884ed39ab28897eb0e46c7999c6ccac4d7777bf89035b",
+    "size_in_bytes": 5800
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/standard.nii.gz",
+    "path_type": "hardlink",
+    "sha256": "f9556106668e78b5a3ef56a0e7bcaa06a9d6a4f9a5aab0cd5548e198095a0bbd",
+    "sha256_in_prefix": "f9556106668e78b5a3ef56a0e7bcaa06a9d6a4f9a5aab0cd5548e198095a0bbd",
+    "size_in_bytes": 143
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/standard.tck",
+    "path_type": "hardlink",
+    "sha256": "926bfd78dff9d1bb9244901cf9b37cd02933f10f5298b28a81e7b45424768c2f",
+    "sha256_in_prefix": "926bfd78dff9d1bb9244901cf9b37cd02933f10f5298b28a81e7b45424768c2f",
+    "size_in_bytes": 5839
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/standard.trk",
+    "path_type": "hardlink",
+    "sha256": "5c2cc3b9d3c5f0f49939b3bb15242b69fc91b198f1158117e33da9d70140eb47",
+    "sha256_in_prefix": "5c2cc3b9d3c5f0f49939b3bb15242b69fc91b198f1158117e33da9d70140eb47",
+    "size_in_bytes": 5800
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/test.mgz",
+    "path_type": "hardlink",
+    "sha256": "ee0d09022fa30dca0c16959a769893141122fe8c04b19708e2264576d2b7a6e9",
+    "sha256_in_prefix": "ee0d09022fa30dca0c16959a769893141122fe8c04b19708e2264576d2b7a6e9",
+    "size_in_bytes": 680
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/tiny.mnc",
+    "path_type": "hardlink",
+    "sha256": "638f79d4c09ccec9485e68e9c16af40b754ab606f5ede327de9f6be52a4a0cbc",
+    "sha256_in_prefix": "638f79d4c09ccec9485e68e9c16af40b754ab606f5ede327de9f6be52a4a0cbc",
+    "size_in_bytes": 7372
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/tinypet.v",
+    "path_type": "hardlink",
+    "sha256": "1879f6c555dd77f50e72b69b2984ddf11af3fe4e2156bcd0f10446657e9c1e1f",
+    "sha256_in_prefix": "1879f6c555dd77f50e72b69b2984ddf11af3fe4e2156bcd0f10446657e9c1e1f",
+    "size_in_bytes": 2136
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/to_canonical.m",
+    "path_type": "hardlink",
+    "sha256": "6e003cdfc1248fe602c4fb044161d1eeb0c0ad8e923dda80cba5820c90e93a83",
+    "sha256_in_prefix": "6e003cdfc1248fe602c4fb044161d1eeb0c0ad8e923dda80cba5820c90e93a83",
+    "size_in_bytes": 2098
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/umass_anonymized.PAR",
+    "path_type": "hardlink",
+    "sha256": "0eecedd11470492c64788077f045d5ed8645f876e6ae0a21a349967ddd2c97b3",
+    "sha256_in_prefix": "0eecedd11470492c64788077f045d5ed8645f876e6ae0a21a349967ddd2c97b3",
+    "size_in_bytes": 26094
+   },
+   {
+    "_path": "site-packages/nibabel/tests/data/variant_v4_2_header.PAR",
+    "path_type": "hardlink",
+    "sha256": "f1749bd1c6c7ea3c7f9a4ed2b1ee41ef3e085e496f6662fce802254aba9c0985",
+    "sha256_in_prefix": "f1749bd1c6c7ea3c7f9a4ed2b1ee41ef3e085e496f6662fce802254aba9c0985",
+    "size_in_bytes": 13303
+   },
+   {
+    "_path": "site-packages/nibabel/tests/nibabel_data.py",
+    "path_type": "hardlink",
+    "sha256": "2c0d0ee30ee8608f9301d933093d0c50709dafb931dd7557ca65cdc54e09499b",
+    "sha256_in_prefix": "2c0d0ee30ee8608f9301d933093d0c50709dafb931dd7557ca65cdc54e09499b",
+    "size_in_bytes": 1646
+   },
+   {
+    "_path": "site-packages/nibabel/tests/scriptrunner.py",
+    "path_type": "hardlink",
+    "sha256": "697786a561238f8f70486b968184f4bb516dd183d7eba65aa66417516b1b5293",
+    "sha256_in_prefix": "697786a561238f8f70486b968184f4bb516dd183d7eba65aa66417516b1b5293",
+    "size_in_bytes": 5736
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_affines.py",
+    "path_type": "hardlink",
+    "sha256": "76b7e566e6c3f5acb216e5ddd96884249bf1946b88566fda7d4a56ae0b54cf35",
+    "sha256_in_prefix": "76b7e566e6c3f5acb216e5ddd96884249bf1946b88566fda7d4a56ae0b54cf35",
+    "size_in_bytes": 8366
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_analyze.py",
+    "path_type": "hardlink",
+    "sha256": "4f87421f1c7bfe9f26d7a50e1115312548b263cd42f650267a8e1c3b7c55f45f",
+    "sha256_in_prefix": "4f87421f1c7bfe9f26d7a50e1115312548b263cd42f650267a8e1c3b7c55f45f",
+    "size_in_bytes": 35252
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_api_validators.py",
+    "path_type": "hardlink",
+    "sha256": "028d18816b3df6b2827e6047d24fa58b2a6ff746cfbf98aacad12c804ee06634",
+    "sha256_in_prefix": "028d18816b3df6b2827e6047d24fa58b2a6ff746cfbf98aacad12c804ee06634",
+    "size_in_bytes": 3607
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_arrayproxy.py",
+    "path_type": "hardlink",
+    "sha256": "0c745552c1bc2ec35e88957ed19bbdf8bb39039856fdf68c75490b6aab728e3e",
+    "sha256_in_prefix": "0c745552c1bc2ec35e88957ed19bbdf8bb39039856fdf68c75490b6aab728e3e",
+    "size_in_bytes": 22023
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_arraywriters.py",
+    "path_type": "hardlink",
+    "sha256": "029220f431aaa5787d2fa27120b243db1bfcc55209216460d64b164ad5280ca6",
+    "sha256_in_prefix": "029220f431aaa5787d2fa27120b243db1bfcc55209216460d64b164ad5280ca6",
+    "size_in_bytes": 35625
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_batteryrunners.py",
+    "path_type": "hardlink",
+    "sha256": "6dfc2c597e1d63c5b8b93f604021e3d90927ae1c3f726dafd5bc02472243aa7f",
+    "sha256_in_prefix": "6dfc2c597e1d63c5b8b93f604021e3d90927ae1c3f726dafd5bc02472243aa7f",
+    "size_in_bytes": 5450
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_brikhead.py",
+    "path_type": "hardlink",
+    "sha256": "a09bbb619cff4bbd6e53d0d7bcf1f82dfe66bdf17a14f33aa1f65249fee6a764",
+    "sha256_in_prefix": "a09bbb619cff4bbd6e53d0d7bcf1f82dfe66bdf17a14f33aa1f65249fee6a764",
+    "size_in_bytes": 4883
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_casting.py",
+    "path_type": "hardlink",
+    "sha256": "4df48fec21dbae63fc84cd0ed7c60c23b05dae51f1424aef82e37e18910f29e2",
+    "sha256_in_prefix": "4df48fec21dbae63fc84cd0ed7c60c23b05dae51f1424aef82e37e18910f29e2",
+    "size_in_bytes": 10493
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_data.py",
+    "path_type": "hardlink",
+    "sha256": "8968cb22350b5362a2f98cc316cece6388e0782d0b29e51a3f86209f73bd9bc7",
+    "sha256_in_prefix": "8968cb22350b5362a2f98cc316cece6388e0782d0b29e51a3f86209f73bd9bc7",
+    "size_in_bytes": 8347
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_dataobj_images.py",
+    "path_type": "hardlink",
+    "sha256": "ca5e3095956084063b17809aab5b110ba9b68e178bc20a3687b5ab301cd7b001",
+    "sha256_in_prefix": "ca5e3095956084063b17809aab5b110ba9b68e178bc20a3687b5ab301cd7b001",
+    "size_in_bytes": 1525
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_deprecated.py",
+    "path_type": "hardlink",
+    "sha256": "1761501eee7891dc0ba02af0457cb0546f8d9cda1e751db216394b8392b841a3",
+    "sha256_in_prefix": "1761501eee7891dc0ba02af0457cb0546f8d9cda1e751db216394b8392b841a3",
+    "size_in_bytes": 3287
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_deprecator.py",
+    "path_type": "hardlink",
+    "sha256": "a53c8a596606842fbaa519315a5c5197e24b5c629bcfcb932f50749d5e5a08ab",
+    "sha256_in_prefix": "a53c8a596606842fbaa519315a5c5197e24b5c629bcfcb932f50749d5e5a08ab",
+    "size_in_bytes": 5460
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_dft.py",
+    "path_type": "hardlink",
+    "sha256": "956878aafe7a375e39c743d71019514a8f3eae63192482e7cbb723c425885c9d",
+    "sha256_in_prefix": "956878aafe7a375e39c743d71019514a8f3eae63192482e7cbb723c425885c9d",
+    "size_in_bytes": 3760
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_diff.py",
+    "path_type": "hardlink",
+    "sha256": "dabd5640b8c59c6487d89297d43f2e19b8e677fc439b3fe30593d0f58024362a",
+    "sha256_in_prefix": "dabd5640b8c59c6487d89297d43f2e19b8e677fc439b3fe30593d0f58024362a",
+    "size_in_bytes": 3274
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_ecat.py",
+    "path_type": "hardlink",
+    "sha256": "d757f24e6d95a01c2fb48db9b4789bbabffdd7b3eb9a06b7d4e848f831d13eb6",
+    "sha256_in_prefix": "d757f24e6d95a01c2fb48db9b4789bbabffdd7b3eb9a06b7d4e848f831d13eb6",
+    "size_in_bytes": 10129
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_ecat_data.py",
+    "path_type": "hardlink",
+    "sha256": "b2627abd0ed9555e9442c195cd02604ff196e70471681a64e6a6bf14dbcb215b",
+    "sha256_in_prefix": "b2627abd0ed9555e9442c195cd02604ff196e70471681a64e6a6bf14dbcb215b",
+    "size_in_bytes": 2079
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_endiancodes.py",
+    "path_type": "hardlink",
+    "sha256": "85aa945d07bc9fce2cd605bf0d103761932d292721e9ea79856b5d16b8b61e8a",
+    "sha256_in_prefix": "85aa945d07bc9fce2cd605bf0d103761932d292721e9ea79856b5d16b8b61e8a",
+    "size_in_bytes": 1238
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_environment.py",
+    "path_type": "hardlink",
+    "sha256": "60b2dc1b219f7b24ad72214b284e12f8df86de468c0aef5e0d7db17dea4e4c86",
+    "sha256_in_prefix": "60b2dc1b219f7b24ad72214b284e12f8df86de468c0aef5e0d7db17dea4e4c86",
+    "size_in_bytes": 1755
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_euler.py",
+    "path_type": "hardlink",
+    "sha256": "cb8cecb2e4ab2966bae60378de2cb716334a92ea42dbf27a9c84672220479a3b",
+    "sha256_in_prefix": "cb8cecb2e4ab2966bae60378de2cb716334a92ea42dbf27a9c84672220479a3b",
+    "size_in_bytes": 5726
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_filebasedimages.py",
+    "path_type": "hardlink",
+    "sha256": "11321b55be48c926851c285b5e646c9b6c810dadc0689e19baaeb38845b3b6bf",
+    "sha256_in_prefix": "11321b55be48c926851c285b5e646c9b6c810dadc0689e19baaeb38845b3b6bf",
+    "size_in_bytes": 4376
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_filehandles.py",
+    "path_type": "hardlink",
+    "sha256": "a8e9fe9bf21faa75b1b490665a6120c623297f868ed6e8878e374d3da3a8de97",
+    "sha256_in_prefix": "a8e9fe9bf21faa75b1b490665a6120c623297f868ed6e8878e374d3da3a8de97",
+    "size_in_bytes": 1031
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_fileholders.py",
+    "path_type": "hardlink",
+    "sha256": "f01084e86d71e1cb78682adc4fa5702e80d74a522f57beca577fdcd9dfb586f5",
+    "sha256_in_prefix": "f01084e86d71e1cb78682adc4fa5702e80d74a522f57beca577fdcd9dfb586f5",
+    "size_in_bytes": 1415
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_filename_parser.py",
+    "path_type": "hardlink",
+    "sha256": "455a4d1143e7b16f660d90c7b0cba5bcb1e6d000ff71c2b866075262957b2f90",
+    "sha256_in_prefix": "455a4d1143e7b16f660d90c7b0cba5bcb1e6d000ff71c2b866075262957b2f90",
+    "size_in_bytes": 6604
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_files_interface.py",
+    "path_type": "hardlink",
+    "sha256": "bf09ae927e521b66cea5f83eb1c04ebf849911ef9973c634c43741d89adeef4c",
+    "sha256_in_prefix": "bf09ae927e521b66cea5f83eb1c04ebf849911ef9973c634c43741d89adeef4c",
+    "size_in_bytes": 3816
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_fileslice.py",
+    "path_type": "hardlink",
+    "sha256": "17f3c5d028a2e304892e39879da467e776d752d3fa4cc9ef8c5e9a64106dd483",
+    "sha256_in_prefix": "17f3c5d028a2e304892e39879da467e776d752d3fa4cc9ef8c5e9a64106dd483",
+    "size_in_bytes": 31716
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_fileutils.py",
+    "path_type": "hardlink",
+    "sha256": "9fc8a90973abae84da326c224ab3d93af5c3833273db762f5f3dcf426224be96",
+    "sha256_in_prefix": "9fc8a90973abae84da326c224ab3d93af5c3833273db762f5f3dcf426224be96",
+    "size_in_bytes": 1678
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_floating.py",
+    "path_type": "hardlink",
+    "sha256": "95468025c825469a821873efec5c7db05dac978bd4c9082686f35f6a0fda06ea",
+    "sha256_in_prefix": "95468025c825469a821873efec5c7db05dac978bd4c9082686f35f6a0fda06ea",
+    "size_in_bytes": 9061
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_funcs.py",
+    "path_type": "hardlink",
+    "sha256": "809b60109b4970adfae59de6bd6071b16aaf52413d0ddbe393d272ade9c84bb9",
+    "sha256_in_prefix": "809b60109b4970adfae59de6bd6071b16aaf52413d0ddbe393d272ade9c84bb9",
+    "size_in_bytes": 8178
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_image_api.py",
+    "path_type": "hardlink",
+    "sha256": "8bf2692c348557873bfabe42e394f7cda642d74102dc91017f4278a89ec62656",
+    "sha256_in_prefix": "8bf2692c348557873bfabe42e394f7cda642d74102dc91017f4278a89ec62656",
+    "size_in_bytes": 30398
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_image_load_save.py",
+    "path_type": "hardlink",
+    "sha256": "7964c963bf29f6de0a017572cda21374e28af8e46ab77108f133af556876348e",
+    "sha256_in_prefix": "7964c963bf29f6de0a017572cda21374e28af8e46ab77108f133af556876348e",
+    "size_in_bytes": 11877
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_image_types.py",
+    "path_type": "hardlink",
+    "sha256": "c87f36f7a2b512b490374670a82c11719ce7f3457047777369bddcf83afcb70b",
+    "sha256_in_prefix": "c87f36f7a2b512b490374670a82c11719ce7f3457047777369bddcf83afcb70b",
+    "size_in_bytes": 5273
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_imageclasses.py",
+    "path_type": "hardlink",
+    "sha256": "875135761cbfed38fd95459e63dbfa9bce172d758cc6fc588c13e80ef81c844c",
+    "sha256_in_prefix": "875135761cbfed38fd95459e63dbfa9bce172d758cc6fc588c13e80ef81c844c",
+    "size_in_bytes": 1460
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_imageglobals.py",
+    "path_type": "hardlink",
+    "sha256": "fb9fabe8bf63987c28eb4434ec91d0ace2ff90f45eee67220a0439a51b0b19cc",
+    "sha256_in_prefix": "fb9fabe8bf63987c28eb4434ec91d0ace2ff90f45eee67220a0439a51b0b19cc",
+    "size_in_bytes": 672
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_imagestats.py",
+    "path_type": "hardlink",
+    "sha256": "642e4b0bb0594a447d2cdeeb6c859e3d02180cc79c802ff97237e5946b448127",
+    "sha256_in_prefix": "642e4b0bb0594a447d2cdeeb6c859e3d02180cc79c802ff97237e5946b448127",
+    "size_in_bytes": 823
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_init.py",
+    "path_type": "hardlink",
+    "sha256": "7c3e3f600882ab140ce03e1a175b30ff3adac2caf83108663f03390493a28b86",
+    "sha256_in_prefix": "7c3e3f600882ab140ce03e1a175b30ff3adac2caf83108663f03390493a28b86",
+    "size_in_bytes": 1950
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_loadsave.py",
+    "path_type": "hardlink",
+    "sha256": "44c0197f38ae86d11291476ce07aa944c33618fba612e36d6879635566e0bbf0",
+    "sha256_in_prefix": "44c0197f38ae86d11291476ce07aa944c33618fba612e36d6879635566e0bbf0",
+    "size_in_bytes": 8480
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_minc1.py",
+    "path_type": "hardlink",
+    "sha256": "ee66ff420ea24ba494310f16cebaed0440ac8800b98bf8a902e996a7216e67af",
+    "sha256_in_prefix": "ee66ff420ea24ba494310f16cebaed0440ac8800b98bf8a902e996a7216e67af",
+    "size_in_bytes": 7344
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_minc2.py",
+    "path_type": "hardlink",
+    "sha256": "52cb1c40f1b22a2df9db92c33f8798d1f2909ea9e3a9ee36a4cb98f9997098c5",
+    "sha256_in_prefix": "52cb1c40f1b22a2df9db92c33f8798d1f2909ea9e3a9ee36a4cb98f9997098c5",
+    "size_in_bytes": 3919
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_minc2_data.py",
+    "path_type": "hardlink",
+    "sha256": "1e1431b1f656959678c072219ff52dc64699de8ecf6bd8d54ec8f632aa2a9001",
+    "sha256_in_prefix": "1e1431b1f656959678c072219ff52dc64699de8ecf6bd8d54ec8f632aa2a9001",
+    "size_in_bytes": 5616
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_mriutils.py",
+    "path_type": "hardlink",
+    "sha256": "a1fc471e9339028c59d75616a14c947d798bea29363d6c4253f8cc63da37e125",
+    "sha256_in_prefix": "a1fc471e9339028c59d75616a14c947d798bea29363d6c4253f8cc63da37e125",
+    "size_in_bytes": 1067
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_nibabel_data.py",
+    "path_type": "hardlink",
+    "sha256": "efc5fb235855c2b7d7edbc05a324aa84e8d49bdbef311a22d0e4c6226eac87f9",
+    "sha256_in_prefix": "efc5fb235855c2b7d7edbc05a324aa84e8d49bdbef311a22d0e4c6226eac87f9",
+    "size_in_bytes": 757
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_nifti1.py",
+    "path_type": "hardlink",
+    "sha256": "2a3bdfc37594e93ace0b25bb4ae55ff82d7e2ae1452a479c1bd8f241a0ed57fd",
+    "sha256_in_prefix": "2a3bdfc37594e93ace0b25bb4ae55ff82d7e2ae1452a479c1bd8f241a0ed57fd",
+    "size_in_bytes": 66215
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_nifti2.py",
+    "path_type": "hardlink",
+    "sha256": "725afcb13033044ce0b621dbc71e163b7e11dbec96e4d63cfd8265f575d7e82f",
+    "sha256_in_prefix": "725afcb13033044ce0b621dbc71e163b7e11dbec96e4d63cfd8265f575d7e82f",
+    "size_in_bytes": 3625
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_onetime.py",
+    "path_type": "hardlink",
+    "sha256": "d5a1301761f734b4dafcb07fe2c730e185480ee6ea525a6c4b62681309b6f291",
+    "sha256_in_prefix": "d5a1301761f734b4dafcb07fe2c730e185480ee6ea525a6c4b62681309b6f291",
+    "size_in_bytes": 851
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_openers.py",
+    "path_type": "hardlink",
+    "sha256": "04387633eee004336e0f273327f96271a023a5fd40c39ad73bb69c6235b9d5df",
+    "sha256_in_prefix": "04387633eee004336e0f273327f96271a023a5fd40c39ad73bb69c6235b9d5df",
+    "size_in_bytes": 17049
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_optpkg.py",
+    "path_type": "hardlink",
+    "sha256": "3a06fd32a81061b86ce42a5fd8203d10dcf15b61a7eaaa136dca0cfd2db853da",
+    "sha256_in_prefix": "3a06fd32a81061b86ce42a5fd8203d10dcf15b61a7eaaa136dca0cfd2db853da",
+    "size_in_bytes": 2654
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_orientations.py",
+    "path_type": "hardlink",
+    "sha256": "a88f7c0cf7008e31b3b9f88483306d603c899820da1c5babf02a67893e3513d0",
+    "sha256_in_prefix": "a88f7c0cf7008e31b3b9f88483306d603c899820da1c5babf02a67893e3513d0",
+    "size_in_bytes": 11907
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_parrec.py",
+    "path_type": "hardlink",
+    "sha256": "b4d64fa8bb77b480bb9a23b15bb09afbac8fa8fc84ffc448b3fa3a34a29f8a9d",
+    "sha256_in_prefix": "b4d64fa8bb77b480bb9a23b15bb09afbac8fa8fc84ffc448b3fa3a34a29f8a9d",
+    "size_in_bytes": 35352
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_parrec_data.py",
+    "path_type": "hardlink",
+    "sha256": "144dfdc49f58118f8faca5a0f750a1d706877a64ed3fb4f312193c90ddd0520d",
+    "sha256_in_prefix": "144dfdc49f58118f8faca5a0f750a1d706877a64ed3fb4f312193c90ddd0520d",
+    "size_in_bytes": 3395
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_pkg_info.py",
+    "path_type": "hardlink",
+    "sha256": "e3f255455423e49baa71e652fa7685b08e790c6d453905dc1eaf56272f60b3b3",
+    "sha256_in_prefix": "e3f255455423e49baa71e652fa7685b08e790c6d453905dc1eaf56272f60b3b3",
+    "size_in_bytes": 2306
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_pointset.py",
+    "path_type": "hardlink",
+    "sha256": "93d44574957a0e27ebd7de1954bde6ff412d7ed115c26adc5087f9ac2d3484ec",
+    "sha256_in_prefix": "93d44574957a0e27ebd7de1954bde6ff412d7ed115c26adc5087f9ac2d3484ec",
+    "size_in_bytes": 6601
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_processing.py",
+    "path_type": "hardlink",
+    "sha256": "b1ab0e73ed3c20f471ac51923036eaee7d5a2284a25a27fe0d8f7bcc47963db7",
+    "sha256_in_prefix": "b1ab0e73ed3c20f471ac51923036eaee7d5a2284a25a27fe0d8f7bcc47963db7",
+    "size_in_bytes": 20664
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_proxy_api.py",
+    "path_type": "hardlink",
+    "sha256": "d529b71d2e49924a3cd6ea0925f270c212c022e60ede86f4d6e9ef8852e2da29",
+    "sha256_in_prefix": "d529b71d2e49924a3cd6ea0925f270c212c022e60ede86f4d6e9ef8852e2da29",
+    "size_in_bytes": 16435
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_quaternions.py",
+    "path_type": "hardlink",
+    "sha256": "c3406ca39e33497bbc562ea98625ce2c29c8b2c1c1a21f52541de0f3b0056ceb",
+    "sha256_in_prefix": "c3406ca39e33497bbc562ea98625ce2c29c8b2c1c1a21f52541de0f3b0056ceb",
+    "size_in_bytes": 6860
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_recoder.py",
+    "path_type": "hardlink",
+    "sha256": "7ad5357be34be1c8d70d4a25bf794dbc768caed22e75440d7b28438969109d0f",
+    "sha256_in_prefix": "7ad5357be34be1c8d70d4a25bf794dbc768caed22e75440d7b28438969109d0f",
+    "size_in_bytes": 5603
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_removalschedule.py",
+    "path_type": "hardlink",
+    "sha256": "6d4a86c3ba016ed8981947d272feb09d7a7be6bf5985ddda262c920289c4a014",
+    "sha256_in_prefix": "6d4a86c3ba016ed8981947d272feb09d7a7be6bf5985ddda262c920289c4a014",
+    "size_in_bytes": 6149
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_round_trip.py",
+    "path_type": "hardlink",
+    "sha256": "fdf195d6b834208a4005a0fd52faba8155faaa0c5ae0edda2d6338e760fc0e48",
+    "sha256_in_prefix": "fdf195d6b834208a4005a0fd52faba8155faaa0c5ae0edda2d6338e760fc0e48",
+    "size_in_bytes": 6938
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_rstutils.py",
+    "path_type": "hardlink",
+    "sha256": "1156c31476c9a6f321bc088eb24e28506aaa4725a61fc99d86a71ce8b1b41fb1",
+    "sha256_in_prefix": "1156c31476c9a6f321bc088eb24e28506aaa4725a61fc99d86a71ce8b1b41fb1",
+    "size_in_bytes": 3879
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_scaling.py",
+    "path_type": "hardlink",
+    "sha256": "385dbd7147c8ffa8e9b03d156c20f5dacd91b80c95a3857131725840f141fad4",
+    "sha256_in_prefix": "385dbd7147c8ffa8e9b03d156c20f5dacd91b80c95a3857131725840f141fad4",
+    "size_in_bytes": 8801
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_scripts.py",
+    "path_type": "hardlink",
+    "sha256": "180026faded35eccdcb113e87c63a086ac020b8881953fc982ae1f90ab45d128",
+    "sha256_in_prefix": "180026faded35eccdcb113e87c63a086ac020b8881953fc982ae1f90ab45d128",
+    "size_in_bytes": 20198
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_spaces.py",
+    "path_type": "hardlink",
+    "sha256": "26a9fbb741da9adb52ebf5ea538c1d47710b5cc678abe09730451a5d71134fd7",
+    "sha256_in_prefix": "26a9fbb741da9adb52ebf5ea538c1d47710b5cc678abe09730451a5d71134fd7",
+    "size_in_bytes": 4835
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_spatialimages.py",
+    "path_type": "hardlink",
+    "sha256": "6f529c4a99cb7e325cb1811a8768455d025774838c53c81ee15a91dcc3c866a7",
+    "sha256_in_prefix": "6f529c4a99cb7e325cb1811a8768455d025774838c53c81ee15a91dcc3c866a7",
+    "size_in_bytes": 24451
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_spm2analyze.py",
+    "path_type": "hardlink",
+    "sha256": "46c5939d983ac9f9c5141aa89d0db8c2cb8250b5c20de0e58b47d5b0623770d2",
+    "sha256_in_prefix": "46c5939d983ac9f9c5141aa89d0db8c2cb8250b5c20de0e58b47d5b0623770d2",
+    "size_in_bytes": 2638
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_spm99analyze.py",
+    "path_type": "hardlink",
+    "sha256": "4f4b4ad091d92a2828ede251ef502962178d240c435ef5a1d1e00725e1e8fb09",
+    "sha256_in_prefix": "4f4b4ad091d92a2828ede251ef502962178d240c435ef5a1d1e00725e1e8fb09",
+    "size_in_bytes": 22627
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_testing.py",
+    "path_type": "hardlink",
+    "sha256": "9090dbf1ab76aba31f725dc8d16e046fb5051d9714cd44581f1b55043089a4a8",
+    "sha256_in_prefix": "9090dbf1ab76aba31f725dc8d16e046fb5051d9714cd44581f1b55043089a4a8",
+    "size_in_bytes": 6540
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_tmpdirs.py",
+    "path_type": "hardlink",
+    "sha256": "de155f3209bdde39f2c8c6a26073987ed2c1e871792f81244e12e37f1ca87337",
+    "sha256_in_prefix": "de155f3209bdde39f2c8c6a26073987ed2c1e871792f81244e12e37f1ca87337",
+    "size_in_bytes": 626
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_tripwire.py",
+    "path_type": "hardlink",
+    "sha256": "015ae943b518e71cd935f220c78da3a31e24dc11a77dc0291aa7cbb7c0786b07",
+    "sha256_in_prefix": "015ae943b518e71cd935f220c78da3a31e24dc11a77dc0291aa7cbb7c0786b07",
+    "size_in_bytes": 661
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_viewers.py",
+    "path_type": "hardlink",
+    "sha256": "783c30abde443eb0e976c130785616e8d6f0d465367cd42ec02e587d1752e0c2",
+    "sha256_in_prefix": "783c30abde443eb0e976c130785616e8d6f0d465367cd42ec02e587d1752e0c2",
+    "size_in_bytes": 3827
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_volumeutils.py",
+    "path_type": "hardlink",
+    "sha256": "807db01e5f0f8513c1a2a4b163ed21a48c5eba6695dd37bc9ee63d346978d262",
+    "sha256_in_prefix": "807db01e5f0f8513c1a2a4b163ed21a48c5eba6695dd37bc9ee63d346978d262",
+    "size_in_bytes": 52410
+   },
+   {
+    "_path": "site-packages/nibabel/tests/test_wrapstruct.py",
+    "path_type": "hardlink",
+    "sha256": "61b23ac18f5a51cd6a161b4c2777a77a0c460a862720cae82257ee254c1453bf",
+    "sha256_in_prefix": "61b23ac18f5a51cd6a161b4c2777a77a0c460a862720cae82257ee254c1453bf",
+    "size_in_bytes": 18848
+   },
+   {
+    "_path": "site-packages/nibabel/tmpdirs.py",
+    "path_type": "hardlink",
+    "sha256": "3f6722ff2d7ec868f87ed48a889f3984eeb2c1af1cb0b45bfc2b52b810e44978",
+    "sha256_in_prefix": "3f6722ff2d7ec868f87ed48a889f3984eeb2c1af1cb0b45bfc2b52b810e44978",
+    "size_in_bytes": 3843
+   },
+   {
+    "_path": "site-packages/nibabel/tripwire.py",
+    "path_type": "hardlink",
+    "sha256": "9cb413b1653499833b6f292d756fd1ac7d4c108b154e6b834ce129dd2d67f10f",
+    "sha256_in_prefix": "9cb413b1653499833b6f292d756fd1ac7d4c108b154e6b834ce129dd2d67f10f",
+    "size_in_bytes": 1408
+   },
+   {
+    "_path": "site-packages/nibabel/viewers.py",
+    "path_type": "hardlink",
+    "sha256": "a33a7ccceb1f8eddee318717f321b0dc9f69752f30b48f5a438ed7c593ab9951",
+    "sha256_in_prefix": "a33a7ccceb1f8eddee318717f321b0dc9f69752f30b48f5a438ed7c593ab9951",
+    "size_in_bytes": 20047
+   },
+   {
+    "_path": "site-packages/nibabel/volumeutils.py",
+    "path_type": "hardlink",
+    "sha256": "1bd94aee394595727c2fd08f720651539aba7c2f65dc4d42d1a106b44b91567f",
+    "sha256_in_prefix": "1bd94aee394595727c2fd08f720651539aba7c2f65dc4d42d1a106b44b91567f",
+    "size_in_bytes": 51743
+   },
+   {
+    "_path": "site-packages/nibabel/wrapstruct.py",
+    "path_type": "hardlink",
+    "sha256": "91d7bac3328dc8885b75243ebbf659c9b42fc242113badd1979d2e183061e624",
+    "sha256_in_prefix": "91d7bac3328dc8885b75243ebbf659c9b42fc242113badd1979d2e183061e624",
+    "size_in_bytes": 16350
+   },
+   {
+    "_path": "site-packages/nibabel/xmlutils.py",
+    "path_type": "hardlink",
+    "sha256": "b49540ba2d2225fcadbb7aff52508349678c802a8eece5add9e3d2ba94d457ca",
+    "sha256_in_prefix": "b49540ba2d2225fcadbb7aff52508349678c802a8eece5add9e3d2ba94d457ca",
+    "size_in_bytes": 4035
+   },
+   {
+    "_path": "site-packages/nisext/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "f4f3020c0e4f6b4e5620ff27d2ec85e029a0525e61eb2c846a45e82388727853",
+    "sha256_in_prefix": "f4f3020c0e4f6b4e5620ff27d2ec85e029a0525e61eb2c846a45e82388727853",
+    "size_in_bytes": 288
+   },
+   {
+    "_path": "site-packages/nisext/py3builder.py",
+    "path_type": "hardlink",
+    "sha256": "66543c70086756bd1b3125e558e182a31bbdffdad843c2d7f88318a3ccd20b8e",
+    "sha256_in_prefix": "66543c70086756bd1b3125e558e182a31bbdffdad843c2d7f88318a3ccd20b8e",
+    "size_in_bytes": 1456
+   },
+   {
+    "_path": "site-packages/nisext/sexts.py",
+    "path_type": "hardlink",
+    "sha256": "e7f97e1ca9df3ed076e8061608c18c441e79ef86f66069eb32cafa62f942d782",
+    "sha256_in_prefix": "e7f97e1ca9df3ed076e8061608c18c441e79ef86f66069eb32cafa62f942d782",
+    "size_in_bytes": 10586
+   },
+   {
+    "_path": "site-packages/nisext/testers.py",
+    "path_type": "hardlink",
+    "sha256": "d8eaedc3b9a3b11736cd0bbbf142cb1a5ab89e60fffa079359f84bf97c049c74",
+    "sha256_in_prefix": "d8eaedc3b9a3b11736cd0bbbf142cb1a5ab89e60fffa079359f84bf97c049c74",
+    "size_in_bytes": 17322
+   },
+   {
+    "_path": "site-packages/nisext/tests/__init__.py",
+    "path_type": "hardlink",
+    "sha256": "0c7aa0bab5343fb569cf51ee38986b72f4f03fe9ea2d66b623f6146605e476cb",
+    "sha256_in_prefix": "0c7aa0bab5343fb569cf51ee38986b72f4f03fe9ea2d66b623f6146605e476cb",
+    "size_in_bytes": 27
+   },
+   {
+    "_path": "site-packages/nisext/tests/test_sexts.py",
+    "path_type": "hardlink",
+    "sha256": "b28819821824b05cdb944595b7c234fb111c27571d25ef3536140182f0287203",
+    "sha256_in_prefix": "b28819821824b05cdb944595b7c234fb111c27571d25ef3536140182f0287203",
+    "size_in_bytes": 4525
+   },
+   {
+    "_path": "site-packages/nisext/tests/test_testers.py",
+    "path_type": "hardlink",
+    "sha256": "388ca031c8649ae7ad41dc259487e8be5fe67af207528589d8a7bcc5f9321dce",
+    "sha256_in_prefix": "388ca031c8649ae7ad41dc259487e8be5fe67af207528589d8a7bcc5f9321dce",
+    "size_in_bytes": 1120
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/_compression.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/_version.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/affines.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/arrayproxy.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/arraywriters.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/batteryrunners.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_array_to_file.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_arrayproxy_slicing.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_fileslice.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_finite_range.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/bench_load_save.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/benchmarks/__pycache__/butils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/brikhead.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/caret.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/casting.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/__pycache__/cifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/__pycache__/cifti2_axes.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/__pycache__/parse_cifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_axes.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2io_axes.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_cifti2io_header.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_name.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cifti2/tests/__pycache__/test_new_cifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/conform.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/convert.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/dicomfs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/diff.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/ls.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/nifti_dx.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/parrec2nii.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/roi.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/stats.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/tck2trk.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_conform.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_convert.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_parrec2nii.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_roi.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_stats.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/tests/__pycache__/test_utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/trk2tck.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/cmdline/__pycache__/utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/conftest.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/dataobj_images.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/deprecated.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/deprecator.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/dft.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/ecat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/environment.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/eulerangles.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/__pycache__/conftest.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/__pycache__/netcdf.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/__pycache__/oset.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/externals/tests/__pycache__/test_netcdf.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/filebasedimages.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/fileholders.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/filename_parser.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/fileslice.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/fileutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/__pycache__/io.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/__pycache__/mghformat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/test_io.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/freesurfer/tests/__pycache__/test_mghformat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/funcs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/__pycache__/gifti.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/__pycache__/parse_gifti_fast.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_1.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_gifti.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/tests/__pycache__/test_parse_gifti_fast.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/gifti/__pycache__/util.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/imageclasses.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/imageglobals.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/imagestats.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/info.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/loadsave.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/minc1.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/minc2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/mriutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/ascconv.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/csareader.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/dicomreaders.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/dicomwrappers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/dwiparams.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/structreader.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/data_pkgs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_ascconv.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_csareader.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dicomreaders.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dicomwrappers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_dwiparams.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_structreader.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/tests/__pycache__/test_utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/nicom/__pycache__/utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/nifti1.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/nifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/onetime.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/openers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/optpkg.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/orientations.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/parrec.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/pkg_info.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/pointset.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/processing.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/pydicom_compat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/quaternions.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/rstutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/spaces.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/spatialimages.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/spm2analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/spm99analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/array_sequence.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/header.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/tck.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_array_sequence.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_streamlines.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tck.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tractogram.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_tractogram_file.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_trk.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/tests/__pycache__/test_utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/tractogram.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/tractogram_file.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/trk.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/streamlines/__pycache__/utils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/testing/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/testing/__pycache__/helpers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/testing/__pycache__/np_features.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/conftest.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/data/__pycache__/check_parrec_reslice.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/data/__pycache__/gen_standard.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/data/__pycache__/make_moved_anat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/nibabel_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/scriptrunner.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_affines.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_api_validators.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_arrayproxy.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_arraywriters.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_batteryrunners.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_brikhead.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_casting.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_dataobj_images.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_deprecated.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_deprecator.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_dft.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_diff.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_ecat.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_ecat_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_endiancodes.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_environment.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_euler.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_filebasedimages.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_filehandles.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_fileholders.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_filename_parser.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_files_interface.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_fileslice.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_fileutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_floating.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_funcs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_image_api.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_image_load_save.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_image_types.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_imageclasses.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_imageglobals.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_imagestats.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_init.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_loadsave.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_minc1.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_minc2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_minc2_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_mriutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_nibabel_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_nifti1.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_nifti2.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_onetime.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_openers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_optpkg.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_orientations.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_parrec.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_parrec_data.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_pkg_info.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_pointset.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_processing.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_proxy_api.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_quaternions.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_recoder.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_removalschedule.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_round_trip.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_rstutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_scaling.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_scripts.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_spaces.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_spatialimages.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_spm2analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_spm99analyze.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_testing.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_tmpdirs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_tripwire.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_viewers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_volumeutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/tests/__pycache__/test_wrapstruct.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/tmpdirs.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/tripwire.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/viewers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/volumeutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/wrapstruct.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nibabel/__pycache__/xmlutils.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/__pycache__/py3builder.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/__pycache__/sexts.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/__pycache__/testers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/tests/__pycache__/__init__.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/tests/__pycache__/test_sexts.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Lib/site-packages/nisext/tests/__pycache__/test_testers.cpython-311.pyc",
+    "path_type": "pyc_file"
+   },
+   {
+    "_path": "Scripts/nib-conform-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-convert-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-dicomfs-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-diff-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-ls-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-nifti-dx-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-roi-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-stats-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-tck2trk-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-trk2tck-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/parrec2nii-script.py",
+    "path_type": "windows_python_entry_point_script"
+   },
+   {
+    "_path": "Scripts/nib-conform.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-convert.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-dicomfs.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-diff.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-ls.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-nifti-dx.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-roi.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-stats.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-tck2trk.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/nib-trk2tck.exe",
+    "path_type": "windows_python_entry_point_exe"
+   },
+   {
+    "_path": "Scripts/parrec2nii.exe",
+    "path_type": "windows_python_entry_point_exe"
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "nibabel=5.2.1",
+ "sha256": "b5dd6d6ad4ba7c005567033c5ed6ecfbc34624c4d45fdd1882d5aeb9e5f04873",
+ "size": 2746114,
+ "subdir": "noarch",
+ "timestamp": 1709044860000,
+ "url": "https://conda.anaconda.org/conda-forge/noarch/nibabel-5.2.1-pyha770c72_0.conda",
+ "version": "5.2.1"
+}

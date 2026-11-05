@@ -1,0 +1,34 @@
+{
+ "build": "h82add2a_4",
+ "build_number": 4,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "bleach ==6.2.0 pyh29332c3_4",
+  "tinycss2"
+ ],
+ "extracted_package_dir": "",
+ "files": [],
+ "fn": "bleach-with-css-6.2.0-h82add2a_4.conda",
+ "license": "Apache-2.0 AND MIT",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "a30e9406c873940383555af4c873220d",
+ "name": "bleach-with-css",
+ "noarch": "generic",
+ "package_tarball_full_path": "",
+ "package_type": "noarch_generic",
+ "paths_data": {
+  "paths": [],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "0aba699344275b3972bd751f9403316edea2ceb942db12f9f493b63c74774a46",
+ "size": 4213,
+ "subdir": "noarch",
+ "timestamp": 1737382993000,
+ "url": "https://conda.anaconda.org/conda-forge/noarch/bleach-with-css-6.2.0-h82add2a_4.conda",
+ "version": "6.2.0"
+}

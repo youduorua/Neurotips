@@ -1,0 +1,45 @@
+{
+ "build": "h0e40799_1002",
+ "build_number": 1002,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "libgcc >=13",
+  "libwinpthread >=12.0.0.r4.gg4f2fc60ca",
+  "ucrt >=10.0.20348.0"
+ ],
+ "extracted_package_dir": "",
+ "files": [
+  "Library/lib/pkgconfig/pthread-stubs.pc"
+ ],
+ "fn": "pthread-stubs-0.4-h0e40799_1002.conda",
+ "license": "MIT",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "3c8f2573569bb816483e5cf57efbbe29",
+ "name": "pthread-stubs",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/lib/pkgconfig/pthread-stubs.pc",
+    "file_mode": "text",
+    "path_type": "hardlink",
+    "prefix_placeholder": "D:/bld/pthread-stubs_1726802316277/_h_env",
+    "sha256": "0b55fbca6e2203c4f12a03b378176bb83eaf194f4bcd7fbfb0f73de297a5b336",
+    "sha256_in_prefix": "ec06dee9f8a053eeed41ad4766093c46d4a2929801aa71951d859d43f2d2ec1c",
+    "size_in_bytes": 300
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "7e446bafb4d692792310ed022fe284e848c6a868c861655a92435af7368bae7b",
+ "size": 9389,
+ "subdir": "win-64",
+ "timestamp": 1726802555000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/pthread-stubs-0.4-h0e40799_1002.conda",
+ "version": "0.4"
+}

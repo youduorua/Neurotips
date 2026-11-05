@@ -1,0 +1,31 @@
+{
+ "build": "h86d5dfe_24",
+ "build_number": 24,
+ "channel": "https://conda.anaconda.org/conda-forge",
+ "constrains": [],
+ "depends": [
+  "vc14_runtime >=14.40.33810"
+ ],
+ "extracted_package_dir": "",
+ "files": [],
+ "fn": "vs2015_runtime-14.40.33810-h86d5dfe_24.conda",
+ "license": "BSD-3-Clause",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "d0b2b0a47465561dc91ec24185f51867",
+ "name": "vs2015_runtime",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [],
+  "paths_version": 1
+ },
+ "requested_spec": "vs2015_runtime=14.40.33810",
+ "sha256": "9a3a1bd7c7bb92f806cbdd4875ac3288996f87e9d63288fc657a9898ddb46eba",
+ "size": 17687,
+ "subdir": "win-64",
+ "timestamp": 1737627189000,
+ "url": "https://conda.anaconda.org/conda-forge/win-64/vs2015_runtime-14.40.33810-h86d5dfe_24.conda",
+ "version": "14.40.33810"
+}
