@@ -1,0 +1,8 @@
+cublas64_11.dll filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/cuda/bin/cublas64_11.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/cuda/bin/cublasLt64_11.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/cuda/bin/cufft64[[:space:]]10.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/cuda/bin/cusolver64_11.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/cuda/bin/cusolverMg64_11.dll filter=lfs diff=lfs merge=lfs -text
+Neurotips/SimNIBS-4.5/simnibs_env/Lib/SPIRV-Tools-opt.lib filter=lfs diff=lfs merge=lfs -text
